@@ -1,0 +1,12 @@
+{
+    "Name": "Gossip Girl TV",
+    "Author": "joejames38",
+    "Version": "2.0.0",
+    "Description": "Translation support for the Gossip Girl Mod",
+    "UniqueID": "joejames38.gossipgirl.strings",
+    "UpdateKeys": ["Nexus:28182"],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher",
+		"MinimumVersion": "2.4.4",
+    }
+}

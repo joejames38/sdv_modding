@@ -1,0 +1,146 @@
+{
+  "channelInfos": [
+	{
+    	"Channelkey": "gossip_girl2",
+    	"ChannelName": "Gossip Girl2",
+		"ChannelDescription": "What's Happening Around the Valley?",
+		"ShowDays":"Fri",
+    	"ChannelType":{
+			"currentChannel": 2818204,
+			"ScreenFile":"assets/rita3.png",
+			"animation":{
+				"AnimationInterval": 250,
+				"AnimationLength":3
+			},
+			"ad":{
+				"RandomQuestion":{
+					"10101":{"ADPrice" : 0,"ItemID" : ["(BC)71"],"QuestionText":"I heard Mayor Lewis has a secret basement, but I haven't seen any STAIRS in his BEDROOM." },
+					"10102":{"ADPrice" : 0,"ItemID" : ["420"],"QuestionText":"Some villagers believe that the Wizard in the tower creates special potions that can change a person’s fate or even help crops grow overnight.  "},
+					"10103":{"ADPrice" : 0,"ItemID" : ["346"],"QuestionText":"Anyone else notice how close the Mayor and Marnie get at the Stardrop saloon? "},
+					"10104":{"ADPrice" : 0,"ItemID" : ["16"],"QuestionText":"I heard that if you throw a wild horseradish into the sewer, you will hear a 'Thank You'! "},
+					"10105":{"ADPrice" : 0,"ItemID" : ["176"],"QuestionText":"According to town folklore, there is a rare golden chicken that lays golden eggs hidden deep in the mountains. "},
+					"10106":{"ADPrice" : 0,"ItemID" : ["280"],"QuestionText":"Some speculate that Linus wasn’t always a hermit. Rumors float around that he was once a wealthy man who gave up his fortune to live a life of simplicity, but no one knows why or what event triggered his decision. "},
+					"10107":{"ADPrice" : 0,"ItemID" : ["398"],"QuestionText":"The little forest spirits, Junimos, are a topic of friendly debate. Some believe they help with the harvest, while others swear they've seen them play pranks by moving things around in the night. "},
+					"10108":{"ADPrice" : 0,"ItemID" : ["201"],"QuestionText":"That handsome athlete, Alex sure does love his breakfast.  He could be the next gridball star. "},
+					"10109":{"ADPrice" : 0,"ItemID" : ["421"],"QuestionText":"There’s talk that Alex is secretly writing love letters to Haley, but he’s too nervous to give them to her. Some say they’ve seen him practicing what to say to her while standing in front of her house. "},
+					"10110":{"ADPrice" : 0,"ItemID" : ["109"],"QuestionText":"Some say Abigail doesn’t just like adventure games; she’s been seen in the mines fighting off monsters herself, wielding a sword she found in her mysterious family chest. "},
+					"10111":{"ADPrice" : 0,"ItemID" : ["66"],"QuestionText":"Abigail sure does love the rain, I have heard music coming across the lake in the mountains. "},
+					"10112":{"ADPrice" : 0,"ItemID" : ["815"],"QuestionText":"People whisper that Caroline often disappears into Pierre’s shop's back room, not to relax but to practice ancient herbal magic passed down from her family. "},
+					"10113":{"ADPrice" : 0,"ItemID" : ["422"],"QuestionText":"There’s a rumor that Caroline once had feelings for the Wizard. Some people think that’s why she visits him in secret for 'tea and advice' from time to time. "},
+					"10114":{"ADPrice" : 0,"ItemID" : ["749"],"QuestionText":"Some speculate Clint doesn’t just process geodes; he’s secretly crafting an engagement ring for a special someone but has been too shy to propose. "},
+					"10115":{"ADPrice" : 0,"ItemID" : ["152"],"QuestionText":"Everyone knows about Clint’s shy admiration for Emily, but the rumor mill claims that he’s jealous of Elliott, believing that Emily has a crush on the writer. "},
+					"10116":{"ADPrice" : 0,"ItemID" : ["400"],"QuestionText":"Some people quietly whisper that Demetrius is overly protective of Maru because he’s afraid she might end up giving up her dreams for romance. "},
+					"10117":{"ADPrice" : 0,"ItemID" : ["207"],"QuestionText":"Some suspect Demetrius is conducting experiments on more than plants, with some whispering he’s close to discovering a way to communicate with the wildlife in the valley. "},
+					"10118":{"ADPrice" : 0,"ItemID" : ["637"],"QuestionText":"The rumor mill says that Elliott is writing a secret book—a romance novel inspired by someone in town, though no one knows who his muse could be. "},
+					"10119":{"ADPrice" : 0,"ItemID" : ["70"],"QuestionText":"Some think Emily’s dreams aren’t just whimsical but visions of other worlds. They say she’s in touch with beings far beyond the valley and might even have magical powers "},
+					"10120":{"ADPrice" : 0,"ItemID" : ["106"],"QuestionText":"A few villagers believe Evelyn was once part of a secret society in the city, where she learned more about the town’s past than anyone else. "},
+					"10121":{"ADPrice" : 0,"ItemID" : ["20"],"QuestionText":"Despite his grumpy demeanor, it’s rumored that George was once an athlete in his youth fueled by Leeks. Gross. "},
+					"10122":{"ADPrice" : 0,"ItemID" : ["907"],"QuestionText":"Some patrons of the Stardrop Saloon believe Gus has a hidden cellar where he brews a special family soup. "},
+					"10123":{"ADPrice" : 0,"ItemID" : ["561"],"QuestionText":"Haley’s love for photography isn’t just a hobby. There’s talk she’s taken photos that captured strange, ghostly figures, but she’s too afraid to develop the film. "},
+					"10124":{"ADPrice" : 0,"ItemID" : ["342"],"QuestionText":"Villagers think Harvey’s long radio sessions aren’t all business. Some say he’s secretly talking to someone in a distant city who knows more about his past than he lets on. "},
+					"10125":{"ADPrice" : 0,"ItemID" : ["595"],"QuestionText":"Jas is thought to have an imaginary friend who’s more real than people realize, with some believing her friend might be one of the Junimos or another mystical creature from the forest. "},
+					"10126":{"ADPrice" : 0,"ItemID" : ["211"],"QuestionText":"Some think Jodi had a much more exciting life before settling down in Pelican Town, with whispers that she can still defend herself better than anyone. "},
+					"10127":{"ADPrice" : 0,"ItemID" : ["203"],"QuestionText":"Jodi's husband is often the subject of whispers, and that he’s haunted by memories and something strange from the past. "},
+					"10128":{"ADPrice" : 0,"ItemID" : ["104"],"QuestionText":"Some believe the person in the sewer once ruled a secret underground city before coming to Pelican Town, and that they hides ancient treasures deep in the sewers. "},
+					"10129":{"ADPrice" : 0,"ItemID" : ["200"],"QuestionText":"Rumor has it that Leah’s art isn’t just inspired by nature but by a mysterious muse in the forest—a spirit or creature she often meets but has never spoken about. "},
+					"10130":{"ADPrice" : 0,"ItemID" : ["124"],"QuestionText":"Beyond his secret relationship, some think Mayor Lewis has hidden gold stashes buried around the town. "},
+					"10131":{"ADPrice" : 0,"ItemID" : ["78"],"QuestionText":"There’s talk that Linus knows the location of an ancient, forgotten cave that contains mystical artifacts, but he refuses to tell anyone because he wants to protect its secrets. "},
+					"10132":{"ADPrice" : 0,"ItemID" : ["240"],"QuestionText":"Some believe Marnie has a special bond with animals beyond just caring for them—villagers say they’ve seen her whispering to the animals, who seem to respond in strange, intelligent ways. "},
+					"10133":{"ADPrice" : 0,"ItemID" : ["787"],"QuestionText":"There’s a rumor Maru is working on something much more advanced than her usual gadgets—a machine that can see the future. "},
+					"10134":{"ADPrice" : 0,"ItemID" : ["303"],"QuestionText":"Despite Pam’s rough exterior, some say she once had dreams of becoming a famous singer, and that after a drink or two, she’ll sing old songs that reveal her once-held aspirations. "},
+					"10135":{"ADPrice" : 0,"ItemID" : ["230"],"QuestionText":"The town whispers that Penny is secretly writing a novel about her life in Pelican Town, filled with hidden metaphors about the people around her. "},
+					"10136":{"ADPrice" : 0,"ItemID" : ["202"],"QuestionText":"It’s said that Pierre’s obsession with competition isn’t just about his shop. Some believe he once lost something important to Joja Mart and is desperate to reclaim it. "},
+					"10137":{"ADPrice" : 0,"ItemID" : ["636"],"QuestionText":"Rumor has it that Robin is building more than just houses. Some think she’s secretly constructed an underground hideaway for a villager in the past. "},
+					"10138":{"ADPrice" : 0,"ItemID" : ["206"],"QuestionText":"Pizza lover Sam is said to have a crush on the girl next door. Who could that be in a small town like Pelican Town? "},
+					"10139":{"ADPrice" : 0,"ItemID" : ["575"],"QuestionText":"Some believe Sebastian has been working on a computer program that, if finished, could unlock the hidden mysteries of the valley.  It started with a request from Maru. "},
+					"10140":{"ADPrice" : 0,"ItemID" : ["550"],"QuestionText":"There’s a rumor Shane’s love for chickens isn’t just a quirky interest; some say he’s trying to breed a special, rare chicken that can lay eggs with unique properties. "},
+					"10141":{"ADPrice" : 0,"ItemID" : ["399"],"QuestionText":"Some villagers whisper that Vincent has been sneaking into the forest and meeting with someone—or something—that teaches him things no one else in town knows about. "},
+					"10142":{"ADPrice" : 0,"ItemID" : ["143"],"QuestionText":"The fisherman’s biggest secret, according to rumor, is that he once caught a mythical sea creature, but he released it back into the water to protect it from greedy hunters. "},
+					"10143":{"ADPrice" : 0,"ItemID" : ["196"],"QuestionText":"The town suspects Elliott has a soft spot for Leah, given how often he visits her at the saloon. They think he’s been trying to gather the courage to ask her out for a romantic dinner on the beach. "},
+					"10144":{"ADPrice" : 0,"ItemID" : ["402"],"QuestionText":"It’s rumored that Emily has a playful affection for a villager. She's always smiling when she talks about her visits to the desert. "},
+					"10145":{"ADPrice" : 0,"ItemID" : ["591"],"QuestionText":"There’s an old rumor that Evelyn had a brief romance with someone other than George in her youth, possibly one of the traveling merchants, but she chose George because of his strength and determination. "},
+					"10146":{"ADPrice" : 0,"ItemID" : ["220"],"QuestionText":"People say that George’s grumpy demeanor hides a softer side, especially around Evelyn. The rumor is he writes her small love notes and hides them in their house, but no one has ever found proof. "},
+					"10147":{"ADPrice" : 0,"ItemID" : ["208"],"QuestionText":"Villagers believe that Gus secretly pines for Pam, but he’s too humble to act on it. They’ve noticed him making her favorite dishes and giving her free drinks, though Pam seems oblivious. "},
+					"10148":{"ADPrice" : 0,"ItemID" : ["610"],"QuestionText":"Rumor has it that Haley is secretly jealous of Emily because she thinks one of the other villagers might have feelings for her sister. "},
+					"10149":{"ADPrice" : 0,"ItemID" : ["243"],"QuestionText":"Harvey is often the subject of gossip with people suspecting that he harbors feelings for Maru. They spend a lot of time together in the clinic. "},
+					"10150":{"ADPrice" : 0,"ItemID" : ["604"],"QuestionText":"There’s a sweet rumor that Jas has a schoolyard crush on Vincent, and they’re often seen playing together, but she gets flustered if anyone asks her about it. "},
+					"10151":{"ADPrice" : 0,"ItemID" : ["272"],"QuestionText":"Some whisper that Jodi feels lonely since Kent’s been distant after returning from war, and villagers have seen her talking closely with Caroline. Some speculate it’s more than just friendship. "},
+					"10152":{"ADPrice" : 0,"ItemID" : ["879"],"QuestionText":"The rare rumor surfaces that the sewer dweller might have once had a deep friendship, or even a romantic connection, with someone from a distant village, but they refuse to talk about it. "},
+					"10153":{"ADPrice" : 0,"ItemID" : ["348"],"QuestionText":"Leah’s frequent trips to see Elliott have led some to believe that she might have feelings for him, but others say her heart still belongs to a mysterious ex. "},
+					"10154":{"ADPrice" : 0,"ItemID" : ["247"],"QuestionText":"The town's favorite relationship rumor revolves around Mayor Lewis and Marnie.  But, why does he by all that slippery oil from Pierre? "},
+					"10155":{"ADPrice" : 0,"ItemID" : ["90"],"QuestionText":"A peculiar rumor suggests that Linus once had succesful business, but he left it after seeing the damage it did the environment. "},
+					"10156":{"ADPrice" : 0,"ItemID" : ["221"],"QuestionText":"The long-standing rumor about Marnie is her ongoing secret relationship with Mayor Lewis, but some believe she’s tired of the secrecy and wants kids of her own. "},
+					"10157":{"ADPrice" : 0,"ItemID" : ["349"],"QuestionText":"People speculate that Maru and Harvey might have feelings for each other, especially after seeing them share quiet conversations at the clinic.  "},
+					"10158":{"ADPrice" : 0,"ItemID" : ["459"],"QuestionText":"Some villagers think that Pam has a secret admiration for Gus, but she’s too focused on her personal struggles to pursue anything. "},
+					"10159":{"ADPrice" : 0,"ItemID" : ["244"],"QuestionText":"Rumors fly about Penny’s relationship with some of the villagers in town, but her maternal nature with kids is what everyone admires. "},
+					"10160":{"ADPrice" : 0,"ItemID" : ["593"],"QuestionText":"Anyone else notice Pierre receiving strange unmarked packages?  What's in them?  Is he hiding something? "},
+					"10161":{"ADPrice" : 0,"ItemID" : ["426"],"QuestionText":"Robin and Willy have been caught discussing a big project one day. I wonder what other big projects are out there for her to build? "},
+					"10162":{"ADPrice" : 0,"ItemID" : ["562"],"QuestionText":"Music loving Sam and his band are often causing noise complaints in the village, but some day they can make it big! "},
+					"10163":{"ADPrice" : 0,"ItemID" : ["84"],"QuestionText":"Many villagers think Sebastian and Abigail have more than just a friendship, especially after seeing them take walks together late at night. Some speculate they might be Pelican Town’s next big romance. "},
+					"10164":{"ADPrice" : 0,"ItemID" : ["215"],"QuestionText":"Shane and Jas living with their Aunt Marnie often causes rumors to spiral about their parents.  "},
+					"10165":{"ADPrice" : 0,"ItemID" : ["18"],"QuestionText":"Vincent’s childhood crush on Jas is a source of innocent gossip in town, with people teasing that he often picks wildflowers for her. "},
+					"10166":{"ADPrice" : 0,"ItemID" : ["154"],"QuestionText":"There’s a quiet rumor that Willy had a deep love many years ago, but he's only ever mentioned singing mermaids in Gem Sea. "},
+					"10167":{"ADPrice" : 0,"ItemID" : ["(BC)144"],"QuestionText":"The mysterious stone at the beach is rumored to have been an ancient light house. Who would have used it ages ago? "},
+					"10168":{"ADPrice" : 0,"ItemID" : ["126"],"QuestionText":"Farmers occasionally wake up to find strange patterns in their fields leading to whispers that aliens have visited Pelican Town. "},
+					"10169":{"ADPrice" : 0,"ItemID" : ["582"],"QuestionText":"There is a rumor of a dangerous cave by the quarry. If you court death, it may reject you from its realm.  "},
+					"10170":{"ADPrice" : 0,"ItemID" : ["103"],"QuestionText":"Marlon has said he has seen a monster in the lava.  I wouldn't play around with it personally. "},
+					"10171":{"ADPrice" : 0,"ItemID" : ["305"],"QuestionText":"Magic in the valley can be good and it also can corrupt. There was once a beautiful young woman that turned into a witch, and no one knows how it happened.  "},
+					"10172":{"ADPrice" : 0,"ItemID" : ["581"],"QuestionText":"The hollow earth theory says that dinosaurs may still exist, but who would be brave enough to go looking for one? "},
+					"10173":{"ADPrice" : 0,"ItemID" : ["242"],"QuestionText":"The size of the cliffs in the forest mean you have to cast as far as you can to get a good fish.  "},
+					"10174":{"ADPrice" : 0,"ItemID" : ["121"],"QuestionText":"I have heard of some folks wearing pans on their head. There is some strange fashion in Pelican Town. "},
+					"10175":{"ADPrice" : 0,"ItemID" : ["122"],"QuestionText":"Did anyone else read that strange book saying dwarven folk aren't from this planet? "}
+				},
+				"Select1" : "vanilla.response.yes",
+				"Select2" : "vanilla.response.no"
+			}	
+		}
+    },
+	{
+    	"Channelkey": "gossip_lemur",
+    	"ChannelName": "Lemuverse Visions",
+		"ChannelDescription": "What's Happening Around East Scarp?",
+		"ShowDays":"Tue",
+    	"ChannelType":{
+			"currentChannel": 2818202,
+			"ScreenFile":"assets/rita_lemur.png",
+			"animation":{
+				"AnimationInterval": 250,
+				"AnimationLength":3
+			},
+			"ad":{
+				"RandomQuestion":{
+					"20101":{"ADPrice" : 0,"ItemID" : ["(BC)71"],"QuestionText":"There is a rumor that the orchard is only accessible by ghosts with that bridge out.  But who would check it out night?" },
+					"20102":{"ADPrice" : 0,"ItemID" : ["122"],"QuestionText":"What's with those strange goats?  They look as bizarre as those bewitched chickens."},
+					"20103":{"ADPrice" : 0,"ItemID" : ["122"],"QuestionText":"What's "}
+				},
+				"Select1" : "Nice!",
+				"Select2" : "Say Again!"
+			}	
+		}
+    },
+		{
+    	"Channelkey": "gossip_ridge",
+    	"ChannelName": "Ridgeside Secrets",
+		"ChannelDescription": "What's at the top of the mountain?",
+		"ShowDays":"Sat",
+    	"ChannelType":{
+			"currentChannel": 2818202,
+			"ScreenFile":"assets/rita_ridge.png",
+			"animation":{
+				"AnimationInterval": 250,
+				"AnimationLength":3
+			},
+			"ad":{
+				"RandomQuestion":{
+					"20101":{"ADPrice" : 0,"ItemID" : ["(BC)71"],"QuestionText":"There is a rumor that the orchard is only accessible by ghosts with that bridge out.  But who would check it out night?" },
+					"20102":{"ADPrice" : 0,"ItemID" : ["122"],"QuestionText":"What's with those strange goats?  They look as bizarre as those bewitched chickens."},
+					"20103":{"ADPrice" : 0,"ItemID" : ["122"],"QuestionText":"What's "}
+				},
+				"Select1" : "Nice!",
+				"Select2" : "Say Again!"
+			}	
+		}
+    }
+
+  ]
+}
