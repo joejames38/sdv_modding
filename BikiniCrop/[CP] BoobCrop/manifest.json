@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Boobcrop",
+  "Author": "DracoFreedom",
+  "Version": "2.0.1",
+  "Description": "Mod Template",
+  "UniqueID": "DracoFreedom.BoobCrop",
+  "MinimumApiVersion": "1.0",
+  "UpdateKeys": [ "Nexus:30292" ],
+  "Dependencies": [{"UniqueID": "selph.CustomTapperFramework", "IsRequired": true}],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

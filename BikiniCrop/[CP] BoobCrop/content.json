@@ -1,0 +1,120 @@
+{
+  "Format": "2.0.0",
+  "Changes": [
+    {
+      "LogName": "Tapper Rules",
+      "Action": "Include",
+      "FromFile": "Data/tappers.json"
+    },
+    //Seed item
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries":{
+        "BoobSeed":{
+          "Name": "BoobSeed",
+          "DisplayName": "Boob Seeds",
+          "Description": "Boob Seeds grow and produce delicious cream filled fruit. Takes 8 days to grow and continues to produce after that.",
+          "Type": "Seeds",
+          "Category": -74,
+          "Price" : 35,
+          "Texture": "Mods/{{ModId}}/BoobSeed",
+          "SpriteIndex": 0
+        }
+      }
+    },
+    //Crop
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries":{
+        "CreamFruit":{
+          "Name": "Cream Fruit",
+          "DisplayName": "Cream Fruit",
+          "Description": "Cream Fruit",
+          "Type": "Basic",
+          "Category": -6,
+          "Price" : 69,
+          "IsDrink": false,
+          "Edibility": 10,
+          "Texture": "Mods/{{ModId}}/CreamFruit",
+		  "HarvestMethod": "Grab",
+          "HarvestMinStack": 1,
+          "HarvestMaxStack": 2,
+          "SpriteIndex": 0,
+          "ContextTags": [
+            "season_spring",
+            "season_summer",
+            "season_fall",
+            "color_pink",
+			"fruit_item",
+			"keg_wine",
+			"preserves_jelly",
+			"milk_item"
+          ]
+        }
+      }
+    },
+    //Planted Crop
+    {
+		"Action": "EditData",
+		"Target": "Data/Crops",
+		"Entries": {
+			"BoobSeed": {
+				"Seasons": [ "spring", "summer", "fall" ],
+				"DaysInPhase": [ 1, 2, 2, 2, 1],
+				"RegrowDays": 4,
+				"HarvestItemId": "CreamFruit",
+				"Texture": "Mods/{{ModId}}/Boob",
+				"SpriteIndex": 0
+			}
+		}
+    },
+    {
+      //Shop
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [ "SeedShop", "Items" ],
+      "Entries": {
+        "CoalSeeds": {
+          "Id": "BoobSeed",
+          "ItemId": "BoobSeed",
+          "Price": 404   
+        }
+      }
+	},
+	{
+	"Action":"EditData",
+	"Target":"Data/GiantCrops",
+	"Entries":{
+		"GigaBoob":{
+			"FromItemId":"CreamFruit",
+			"Chance":"0.05",
+			"HarvestItems":[
+				{
+					"ItemId":"CreamFruit",
+					"MinStack":22,
+					"MaxStack":44
+				}
+			],
+			"Texture":"Mods/{{ModId}}/GigaBoob",
+			"TexturePosition":
+					{
+						"X": 0,
+						"Y": 0
+					},
+					"TileSize":
+					{
+						"X": 3,
+						"Y": 3
+					}	
+			}
+		}
+	},
+    {
+		"Action": "Load",
+		"Target": "Mods/{{ModId}}/BoobSeed, Mods/{{ModId}}/CreamFruit, Mods/{{ModId}}/Boob, Mods/{{ModId}}/GigaBoob",
+		"FromFile": "assets/{{TargetWithoutPath}}.png"
+    }
+  ]
+}

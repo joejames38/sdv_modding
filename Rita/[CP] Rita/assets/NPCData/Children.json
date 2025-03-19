@@ -1,0 +1,26 @@
+{
+	"Changes":[
+		
+		//Children Sprite Edits
+		
+		// Babies
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Baby",
+			"FromFile": "assets/Image/Children/baby.png"
+		},
+		
+		//Toddlers
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Toddler",
+			"FromFile": "assets/Image/Children/toddler.png"
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Toddler_girl",
+			"FromFile": "assets/Image/Children/toddler_girl.png"
+		},
+	],
+}

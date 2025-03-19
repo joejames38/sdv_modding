@@ -1,0 +1,42 @@
+{
+	"Changes":[
+		
+		//Mail (formerly MFM mail)
+	
+		{
+			"LogName": "Mail Data",
+			"Action": "EditData",
+			"Target": "Data/mail",
+			"Entries": {
+				"RitaLetter": "{{i18n:Rita.Letter.Body}}[#]{{i18n:Rita.Letter.Title}}",
+				"RitaInvitation": "{{i18n:Rita.Invitation.Body}}[#]{{i18n:Rita.Invitation.Title}}",
+			},
+		},
+		
+		{
+			"LogName": "Mail Triggers",
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+		
+			   "PaperNautilus.Rita_DateMail": {
+						"Id": "PaperNautilus.Rita_DateMail",
+						"Trigger": "DayEnding",
+						"Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Rita}} 2500, PLAYER_HAS_SEEN_EVENT Current 8205025, SEASON spring summer, PLAYER_NPC_RELATIONSHIP Current {{Rita}} Dating",
+						"HostOnly": false,
+						"Action": "AddMail Current RitaLetter",
+				},
+				
+				"PaperNautilus.Rita_InvitationMail": {
+						"Id": "PaperNautilus.Rita_InvitationMail",
+						"Trigger": "DayEnding",
+						"Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Rita}} 3500, SEASON spring summer, PLAYER_NPC_RELATIONSHIP Current {{Rita}} Married",
+						"HostOnly": false,
+						"Action": "AddMail Current RitaInvitation",
+				},
+			},
+		},
+	
+	
+	],
+}

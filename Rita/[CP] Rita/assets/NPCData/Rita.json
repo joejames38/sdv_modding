@@ -1,0 +1,436 @@
+{
+	"Changes":[
+	
+		{
+			"LogName": "Rita Disposition",
+			"Action": "EditData",
+			"Target": "Data/Characters",
+			"Entries": {
+				"{{Rita}}": {
+					"DisplayName": "{{i18n:Rita.Name}}",
+					"BirthSeason": "Winter",
+					"BirthDay": 18,
+					"HomeRegion": "Other",
+					"Gender": "Female",
+					"Age": "Adult",
+					"Manner": "Polite",
+					"SocialAnxiety": "Shy",
+					"Optimism": "Neutral",
+					"CanBeRomanced": false,
+					"CanVisitRitand": false, //Bar from Ritand without Ritand Sprites - if Ritand Sprites are made, can swap this to true
+					"SocialTab": "HiddenUntilMet", //Following current behavior, Rita is not shown until her second intro event is fired.
+					"TextureName": "Rita", //Specifying the default. 
+					"Appearance": [
+						{
+							"Id": "PaperNautilus.SummerRita",
+							"Condition": "SEASON Summer",
+							"Portrait": "Portraits/Rita_Summer",
+							"Sprite": "Characters/Rita_Summer",
+							"IsRitandAttire": false,
+							"Precedence": -100,
+							"Weight": 0
+						},
+						{
+							"Id": "PaperNautilus.FallRita",
+							"Condition": "SEASON Fall",
+							"Portrait": "Portraits/Rita_Fall",
+							"Sprite": "Characters/Rita_Fall",
+							"IsRitandAttire": false,
+							"Precedence": -100,
+							"Weight": 0
+						},
+						{
+							"Id": "PaperNautilus.WinterIndoorsRita",
+							"Condition": "SEASON Winter",
+							"Indoors": true,
+							"Outdoors": false,
+							"Portrait": "Portraits/Rita_Winter_Indoor",
+							"Sprite": "Characters/Rita_Winter_Indoor",
+							"IsRitandAttire": false,
+							"Precedence": -100,
+							"Weight": 0
+						},
+						{
+							"Id": "PaperNautilus.WinterOutdoorsRita",
+							"Condition": "SEASON Winter",
+							"Indoors": false,
+							"Outdoors": true,
+							"Portrait": "Portraits/Rita_Winter_Outdoor",
+							"Sprite": "Characters/Rita_Winter_Outdoor",
+							"IsRitandAttire": false,
+							"Precedence": -100,
+							"Weight": 0
+						},
+						{
+							"Id": "PaperNautilus.SpiritsEveRita",
+							"Condition": "EVENT_ID festival_fall27",
+							"Portrait": "Portraits/Rita_SpiritsEve",
+							"Sprite": "Characters/Rita_SpiritsEve",
+							"IsRitandAttire": false,
+							"Precedence": -1000, //Apply over Fall outfit
+							"Weight": 0
+						},
+					],
+					"HiddenProfileEmoteDuration": -1,
+					"HiddenProfileEmoteStartFrame": 24,
+					"HiddenProfileEmoteFrameCount": 3,
+					"HiddenProfileEmoteFrameDuration": 800.0, //Hidden gift log emote will be Rita reading.
+					"EndSlideshow": "TrailingGroup", //Rita will now appear in the Perfection slideshow
+					"Home": [
+						{
+							"Id": "RitaCave",
+							"Location": "Rita_UnderwaterCove",
+							"Tile": {
+								"X": 2,
+								"Y": 6
+							},
+							"Direction": "Left"
+						}
+					],
+					"FormerCharacterNames": [ "Rita" ], //Saves with "Rita" will be migrated
+				},
+			}
+		},
+		
+		//Other NPC Data
+		
+		//Gift Tastes
+		
+		{
+			"LogName": "Rita Gift Tastes",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"Entries": {
+				"{{Rita}}": "{{i18n:Rita.GiftTaste.Love}}/797 265 560 242/{{i18n:Rita.GiftTaste.Like}}/212 228 392 394 597 456 457 595 728 727 730 422/{{i18n:Rita.GiftTaste.Dislike}}/535 536 537 749 771 184 176 16 20/{{i18n:Rita.GiftTaste.Hate}}/729 199 207 205 346 348 330 766 167 168 170 171 172/{{i18n:Rita.GiftTaste.Neutral}}/393 668 414/",
+			}
+		},
+		
+			
+		//Portrait and Sprite Loads
+
+		{
+
+			"LogName": "Base NPC Sprite",
+			"Action": "Load",
+			"Target": "Characters/Rita",
+			"FromFile": "assets/Image/{{SpritePath}}/Rita/Rita_Spring.png",
+
+		},
+		{
+			"LogName": "Base NPC Portrait",
+			"Action": "Load",
+			"Target": "Portraits/Rita",
+			"FromFile": "assets/Image/{{PortraitPath}}/Rita/Rita_Spring.png",
+
+		},
+		
+		{
+			"LogName": "Rita Sprite Appearances",
+			"Action": "Load",
+			"Target": "Characters/Rita_Summer, Characters/Rita_Fall, Characters/Rita_Winter_Indoor, Characters/Rita_Winter_Outdoor, Characters/Rita_SpiritsEve",
+			"FromFile": "assets/Image/{{SpritePath}}/Rita/{{TargetWithoutPath}}.png",
+		},
+		
+		{
+			"LogName": "Rita Portrait Appearances",
+			"Action": "Load",
+			"Target": "Portraits/Rita_Summer, Portraits/Rita_Fall, Portraits/Rita_Winter_Indoor, Portraits/Rita_Winter_Outdoor, Portraits/Rita_SpiritsEve",
+			"FromFile": "assets/Image/{{PortraitPath}}/Rita/{{TargetWithoutPath}}.png",
+		},
+		
+		//Animations
+		{
+			"LogName": "Rita Animations",
+			"Action": "EditData",
+			"Target": "Data/animationdescriptions",
+			"Entries": {
+				"Rita_Reading": "22 22 22 23 23 23 23 23 24 24 24 24 24 24 24 25/25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25/25 24 24 23 23 22 22",
+				"Rita_Sorting": "29/29 29 29 30 30 30 30 31 31 31 31 30 30 30 30 29 29 29/29",
+				"Rita_Drinking": "32/32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 33 33 33 33 33 33 33 33 34 34 34 34 34 34 34 34 35 35 35 35 35 35 35 34 34 34 34 34 34 34 34 33 33 33 33 33 32 32 32 32 32 32 32 32 32/32",
+				"Rita_Sleep": "39/39/39",
+				"papernautilus_Rita_sleep": "39/39/39", //Marriage sleep animation
+			}
+		},
+		
+		//Movie Data
+		
+		{   
+			"LogName": "Rita Movie Invitation",
+			"Action": "EditData",
+			"Target": "Strings/Characters",
+			"Entries": { 
+				"MovieInvite_Spouse_{{Rita}}": "{{i18n:Rita.MovieInvite.Spouse}}",
+			}
+		},
+
+		{
+			"LogName": "Rita Concessions Tastes",
+			"Action": "EditData",
+			"Target": "Data/ConcessionTastes",
+			"Entries": {
+				"{{Rita}}": {
+					"LovedTags": [
+					  "Healthy"
+					],
+					"LikedTags": [
+					  "Star Cookies",
+					  "Kale Smoothie",
+					  "Stardrop Sorbet",
+					  "Jasmine Tea"
+					],
+					"DislikedTags": [
+					  "Fatty",
+					  "Joja",
+					  "Sweet"
+					]
+				}
+			},
+		},
+
+		{
+			"LogName": "Movie Tastes",
+			"Action": "EditData",
+			"Target": "Data/MoviesReactions",
+			"Entries": {
+				"{{Rita}}": {
+					"NPCName": "{{Rita}}",
+					"Reactions": [
+						{
+							"Tag": "seen_love",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "{{i18n:Rita.SeenLovedMovie.Text}}"
+								},
+								"DuringMovie": null,
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "{{i18n:Rita.LovedMovie.After}}"
+								}
+							},
+							"ID": "reaction_0"
+						},
+						{
+							"Tag": "seen_like",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "{{i18n:Rita.SeenLikedMovie.Text}}"
+								},
+								"DuringMovie": null,
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "{{i18n:Rita.LikedMovie.After}}"
+								}
+							},
+							"ID": "reaction_1"
+						},
+						{
+							"Tag": "seen_dislike",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "{{i18n:Rita.SeenDislikedMovie.Text}}"
+								},
+								"DuringMovie": null,
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "{{i18n:Rita.DislikedMovie.After}}"
+								}
+							},
+							"ID": "reaction_2"
+						},
+						{
+							"Tag": "spring_movie_0",
+							"Response": "love",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "{{i18n:Rita.Sapling.Lobby}}"
+								},
+									"DuringMovie": {
+									"ResponsePoint": "sprout_leave",
+									"Script": "/shake {{Rita}} 1000/pause 1000/message \"{{i18n:Rita.Sapling.Message}}\"",
+									"Text": "{{i18n:Rita.Sapling.Reaction}}"
+								},
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "{{i18n:Rita.Sapling.End}}"
+								}
+							},
+							"ID": "reaction_3"
+						},
+						{
+							"Tag": "romance",
+							"Response": "love",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "{{i18n:Rita.Romance.Lobby}}"
+								},
+								"DuringMovie": {
+									"ResponsePoint": null,
+									"Script": "/message \"{{i18n:Rita.Romance.Message}}\"",
+									"Text": "{{i18n:Rita.Romance.Reaction}}"
+								},
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "{{i18n:Rita.Romance.End}}"
+								}
+							},
+							"ID": "reaction_4"
+						},
+						{
+							"Tag": "comedy",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "{{i18n:Rita.Comedy.Lobby}}"
+								},
+								"DuringMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "{{i18n:Rita.Comedy.Reaction}}"
+								},
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "{{i18n:Rita.Comedy.End}}"
+								},
+							},
+							"ID": "reaction_5"
+						},
+						{
+							"Tag": "horror",
+							"Response": "dislike",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "{{i18n:Rita.Horror.Lobby}}"
+								},
+								"DuringMovie": {
+									"ResponsePoint": null,
+									"Script": "/shake {{Rita}} 3000",
+									"Text": "{{i18n:Rita.Horror.Reaction}}"
+								},
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "{{i18n:Rita.Horror.End}}"
+								}
+							},
+							"ID": "reaction_6"
+						},
+						{
+							"Tag": "*",
+							"Response": "love",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "{{i18n:Rita.Original.Lobby}}"
+								},
+								"DuringMovie": {
+									"ResponsePoint": null,
+									"Script": "/message \"{{i18n:Rita.Original.Reaction}}\"",
+									"Text": ""
+								},
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "{{i18n:Rita.Original.End}}"
+								}
+							},
+							"ID": "reaction_7"
+						},
+						{
+							"Tag": "like",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "{{i18n:Rita.LikedMovie.Before}}"
+								},
+								"DuringMovie": null,
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "{{i18n:Rita.LikedMovie.After}}"
+								}
+							},
+							"ID": "reaction_8"
+						},
+						{
+							"Tag": "love",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "{{i18n:Rita.LovedMovie.Before}}"
+								},
+								"DuringMovie": null,
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "{{i18n:Rita.LovedMovie.After}}"
+								}
+							},
+							"ID": "reaction_9"
+						},
+						{
+							"Tag": "dislike",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "{{i18n:Rita.DislikedMovie.Before}}"
+								},
+								"DuringMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "{{i18n:Rita.DislikedMovie.During}}"
+								},
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "{{i18n:Rita.DislikedMovie.After}}"
+								}
+							},
+							"ID": "reaction_10"
+						},
+					]
+				}
+			}
+		}
+	],
+}

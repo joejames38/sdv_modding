@@ -1,0 +1,95 @@
+{
+	"Changes":[
+	
+		{
+			//"A Mysterious Visitor (Part I)"
+			"LogName": "A Mysterious Visitor (Part I)",
+			"Action": "EditData",
+			"Target": "Data/Events/Mountain",
+			"Entries": {
+				"8205019/!DayOfWeek Fri Sat Sun/G WORLD_STATE_ID beachBridgeFixed": "none/-500 -500/farmer 1 13 1/addTemporaryActor Kelpie 16 32 5 13 2 false/viewport 10 13 true/pause 2000/emote Kelpie 16/speed Kelpie 5/move Kelpie 0 6 2/warp Kelpie -30 -30/emote farmer 8/pause 500/globalFade/viewport -1000 -1000/pause 500/message \"{{i18n:Rita.FirstSight}}\"/pause 500/globalFade/viewport -1000 -1000/end",
+			},
+		},
+		
+		{
+			//"A Mysterious Visitor (Part II)"
+			"LogName": "A Mysterious Visitor (Part II)",
+			"Action": "EditData",
+			"Target": "Data/Events/Beach",
+			"Entries": {
+				"8205020/SawEvent 8205019/!DayOfWeek Fri Sat Sun": "desolate/-500 -500/farmer 52 16 2 {{Rita}} -300 -300 0/addTemporaryActor Kelpie 16 32 52 22 0 false/viewport 52 20 true/pause 1000/emote Kelpie 16/pause 800/animate Kelpie false false 16 16 16 16 16 17 17 17 17 17 18 18 18 18 18 19 19 19 19 19 19 20 21 21 21 21 21 22/stopAnimation Kelpie/warp Kelpie -300 -300 false/warp {{Rita}} 52 22 false/emote farmer 16/speak {{Rita}} \"{{i18n:Rita.Intro.1}}\"/question fork1 \"#{{i18n:Rita.Intro.2}}#{{i18n:Rita.Intro.3}}\"/fork SayNothing/friendship {{Rita}} 50/move farmer 0 4 2/speak {{Rita}} \"{{i18n:Rita.Intro.4}}\"/pause 500/speak {{Rita}} \"{{i18n:Rita.Intro.5}}\"/pause 500/speak {{Rita}} \"{{i18n:Rita.Intro.6}}\"/pause 200/globalFade/viewport -1000 -1000/end",
+
+				"SayNothing": "pause 500/emote {{Rita}} 40/pause 1000/speak {{Rita}} \"{{i18n:Rita.QuietIntro.7}}\"/pause 200/globalFade/viewport -1000 -1000/end",
+			},
+		},
+		
+		{
+			//An Impasse (2 Heart Event)
+			"LogName": "An Impasse (2 Heart Event)",
+			"Action": "EditData",
+			"Target": "Data/Events/Beach",
+			"Entries": {
+				"8205021/Friendship {{Rita}} 500/!DayOfWeek Fri Sat Sun/SawEvent 8205020/Time 900 1700/Weather sunny": "desolate/-500 -500/farmer 87 40 2 {{Rita}} 86 40 2/showframe {{Rita}} 21/skippable/viewport 86 42 true/pause 1000/faceDirection farmer 3/showFrame {{Rita}} 18/speak {{Rita}} \"{{i18n:Rita.2H.1}}\"/pause 500/showframe {{Rita}} 17/faceDirection farmer 2/pause 500/emote farmer 8/pause 500/speak {{Rita}} \"{{i18n:Rita.2H.2}}\"/pause 500/speak {{Rita}} \"{{i18n:Rita.2H.3}}\"/pause 200/emote {{Rita}} 40/pause 200/speak {{Rita}} \"{{i18n:Rita.2H.4}}\"/pause 200/emote {{Rita}} 40/pause 200/speak {{Rita}} \"{{i18n:Rita.2H.5}}\"/pause 500/emote {{Rita}} 28/speak {{Rita}} \"{{i18n:Rita.2H.6}}\"/emote {{Rita}} 60/pause 500/speak {{Rita}} \"{{i18n:Rita.2H.7}}\"/question fork1 \"#{{i18n:Rita.2H.8}}#{{i18n:Rita.2H.9}}\"/fork Arrogant/emote {{Rita}} 56/pause 200/speak {{Rita}} \"{{i18n:Rita.2H.10}}\"/emote {{Rita}} 20/pause 200/globalFade/viewport -1000 -1000/end dialogue {{Rita}} \"{{i18n:Rita.2H.11}}\"", 
+
+				"Arrogant": "pause 200/speak {{Rita}} \"{{i18n:Rita.2Sure.12}}\"/pause 200/emote {{Rita}} 60/friendship {{Rita}} -100/pause 200/globalFade/viewport -1000 -1000/end", 
+
+				}
+		},
+
+		{
+			//A Discovery (4 Heart Event)
+			"LogName": "A Discovery (4 Heart Event)",
+			"Action": "EditData",
+			"Target": "Data/Events/Beach",
+			"Entries": {
+				"8205022/Friendship {{Rita}} 1000/!DayOfWeek Fri Sat Sun/SawEvent 8205021/Time 900 1700/Weather sunny":"desolate/-500 -500/farmer 70 12 0 {{Rita}} 70 6 2/showFrame {{Rita}} 25/skippable/viewport 70 9 true/pause 1000/showFrame {{Rita}} 24/speak {{Rita}} \"{{i18n:Rita.4H.1}}\"/pause 200/move farmer 0 -5 0/pause 200/speak {{Rita}} \"{{i18n:Rita.4H.2}}\"/pause 200/speak {{Rita}} \"{{i18n:Rita.4H.3}}\"/pause 200/emote {{Rita}} 40/pause 200/speak {{Rita}} \"{{i18n:Rita.4H.4}}\"/question fork1 \"#{{i18n:Rita.4H.5}}#{{i18n:Rita.4H.6}}\"/fork NotNow/friendship {{Rita}} 50/emote {{Rita}} 20/speak {{Rita}} \"{{i18n:Rita.4H.7}}\"/pause 200/showFrame {{Rita}} 25/pause 200/speak {{Rita}} \"{{i18n:Rita.4H.8}}\"/globalFade/viewport -100 -100/pause 200/viewport 70 9 true/pause 1000/speak {{Rita}} \"{{i18n:Rita.4H.9}}\"/pause 200/showFrame {{Rita}} 24/speak {{Rita}} \"{{i18n:Rita.4H.10}}\"/pause 200/emote {{Rita}} 16/speak {{Rita}} \"{{i18n:Rita.4H.11}}\"/pause 200/showFrame {{Rita}} 0/speak {{Rita}} \"{{i18n:Rita.4H.12}}\"/emote farmer 20/pause 200/speak {{Rita}} \"{{i18n:Rita.4H.13}}\"/pause 1000/globalFade/viewport -1000 -1000/end dialogue {{Rita}} \"{{i18n:Rita.4H.14}}\"", 
+
+				"NotNow": "friendship {{Rita}} -100/emote {{Rita}} 28/pause 200/speak {{Rita}} \"{{i18n:Rita.4H.NotNow}}\"/pause 200/globalFade/viewport -1000 -1000/end", 
+			},
+		},
+
+		{
+			//A Seed (6 Heart Event)
+			"LogName": "A Seed (6 Heart Event)",
+			"Action": "EditData",
+			"Target": "Data/Events/Beach",
+			"Entries": {
+				"8205023/Friendship {{Rita}} 1500/!DayOfWeek Fri Sat Sun/SawEvent 8205022/Time 900 1700/Weather sunny": "desolate/-500 -500/{{Rita}} 90 5 2 farmer 82 7 1/showFrame {{Rita}} 20/skippable/viewport 90 8 true/pause 1000/speak {{Rita}} \"{{i18n:Rita.6H.1}}\"/pause 200/showFrame {{Rita}} 17/pause 200/move farmer 8 0 1/faceDirection farmer 0/pause 200/showFrame {{Rita}} 25/speak {{Rita}} \"{{i18n:Rita.6H.2}}\"/showFrame {{Rita}} 24/pause 500/speak {{Rita}} \"{{i18n:Rita.6H.3}}\"/showFrame {{Rita}} 27/speak {{Rita}} \"{{i18n:Rita.6H.4}}\"/emote {{Rita}} 20/pause 500/showFrame {{Rita}} 24/speak {{Rita}} \"{{i18n:Rita.6H.5}}\"/pause 200/emote {{Rita}} 40/pause 200/speak {{Rita}} \"{{i18n:Rita.6H.6}}\"/pause 200/emote farmer 20/pause 200/speak {{Rita}} \"{{i18n:Rita.6H.7}}\"/emote farmer 8/pause 200/speak {{Rita}} \"{{i18n:Rita.6H.8}}\"/friendship {{Rita}} 50/pause 200/globalFade/viewport -1000 -1000/end",
+			},
+		},
+		
+		{
+			//An Idea (8 Heart Event Pt. I)
+			"LogName": "An Idea (8 Heart Event Pt. I)",
+			"Action": "EditData",
+			"Target": "Data/Events/Beach",
+			"Entries": {
+				"8205024/Friendship {{Rita}} 2000/!DayOfWeek Fri Sat Sun/SawEvent 8205023/Time 900 1700/Weather sunny": "desolate/-500 -500/farmer 70 12 0 {{Rita}} 70 6 2/showFrame {{Rita}} 25/skippable/viewport 70 9 true/pause 1000/showFrame {{Rita}} 24/speak {{Rita}} \"{{i18n:Rita.8H.Intro.1}}\"/pause 200/move farmer 0 -4 0/pause 200/speak {{Rita}} \"{{i18n:Rita.8H.Intro.2}}\"/pause 500/question fork1 \"#{{i18n:Rita.8H.Intro.3}}#{{i18n:Rita.8H.Intro.4}}\"/fork Silent/friendship {{Rita}} 50/emote {{Rita}} 20/speak {{Rita}} \"{{i18n:Rita.8H.Intro.5}}\"/pause 200/globalFade/viewport -1000 -1000/end",
+
+				"Silent": "pause 500/speak {{Rita}} \"{{i18n:Rita.8H.Intro.SilentIntro.6}}\"/pause 200/globalFade/viewport -1000 -1000/end",
+			},
+		},
+
+		{
+			//A Pelican Townian Salon (8 Heart Event Pt. II)
+			"LogName": "A Pelican Townian Salon (8 Heart Event Pt. II)",
+			"Action": "EditData",
+			"Target": "Data/Events/SeedShop",
+			"Entries": {
+				"8205025/Friendship {{Rita}} 2000/DayOfWeek Mon/SawEvent 8205024/Time 1900 2200": "50s/-500 -500/farmer 25 16 2 {{Rita}} 24 16 2 Penny 26 18 1 Sam 27 18 3 Abigail 22 20 2 Sebastian 21 21 1 Maru 23 21 3 Alex 25 21 1 Emily 27 21 3 Haley 26 20 2 Leah 22 18 1 Elliott 23 18 3/skippable/viewport 26 19 true/skippable/pause 2000/speak {{Rita}} \"{{i18n:Rita.8H.1}}\"/faceDirection Penny 0/faceDirection Sam 0/faceDirection Abigail 0/textAboveHead Abigail \"{{i18n:Rita.8H.2}}\"/faceDirection Sebastian 0/faceDirection Maru 0/faceDirection Elliott 0/faceDirection Leah 0/faceDirection Emily 0/textAboveHead Emily \"{{i18n:Rita.8H.3}}\"/faceDirection Haley 0/faceDirection Alex 0/pause 200/speak {{Rita}} \"{{i18n:Rita.8H.4}}\"/pause 500/speak {{Rita}} \"{{i18n:Rita.8H.5}}\"/pause 500/speak {{Rita}} \"{{i18n:Rita.8H.6}}\"/pause 200/speak {{Rita}} \"{{i18n:Rita.8H.7}}\"/globalFade/viewport -100 -100/warp Abigail 24 16 false/faceDirection Abigail 2/warp farmer 24 23/faceDirection farmer 0/warp {{Rita}} 25 23/faceDirection {{Rita}} 0/pause 100/viewport 26 19 true/pause 1000/speak Abigail \"{{i18n:Rita.8H.8}}\"/pause 100/speak Abigail \"{{i18n:Rita.8H.9}}\"/globalFade/viewport -100 -100/warp Abigail 22 20/faceDirection Abigail 0/warp Emily 24 16 false/faceDirection Emily 2/pause 100/viewport 26 19 true/pause 1000/speak Emily \"{{i18n:Rita.8H.10}}\"/pause 200/speak Emily \"{{i18n:Rita.8H.11}}\"/globalFade/viewport -100 -100/warp Emily 27 21 false/faceDirection Emily 0/warp Elliott 24 16 false/faceDirection Elliott 2/pause 100/viewport 26 19 true/pause 1000/speak Elliott \"{{i18n:Rita.8H.12}}\"/pause 200/speak Elliott \"{{i18n:Rita.8H.13}}\"/globalFade/viewport -100 -100/warp Elliott 23 18 false/faceDirection Elliott 0/warp Penny 24 16 false/faceDirection Penny 2/pause 100/viewport 26 19 true/pause 1000/speak Penny \"{{i18n:Rita.8H.14}}\"/pause 200/speak Penny \"{{i18n:Rita.8H.15}}\"/globalFade/viewport -100 -100/warp Penny 26 18/faceDirection Penny 0/warp {{Rita}} 24 16/faceDirection {{Rita}} 2/warp farmer 25 16/faceDirection farmer 2/positionOffset farmer 4 0/pause 200/viewport 26 19 true/pause 1000/speak {{Rita}} \"{{i18n:Rita.8H.16}}\"/globalFade/viewport -100 -100/pause 100/warp Penny -1001 -1001/warp Sam -1001 -1001/warp Abigail -1001 -1001 /warp Sebastian -1001 -1001/warp Maru -1001 -1001/warp Alex -1001 -1001/warp Emily -1001 -1001/warp Haley -1001 -1001/warp Leah -1000 -1000/warp Elliott -1000 -1000/warp {{Rita}} 24 20/faceDirection {{Rita}} 2/warp farmer 24 21/faceDirection farmer 0/viewport 26 19 true/pause 1000/speak {{Rita}} \"{{i18n:Rita.8H.17}}\"/emote {{Rita}} 20/friendship {{Rita}} 50/pause 200/globalFade/viewport -301 -301/end dialogue {{Rita}} \"{{i18n:Rita.8H.End}}\"/end", 
+			},
+		},
+
+		{
+			//A Confession (10 Heart Event)
+			"LogName": "A Confession (10 Heart Event)",
+			"Action": "EditData",
+			"Target": "Data/Events/Beach",
+			"Entries": {
+				"8205026/Friendship {{Rita}} 2500/DayOfWeek Fri Sat Sun/SawEvent 8205025/Time 2200 2300/Weather sunny/LocalMail RitaLetter": "ocean/-500 -500/farmer 53 17 2 {{Rita}} 52 22 2/addLantern 735 50 23 2/skippable/viewport 56 24 true/pause 1000/faceDirection {{Rita}} 0/speak {{Rita}}  \"{{i18n:Rita.10H.1}}\"/emote {{Rita}} 56/move farmer 0 5 3/pause 500/faceDirection {{Rita}} 1/speak {{Rita}} \"{{i18n:Rita.10H.2}}\"/pause 1000/speak {{Rita}} \"{{i18n:Rita.10H.3}}\"/pause 200/faceDirection {{Rita}} 2/faceDirection farmer 2/pause 500/speak {{Rita}} \"{{i18n:Rita.10H.4}}\"/emote {{Rita}} 40/pause 1000/speak {{Rita}} \"{{i18n:Rita.10H.5}}\"/pause 200/faceDirection {{Rita}} 1/faceDirection farmer 3/speak {{Rita}} \"{{i18n:Rita.10H.6}}\"/question fork1 \"#{{i18n:Rita.10H.7}}#{{i18n:Rita.10H.8}}\"/fork Rejection/emote {{Rita}} 20/speak {{Rita}} \"{{i18n:Rita.10H.9}}\"/emote {{Rita}} 20/pause 200/faceDirection {{Rita}} 2/faceDirection farmer 2/speak {{Rita}} \"{{i18n:Rita.10H.10}}\"/pause 500/faceDirection {{Rita}} 2/pause 200/speak {{Rita}} \"{{i18n:Rita.10H.11}}\"/pause 200/globalFade/viewport -1000 -1000/message \"{{i18n:Rita.10H.12}}\"/pause 500/end newDay", 
+
+				"Rejection": "friendship {{Rita}} -1000/emote {{Rita}} 60/speak {{Rita}} \"{{i18n:Rita.10H.WhyDidYouGiveHerABouquet}}\"/pause 200/globalFade/viewport -1000 -1000/end newDay", 
+			},
+		},
+	],
+}

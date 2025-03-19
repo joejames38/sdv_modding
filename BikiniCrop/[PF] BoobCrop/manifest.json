@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Boobcrop",
+  "Author": "DracoFreedom",
+  "Version": "1.0.0",
+  "Description": "Producer Framework Addon for BoobCrops",
+  "UniqueID": "DracoFreedom.BoobCrop.Producer",
+  "MinimumApiVersion": "1.0",
+  "UpdateKeys": [ "Nexus:30292" ],
+  "ContentPackFor": {
+	"UniqueID": "DIGUS.ProducerFrameworkMod"
+  }
+}

@@ -1,0 +1,21 @@
+{
+	"Changes":[
+	
+	        {
+
+			  "LogName": "Kelpie",
+			  "Action": "Load",
+			  "Target": "Characters/Kelpie",
+			  "FromFile": "assets/Image/{{SpritePath}}/Temporary/Kelpie/Kelpie.png",
+
+			},
+			{
+
+			  "LogName": "Portraits",
+			  "Action": "Load",
+			  "Target": "Portraits/Kelpie",
+			  "FromFile": "assets/Image/{{PortraitPath}}/Temporary/Kelpie/Kelpie.png",
+
+			},	
+	],
+}

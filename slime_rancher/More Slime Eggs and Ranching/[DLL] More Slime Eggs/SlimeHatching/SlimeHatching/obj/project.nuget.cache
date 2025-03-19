@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "3knmXWEpDLg=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Joe\\Documents\\git_projects\\slime_rancher\\More Slime Eggs and Ranching\\[DLL] More Slime Eggs\\SlimeHatching\\SlimeHatching\\SlimeHatching.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Joe\\.nuget\\packages\\pathoschild.stardew.modbuildconfig\\4.3.2\\pathoschild.stardew.modbuildconfig.4.3.2.nupkg.sha512",
+    "C:\\Users\\Joe\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.36\\microsoft.windowsdesktop.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\Joe\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.36\\microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\Joe\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.36\\microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512"
+  ],
+  "logs": []
+}

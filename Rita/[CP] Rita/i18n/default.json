@@ -1,0 +1,327 @@
+{
+	//Translations for Rita go here.
+
+	
+	//NPC DATA TRANSLATIONS
+	
+	"Rita.Name": "Rita",
+	"AcceptGift_(O)StardropTea": "This Tea is a delight to keep me writing all day.",
+	
+	"Rita.GiftTaste.Love": "This is wonderful! Thank you very much, kind @.$8",
+	"Rita.GiftTaste.Like": "Thank you @, that's very thoughtful of you.$1",
+	"Rita.GiftTaste.Dislike": "Oh @, I appreciate the thought.",
+	"Rita.GiftTaste.Hate": "Oh dear @, I don't care for this at all.$2",
+	"Rita.GiftTaste.Neutral": "Thank you, @.",
+	
+	//MOVIE DATA TRANSLATIONS
+	
+	"Rita.MovieInvite.Spouse": "Oh, I'd just love to see a film with you!$4",
+	
+	"Rita.SeenLovedMovie.Text": "I've actually seen this film with {2}! I enjoyed it a lot!$1",
+	"Rita.SeenLikedMovie.Text": "Oh, '{0}'?! I saw this film with {2}!$7",
+	"Rita.SeenDislikedMovie.Text": "Oh, I saw this film with {2}...$2",
+	
+	"Rita.Sapling.Lobby": "Oh! This looks like it's a delightful film.#$b#Shall we go?$1",
+	"Rita.Sapling.Message": "Rita seems moved by the film...",
+	"Rita.Sapling.Reaction": "Wow, how touching...$2",
+	"Rita.Sapling.End": "Wow, what a wonderful, heartfelt film! It gets me right into the springtime spirit!$8",
+	
+	"Rita.Romance.Lobby": "I do love a romantic film. And I can't think of anyone I'd rather see it with.$8",
+	"Rita.Romance.Message": "(Rita is staring starry-eyed at the film.)",
+	"Rita.Romance.Reaction": "Oh, how beautiful...$4",
+	"Rita.Romance.End": "That was such a beautiful romance. I was incredibly moved. Thank you for inviting me to see it, @.$8",
+	
+	"Rita.Comedy.Lobby": "Oh, I do enjoy a comedy!$8",
+	"Rita.Comedy.Reaction": "Oh my goodness!$8",
+	"Rita.Comedy.End": "Haha, that film was absolutely hilarious! I loved it!$8",
+	
+	"Rita.Horror.Lobby": "Oh dear, this film looks quite frightening.$2",
+	"Rita.Horror.Reaction": "This film is scaring me.$2",
+	"Rita.Horror.End": "I...I didn't enjoy that film. But at least you were there to hold my hand.$1",
+	
+		//The following is the original movie dialogue for every movie due to a bug - instead it will now fire if nothing else above fits.
+	
+	"Rita.Original.Lobby": "I haven't been to the theatre in quite some time! I'm looking forward to it! Especially because I get to go with you.$8",
+	"Rita.Original.Reaction": "Rita is watching with fascination.",
+	"Rita.Original.End": "I enjoyed that a lot! Perhaps we could do this again sometime soon.",
+	
+		//The remaining three of these reactions should never fire together, but are kept in translations to preserve the dialogues/reactions (and the after keys are used at the end of the seen_ keys for simplicity).
+	
+	"Rita.LikedMovie.Before": "This film looks quite good!$8",
+	"Rita.LikedMovie.After": "That was wonderful! Thank you for coming with me!$4",
+	
+	"Rita.LovedMovie.Before": "Oh, I've been wanting to see this film for ever so long!$7",
+	"Rita.LovedMovie.After": "This film is incredible! As I anticipated.$8",
+	
+	"Rita.DislikedMovie.Before": "Oh, I'm...not sure about this one. We can see it if you'd like, though.$2",
+	"Rita.DislikedMovie.During": "Oh...",
+	"Rita.DislikedMovie.After": "Oh, I didn't enjoy that film at all.$2#$b#I did enjoy spending time with you, though.$1",
+	
+	//MAIL TRANSLATIONS
+	
+	"Rita.Letter.Body": "Dear @,^I hope that you have been keeping well. Please come meet me at the beach tomorrow night at 10 PM. Weather permitting, of course.^ -Love, Rita",
+	"Rita.Letter.Title": "A letter from Rita",
+	
+	"Rita.Invitation.Body": "Dearest @^I want you to meet some people who are very dear to me. We’ve planned something really special. Come down to the beach tonight at 8 PM.^ -Love, Rita",
+	"Rita.Invitation.Title": "An invitation from Rita",
+	
+	//FESTIVAL DIALOGUE
+	
+	"Rita.EggFestival": "I saw Elliott on the beach this morning, and he invited me to come to the festival!$8#$b#It's been nice meeting the other residents, and the food is simply delicious.$8",
+	
+	"Rita.FlowerDance": "Oh, I've danced so many times with Galene. I just love the exhilaration of moving with the music.$1",
+	
+	"Rita.Luau": "Hello @. I decided to come join the festivities today. Everyone has been so friendly and welcoming towards me.$1#$b#I decided to add some freshly harvested seaweed, straight from the Gem Sea!$8",
+	
+	"Rita.Jellies": "I've see the jellyfish perform many a time, but tonight's performance will special.$1#$b#It will be a beautiful farewell to the summer.$1",
+	
+	"Rita.Fair": "Hello, @. I see you've found me here by the river. I took a look at some of the festivities earlier, and they were just wonderful!$8",
+	
+	"Rita.Spirits": "What do you think of my costume, @? I decided to dress up as one of my favourite Ferngillian poets, Emily Dickinson.$8",
+	
+	"Rita.IceFestival": "This sculpture is a tribute to the founder of Galene, a mermaid by the name of Melusine. It's a striking likeness.$1",
+	
+	"Rita.WinterStar": "Merry Winter Star, @. I hope your year has been most fruitful, and I'm wishing you the best for the next.$1",
+	
+	//SCHEDULE STRING TRANSLATIONS
+	
+	"Rita.Dock.001": "%Rita is staring out onto the horizon. She appears to be lost in some sort of reverie.",
+	"Rita.Dock.002": "I just love looking out onto the Gem Sea. My beautiful marine home...$1",
+	"Rita.Beach.001": "I just came back to the beach for the evening. I am so happy with you, dear @, but sometimes I miss my marine home...$2",
+	"Rita.Beach.002": "Just gaze out onto the beautiful sea with me, dear @.$4",
+	"Rita.Beach.003": "I'm just reading for awhile, dear @. Come join me! I'm reading poems by famous Ferngillian poets. My favourite ones are about the beautiful Fern Ritands.$8",
+	"Rita.Beach.004": "Hello, dear @. I'm reading a new book that Gunther gave me. It's not a poetry book, but I still love it. It's a mystery novel set in Zuzu City. It's very intriguing!$1",
+	"Rita.Reading.001": "Hello @. I'm reading my poetry book. It's full of so many interesting works by poets from the Ferngill Republic, and some from outside it as well! Would you like to hear one of my favourite pieces?$8",
+	"Rita.Reading.002": "I'm reading some sonnets right now. The way they talk about love is so beautiful.$11",
+	"Rita.Reading.003": "I'm reading some poems about the Foxglove Kingdom. I wonder what it's like there...$9",
+	"Rita.Reading.004": "I wonder what it would be like to be a thespian, reciting the most beautiful soliloquies on stage every day.$9",
+	"Rita.Reading.005": "Have you ever read a poem in the language of the merpeople? It's a melodic, whispering language. It sounds like the waves of the ocean.$3",
+	"Rita.Reading.006": "I love reading here on my little Ritand. Please, come join me.$8",
+	"Rita.Reading.007": "It's amazing how a poem can transport you to another place and time.$9",
+	"Rita.DockRead.001": "Come stand with me, dear.$8",
+	"Rita.DockRead.002": "Hello, dear @. Gunther gave me a new book filled with poetry by up-and-coming young poets from Zuzu City. Come have a look!$8",
+	"Rita.Mountain.001": "Thank you for coming with me, dear @. I love the mountain air, so cool and crisp. Its natural beauty reminds me of some of the poetry of William Wordsworth, one of the Foxglove Kingdom's most evocative poets.$1",
+	"Rita.Misc.001": "Come to the beach with me today, @. We can bring a picnic lunch.$7",
+	"Rita.Misc.002": "Hello, dear @. It's lovely to see you. I've been enjoying my day so far. I hope you have been, too.$4",
+	"Rita.Misc.003": "Good morning, dear @. Would you like to go for a walk to the mountains with me this morning? It would be nice to have a change of scenery, for poetic inspiration.$1",
+	"Rita.Misc.004": "Good evening, dear @. I'm drinking a special cocktail that Gus created just for me. It's made with squid ink! Do come join us.$8",
+	"Rita.Museum.001": "Oh, hello dear @. Thank you for visiting me. I'm just taking a little rest before I get to work.$1",
+	"Rita.Museum.002": "I'm just sorting some books at the moment. You should take a look around, there are many wonderful books here.$1",
+	"Rita.Museum.003": "The books I'm sorting right now are encyclopedias about the history of the Ferngill Republic.$1",
+	"Rita.Museum.004": "These books are about the history of the Gotoro Empire. The people there are kind, but the government is cruel. I wish you could see it, dear. It's a vibrant land, with so many beautiful colours...",
+	"Rita.Museum.005": "How has your day been, dear? I'm looking forward to being at home with you.$7",
+	"Rita.Museum.006": "These books are about the the fauna of the Ferngill Republic. It's incredible how diverse it is.$1",
+	"Rita.Museum.007": "I'm just saying goodbye to Gunther. He's become a good friend of mine.$1",
+	"Rita.Museum.008": "Hello dear. I'm just looking at some of the curiosities Gunther has here. These dishes are exquisite. I can tell from the design that they are of Gotoran craftsmanship.",
+	"Rita.Museum.009": "I'm just sorting some poetry books right now. They're filled with evocative haikus by famous Gotoran poets. The poems by the young Gotoran poet Kumiko Sashihara document the beginning of the war.$2",
+	"Rita.Museum.010": "Gunther and I were just talking about our favourite poets. I didn't realise he loves a good soliloquy as much as I do!$8",
+	"Rita.Museum.011": "It's a bit slower at the library on Wednesdays, so I'm taking the opportunity to do some reading. Come join, @!$9",
+	"Rita.Museum.012": "I'm saying goodbye to Gunther now. I'll see you soon, @.$8",
+	
+	//DIALOGUE TRANSLATIONS
+	
+		//Unique Dialogue
+		
+	"Rita.Introduction": "Hello again @. I want to apologise again for our less-than-ideal first meeting.$2#$b#It's lovely to see you again, though. I hope this will be the first of many times.$1",
+	
+		//General Dialogue
+
+	"Rita.Mon": "Hello @. How have you been doing today?$1#$e#I'm glad to hear that you've been doing well.$8",
+	"Rita.Mon2": "Galene performed in Zuzu City yesterday. I always find it overwhelming there, with all the lights and the din. I'm thankful to be back here now, in the peace and quiet.$1",
+	"Rita.Mon4": "I like to bring my poetry books along with me whenever I'm here. They're wonderful companions. I would love it if you'd come read them with me some time.$8",
+	"Rita.Mon6": "Our fairy friends fly in from The Enchanted Forest, near the Fern Ritands, to help us with our performances. It really wouldn't be the same without them.$8",
+	"Rita.Mon8": "One of my favourite places is the Fireweed Archipelago. In the summertime, beautiful purple flowers bloom there.1#$e#Oh, if only we could go there someday, @.$8",
+	"Rita.Mon10": "I miss you when I'm back home, @. It doesn't feel the same without you.$4",
+	"Rita.Tue": "What have you been growing this year, @? It must be incredible, starting with nothing but a tiny seed, and nurturing it to life.$1",
+	"Rita.Tue2": "We performed recently in Grampleton. Have you been there before? They set up fairy lights along the beach, and they glow beautifully at night, like strands of stars lining the shore.$1",
+	"Rita.Tue4": "You know, I've never had a human friend before. Some of the other merfolk are frightened of you, but I've always been curious.1#$e#It's so wonderful that we've been able to get to know one another. I feel like I've learned so much.$1",
+	"Rita.Tue6": "When you're down by the sea, take some time to sit on the sand and listen to the lapping of the waves. It's restorative for the soul.$1",
+	"Rita.Tue8": "Staring into your eyes is like staring into two fathomless pools of water. It's like you say so much to me, without uttering a single word...$4",
+	"Rita.Tue10": "Your voice has a beautiful musical lilt to it today, @.$8",
+	"Rita.Wed": "I often find Joja Cola bottles washed up on the shore, and even submerged in the sea. It makes me so sad. Us merfolk have been imploring Joja corporation to do something about it for years, but they have never heeded our requests.$2",
+	"Rita.Wed2": "How has life been at your farm? I hope that you've also been taking some time for yourself. To be our most fruitful, we must also nurture ourselves.$1", 
+	"Rita.Wed4": "If you're ever feeling in need of some company, you're always welcome to come spend time with me. In fact, I'd quite enjoy that.$8",
+	"Rita.Wed6": "I've been travelling to the Fern Ritands for poetic inspiration recently. I love it there, it's just so peaceful.$1#$e#Sometimes the winds rustling through the trees sound like poems spoken in ancient tongues.", 
+	"Rita.Wed8": "Oh, if only you could come underwater with me. I have so many wonderful places I'd love to show you.$1",
+	"Rita.Wed10": "The Ferngill Republic is so beautiful and immense. I've been able to see so many incredible places over the course of my travels. Hopefully I can show them all to you someday.$4",
+	"Rita.Thu": "What will you be doing this weekend? I do hope you'll take some time for yourself.",
+	"Rita.Thu2": "Have you ever held a shell up to your ear? They say you can hear the sound of the ocean echoing though its recesses...",
+	"Rita.Thu4": "Sometimes, when I'm swimming in the ocean, I like to relax my body and just let the currents carry me wherever they will. I've discovered some incredible things that way.#$b#It reminds me of life - how we must often accept its unpredictable course, and let it carry us away into the unknown.",
+	"Rita.Thu6": "Have you ever watched the sun set over the Gem Sea? It's like nothing else, like a fiery blossom bursting over the horizon. It reminds you of the joy of being alive.$1",
+	"Rita.Thu8": "I enjoy solitude, and spending my days in the pursuit of knowledge. But sometimes I think it might be nice to share my life with somebody.$4",
+	"Rita.Thu10": "Come sit with me, and we can talk about the mysteries of life. Or we can just sit in silence and enjoy each others' company. Whichever you prefer.",
+	"Rita.Fri": "Hello, @. Thank you for paying me a visit.$1",
+	"Rita.Sat": "Hello, @. Thank you for paying me a visit.$1",
+	"Rita.Sun": "Hello, @. Thank you for paying me a visit.$1",
+
+		//Spring Dialogue
+
+	"Rita.spring1": "There is a new freshness to the air, and the Valley is emerging from its wintery blanket. It's spring, the beginning of a beautiful new year.$1#$e#Let's make the most of it.$1",
+	"Rita.springMon": "I was busy all weekend arranging a new vocal harmony for our performance next week.$1#$e#Do you enjoy music too, @?$8",
+	"Rita.springMon4": "I'm just so inspired that you followed your heart to be here. I know that it's time that I follow my heart as well.$1",
+	"Rita.springMon6": "I just love the smell of old books. They smell of must and mystery.$1",
+	"Rita.springMon8": "'When daisies pied and violets blue$1#$e#And lady-smocks all silver-white$1#$e#And cuckoo-buds of yellow hue$1#$e#Do paint the meadows with delight...$1#$e#Shakespeare's poem makes me think of the beauty and vitality of spring.$8",  
+	"Rita.springTue": "I just love spring, don't you @? A time of growth and new beginnings.$1",
+	"Rita.springTue2": "How have you been on this beautiful spring day? What new seeds have you sown this year?$1",
+	"Rita.springTue4": "How does one find purpose in one's life? I feel like I'm still struggling to figure out.$2",
+	"Rita.springTue8": "Don't you feel like poetry helps you see the world in different ways?$1",
+	"Rita.springWed": "I see Elliott around here quite often, and we've become friends. He's an aspiring author, and he often tells me about the novel he's been working on.#$e#Do you know him too?$1",
+	"Rita.springWed6": "Sometimes after performances my friend Soraya will sit with me, and we'll read some poems together.$8",
+	"Rita.springWed8": "Have you ever felt inclined to write, @? It can be quite a cathartic experience.$1", 
+	"Rita.springThu": "I think humans can sometimes be wary around merpeople. Maybe because they've never known one of us personally.$2", 
+	"Rita.springThu2": "What was it like for you during your first few weeks here in Pelican Town?$1#$e#The stars just shine so much brighter out here, don't they?$8", 
+	"Rita.springThu10": "I always think it's so wonderful to bring people together to experience art.$8",
+
+		//Summer Dialogue
+	"Rita.summer1": "The sun is shining high in the sky, and the warm zephyrs are blowing in from the Fern Ritands. That must mean that summer is here.$8",
+	"Rita.summerMon": "We had many performances this past weekend. I always feel so tired come Monday.$2",
+	"Rita.summerMon2": "I wonder what the other villagers make of me. A strange girl from the sea, pacing endlessly across the beach...", 
+	"Rita.summerTue": "The sun's warmth feels so lovely on my skin. What a beautiful summer's day.$8", 
+	"Rita.summerTue2": "Have you ever known another merperson? It's a shame humans and merpeople don't interact more often.$1#$b#I feel like we could learn a lot from one another.$1",
+	"Rita.summerTue6": "The kelp in the Gem Sea has been growing so tall! It's like a vibrant underwater forest, swaying gently with the tides.#$e#How I wish you could see it.$2",
+	"Rita.summerTue8": "I love standing on the shore and watching the waves roll onto the sand.#$e#Would you like to come stand with me?$1", 
+	"Rita.summerTue10": "Come sit with me, and we can talk about the mysteries of life. Or we can just sit in silence and enjoy each others' company. Whichever you prefer.",
+	"Rita.summerWed2": "It's such a lovely day today. On days like this, I like sitting on the shore here and looking out across the shimmering Gem Sea.$1#$e#The sunlight looks like beautiful gems glinting on the water's surface. That's where it got its name.$8",
+	"Rita.summerWed4": "When I'm exploring sunken ships I like to imagine what its passengers must have been like...$1#$e#It's so fascinating, thinking about those who were alive so long before us.",
+	"Rita.summerWed6": "Are you ever lonely on your farm? You can always come down to the beach to talk with me, if you ever need someone to speak with.$1",
+	"Rita.summerWed8": "The most wonderful part about poetry is that it's meant to be read aloud. And each time a poem is read by someone new, another facet of it is revealed.$8",
+	"Rita.summerThu": "Listen to the song of the sea, @. What do you think it's telling us?$1",
+	"Rita.summerThu4": "The kelp in the Gem Sea has been growing so tall! It's like a vibrant underwater forest, swaying gently with the tides. How I wish you could see it!$8", 
+	"Rita.summerThu8": "Thank you for supporting me in my poetic endeavours, @! It really means a lot to me.$1",
+	"Rita.summerThu10": "'Shall I compare thee to a summer's day?#$b#Thou art more lovely and more temperate.'$1#$b#Shakespeare's words just perfectly describe you, don't they @?$7", 
+
+		//Fall Dialogue
+	"Rita.fall1": "Well, the days are getting shorter, and the cold winds are beginning to blow in from Saxifrage Ritand. That must mean that fall is here, and winter is fast approaching.",
+	"Rita.fallMon": "You can see for miles and miles across the sea from this shore. It looks like the water runs all the way to the edge of the earth.",
+	"Rita.fallMon4": "What do you think is the salve to unfulfillment, @?",
+	"Rita.fallMon6": "'Season of mists and mellow fruitfulness,#$b#Close bosom-friend of the maturing sun;#$b#Conspiring with him how to load and bless#$b#With fruit the vines that round the thatch-eves run...'#$b#Keats' autumnal poem reminds me of what you've told me about your farm.$1#$e#Do you grow fruit? If so, I'm wishing you a bountiful harvest.$1", 
+	"Rita.fallTue2": "I love the brilliant colours of Fall. All the oranges, yellows, and reds. It looks like the world is on fire.",
+	"Rita.fallTue6": "Elliott said that the vibrant colours of autumn inspire him. A few days ago we went for a walk along the shoreline and found some particularly beautiful leaves.$8",
+	"Rita.fallTue10": "Emily Dickinson once wrote that 'the heart wants what it wants'. Do you think that's true, @?$4", 
+	"Rita.fallWed2": "Have you ever eaten a ring fruit before, @? They ripen during the fall, but they're only found on the Fern Ritands.$1#$e#They're scarlet red, and they taste just indescribably delicious.$8", 
+	"Rita.fallWed4": "I was talking with my friend Elysa yesterday about some of the feelings I've been having. She was very kind and supportive, just like you, @.$1",
+	"Rita.fallWed6": "Break, break, break,#$b#On thy cold gray stones, O Sea!$1#$e#And I would that my tongue could utter#$b#The thoughts that arise in me...'$1#$e#I just love the passion in Alfred, Lord Tennyson's poem. It truly conjures the formidable power of the sea.$1", 
+	"Rita.fallThu6": "The best poems truly transcend time and history, don't they?$1", 
+	"Rita.fallThu8": "'The morns are meeker than they were#$b#The nuts are getting brown;#$b#The berry's cheek is plumper,#$b#The rose is out of town...'#$b#Emily Dickinson's poem just reminds me of a beautiful, crisp fall morning.$8",
+	"Rita.fallThu10": "You know, oftentimes the most wonderful people come into your life in the most unlikely of ways...$4",         
+
+		//Winter Dialogue
+	"Rita.winter1": "There's a stillness in the air, and chilling gales are blowing all across Stardew Valley. Winter is upon us.",
+	"Rita.winterMon": "We had an outdoor show yesterday in Grampleton. There was so much snow it was a little hard to see.$6",
+	"Rita.winterMon2": "When the world is so still like this, I find it's easier to think.$1",
+	"Rita.winterMon4" : "'In the bleak mid-winter#$b#Frosty wind made moan;#$b#Earth stood hard as iron,#$b#Water like a stone...'#$b#Christina Rossetti's poem reminds me of a blustery Foxgloveian winter's day.$1", 
+	"Rita.winterMon6": "'A white mist drifts across the shrouds,#$b#A wild moon in this wintry sky$1#$b#Gleams like an angry lion's eye#$b#Out of a mane of tawny clouds...'$1#$b#Oscar Wilde's poem reminds me of the fearsome, yet awesomely beautiful, winters of Stardew Valley.$1", 
+	"Rita.winterTue2": "We've been singing hymnals recently, in preparation for Winter Star. I love listening to our voices soar together in such beautiful and complex harmonies.$1",
+	"Rita.winterTue6": "'The way a crow#$b#Shook down on me#$b#The dust of snow#$b#From a hemlock tree#$b#Has given my hear#$b#A change of mood#$b#And saved some part#$b#Of a day I had rued...'#$b#Isn't that poem, by Robert Frost, lovely? It's amazing how something so small can make one feel so much better.$1",
+	"Rita.winterWed6": "Have you ever heard of sea silk? We merpeople often knit sweaters out of it to protect ourselves from the elements.",
+	"Rita.winterWed8": "I love talking with you so much. You always have such fascinating perspectives to share with me.$1",
+	"Rita.winterThu4": "They have icebergs floating in the Glacial Sea up north. Whenever we were there when I was child, I would love sliding down them!$8",
+	"Rita.winterThu6": "Elliott said that the cold makes it hard for him to concentrate. So we've been brainstorming idea together. You should join us sometime!$8",
+	"Rita.winterThu8": "'...The woods are lovely, dark and deep,#$b#But I have promises to keep,#$b#And miles to go before I sleep,#$b#And miles to go before I sleep.'#$b#Robert Frost's poem really makes think about life, and how so many of our dreams go unfulfilled because of the demands we have on our time.",
+	"Rita.winter11": "Will I be seeing you at the Night Market? I'll be performing with Galene.$1#$b#Don't tell anyone that my tail is really sea silk.$8",
+	"Rita.winter28": "It's the last day of the year. A time to reflect on the past year, and look forward to the next.",
+	
+	//MARRIAGE DIALOGUE TRANSLATIONS
+	
+		//Unique Dialogue
+	"Rita.Marriage.Patio": "I'm just so blissfully happy living here with you, @.$1#$e#Our own home, where we can always be together.$4",
+	"Rita.Marriage.SpouseRoom": "Oh, hello dear. I needed some tranquility, so I'm just spending some time here by the water. It has a calming effect, doesn't it?$1",
+	"Rita.Marriage.FunReturn": "I had a wonderful day today, @. I was thinking about you here on the farm. How did your work go?",
+	"Rita.Marriage.FunLeave.1": "Good morning, dear @! I hope your farm work goes well today.$8",
+	"Rita.Marriage.FunLeave.2": "Good morning @!$8#$b#I'll be going out today, but I'll be thinking of you. I hope all goes well with your farm, dear.$8",
+	"Rita.Marriage.OneKid.0": "Oh, I can't believe we finally have a child of our own. I've always wanted to be a mother. I can't wait until I can take %kid1 swimming with me!$8",
+	"Rita.Marriage.OneKid.1": "%kid1 and I went and sat by the pond for a little while. It seems like they already love the water! I'm so glad.$8",
+	"Rita.Marriage.OneKid.2": "%kid1 has started babbling already! I tell them stories about the Gem Sea all the time, and they just love them!$1#$b#Sometimes I think they're trying to tell me their own stories.$8",
+	"Rita.Marriage.OneKid.3": "I gave %kid1 some algae soup today! They absolutely loved it! I guess they do take after me.$8",
+	"Rita.Marriage.OneKid.4": "I was reading %kid1 some of my favourite poems today. They were smiling the whole time. Maybe we have a future poet on our hands.$1",
+	"Rita.Marriage.OneKid.5": "%kid1 was dancing around the kitchen today. Oh, they just looked so exuberant. I wish you could have seen them.$1",
+	"Rita.Marriage.OneKid.6": "I wish my mermaid family could meet %kid1.$1#$e#We'll have to take %kid1 to meet them at the winter market here in Pelican Town.$1",
+	"Rita.Marriage.OneKid.7": "%kid1 was helping me cook today. Well, actually, I think they may have eaten a little more than they cooked.$8", 
+	
+	//EVENT TRANSLATIONS
+	
+		//Intro Events
+	
+	"Rita.FirstSight": "I wonder where the mysterious horse ran off to? It seems like they were headed towards the beach...",
+	
+	"Rita.Intro.1": "Who might you be? And why have you been following me?$6",
+	"Rita.Intro.2": "You tell Rita who you are, and reassure her that you mean her no harm.",
+	"Rita.Intro.3": "Say nothing.",
+	"Rita.Intro.4": "Well @, it's very nice to make your acquaintance.$h#$b#My name is Rita, and I'm one of the merpeople who live in the Gem Sea.$1",
+	"Rita.Intro.5": "Perhaps I look familiar to you now.#$b#I'm a member of Galene, the famous mermaid musical troupe.#$b#We perform all around the Ferngill Republic, and you may have seen us at the Winter Market here in Pelican Town.#$b#In fact, I fell in love with your town when I was here last year for a show.$1#$b#Now, I like to come here on my days off.#$b#I apologise for having run off earlier. You see, I was quite startled to see you. I can be rather nervous around your kind.$2",
+	"Rita.Intro.6": "You seem like a kind soul, though.#$b#I hope to see you around.$h",
+	
+	"Rita.QuietIntro.7": "You humans puzzle me so.$2#$b#Well, if you don't wish to tell me, I politely ask that you leave me alone now.$2",
+	
+		//2 Heart Event
+	
+	"Rita.2H.1": "Oh, hello @.#$b#I'm sorry, I didn't see you there.#$b#I'm just sitting here and pondering. Do come join me.$1",
+	"Rita.2H.2": "You're wondering if something's wrong?#$b#Thank you for asking. You have certainly shown yourself to be the kind soul I thought you to be.$8",
+	"Rita.2H.3": "Well, I've been feeling quite lost recently.$2#$b#I rarely speak of this, but I was abandoned as a baby.$2#$b#In fact, I'm not a mermaid at all.$6#$b#I'm a nixie, a kind of water spirit.#$b#I have the ability to shape-shift, and you saw me as a kelpie the first time we met.#$b#I've never met my parents, and I have no idea as to what became of them.$2#$b#My troupe found me on the shore of Saxifrage Ritand while they were touring in the North, and they adopted me.#$b#I've been with them ever since.",
+	"Rita.2H.4": "I've been to many distant lands, and seen many beautiful things with them.#$b#I love them with all my heart, and consider them my family.",
+	"Rita.2H.5": "But recently, I've been feeling unfulfilled, as though my heart is calling out for something more meaningful.$2#$b#What that something might be, I don't know.$2",
+	"Rita.2H.6": "All I know is that I've felt unable to express myself through performance the way I used to.$2#$b#I've lost the passion I once had for it. It feels as though I've lost my voice.$2",
+	"Rita.2H.7": "@, have you ever felt at an impasse in your life?",
+	"Rita.2H.8": "You tell Rita about being unhappy working for Joja Corporation, and leaving to live and work on your grandfather's farm.",
+	"Rita.2H.9": "Never, I've always been completely sure of myself and my decisions.",
+	"Rita.2H.10": "I see. That must have certainly taken courage.$1#$b#Change can be frightening, but often it must be done so that our hearts can truly be at peace.$1#$b#It seems that you have already understood that. Perhaps we could all learn from you.$1",
+	"Rita.2H.11": "Thank you for sharing your story with me, @.$1",
+	"Rita.2Sure.12": "I see. It must be nice to always be so sure of one's self.$2",
+		
+		//4 Heart Event
+		
+	"Rita.4H.1": "@, I just discovered something wonderful. Please, I must tell you about it.$9",
+	"Rita.4H.2": "Well, it's a bit of a story.$3#$b#Long ago, before the war, there was a bustling trade empire between the Ferngill Republic and the Gotoro Empire.$3#$b#But tragically, because of the frequent storms on the Gem Sea, many ships sunk on the voyage between the two nations.$10#$b#They now lie on the seabed, and the other merpeople and I often explore them.$3#$b#Yesterday I was exploring an old passenger liner with my friend Soraya, and while swimming through its chambers I came upon a wooden chest.$3#$b#When I brought it to the surface I found that it was full of beautiful things from long ago. There was silk clothing, jewellery, and several volumes of poetry.$9",
+	"Rita.4H.3": "I was intrigued, and immediately began reading them. I sat there, rapt, and soon lost track of time.$3#$b#I was incredibly moved by the poets' words, and felt like I was speaking to a friend from long ago.$3#$b#It was as though they had reached their hand through time just to take mine, and show me the world through their eyes.$9",
+	"Rita.4H.4": "@, could I read you something?$3",
+	"Rita.4H.5": "That would be lovely!",
+	"Rita.4H.6": "Not now, I have to get back to my farm.",
+	"Rita.4H.7": "Wonderful!$9",
+	"Rita.4H.8": "'The Ocean', by Nathaniel Hawthorne.$9#$b#The Ocean has its silent caves,$3#$b#Deep, quiet, and alone;$3#$b#Though there be fury on the waves,$3#$b#Beneath them there is none...'$3",
+	"Rita.4H.9": "'...The earth has guilt, the earth has care$3#$b#Unquiet are its graves;$3#$b#But peaceful sleep is ever there,$3#$b#Beneath the dark blue waves.'$3",
+	"Rita.4H.10": "Thank you so much for listening, @. Aren't Hawthorne's words just so beautiful? He describes my beloved marine home in such an expressive way.$3#$b#If I didn't know otherwise, I'd almost think he was one of us merpeople himself!$9",
+	"Rita.4H.11": "Oh, and @, I also found something else that made me think of you!$9",
+	"Rita.4H.12": "[106] Here it is.$8",
+	"Rita.4H.13": "It's just exquisite, isn't it? It's made of silk, and hand-painted with an intricate cherry blossom design by a Gotoran craftsman.$1#$b#I thought you could use it to keep yourself cool on your farm, especially during the hot summer months.$8#$b#And every time you use it, I hope you'll also think of me.$4",
+	"Rita.4H.14": "Have you been able to use the fan yet? I hope it's been keeping you nice and cool!$8",
+	"Rita.4H.NotNow": "Oh...okay. I understand.$10",
+		
+		//6 Heart Event
+		
+	"Rita.6H.1": "Oh @, please come listen to this.$8",
+	"Rita.6H.2": "'I wandered lonely as a cloud$9#$b#That floats on high o'er vales and hills,$9#$b#When all at once I saw a crowd,$9#$b#A host of golden daffodils;$9#$b#Beside the lake, beneath the trees,$9#$b#Fluttering and dancing in the breeze...'$9",
+	"Rita.6H.3": "That's by William Wordsworth. Isn't it so beautiful and resonant?$9#$b#Loneliness is something we've all experienced, and it's certainly something I know all too well.$3#$b#But I've been thinking about how, like the daffodils did for William Wordsworth, you've shown me that there's joy and understanding to be had in the world.$9",
+	"Rita.6H.4": "I've truly found a kindred spirit in you, @.$11",
+	"Rita.6H.5": "I've just become so captivated by my poetry books, and I've been reading them whenever I can find a free moment. They've become my closest companions.$3#$b#Well, aside from you.$11",
+	"Rita.6H.6": "You know, I've been feeling so inspired that I've started writing some poems of my own.$3#$b#Just short ones so far, but the more I write, the more I have to say.$9#$b#The words have just been flowing from me like ink from a quill.$9",
+	"Rita.6H.7": "Now that I think about it, writing is so much like farming.$9",
+	"Rita.6H.8": "It's taking a seed, the metaphorical seed of an idea, and nurturing it to life.$3",
+		
+		//8 Heart Event
+		
+	"Rita.8H.Intro.1": "Hello, @! Do come over! It seems you've caught me reading, again!$9",
+	"Rita.8H.Intro.2": "I've just been reading some poetic history, and I just came upon a particularly interesting fact.$9#$b#Long ago, in the Rosemary Republic, they used to hold events called literary salons.$9#$b#Poets, authors, and artists would gather and share their work and ideas with one another.$3#$b#Doesn't that just sound so wonderful?$9",
+	"Rita.8H.Intro.3": "It sounds amazing! Maybe we could host our own salon together?",
+	"Rita.8H.Intro.4": "Say nothing.",
+	"Rita.8H.Intro.5": "Oh @, that is a wonderful idea! You know me so well, don't you? It will be a Pelican Townian Salon!$9#$b#We'll invite some of the others from the village, and we can all share our favourite poems and readings.$9#$b#Let's get planning it, and we'll hold it next Monday.$9",
+	"Rita.8H.SilentIntro.6": "Say...what if we were to host our own salon?$3#$b#It will be a Pelican Townian Salon! We'll invite some of the others from the village, and we can all share our favourite poems and readings.$9#$b#Let's get planning it, and we'll hold it next Monday.$9",
+				
+		//10 Heart Event
+		
+	"Rita.10H.1": "Oh, hello @. You made it.$8",
+	"Rita.10H.2": "You may be wondering why I wanted to meet with you tonight.#$b#Well, I wanted to bring you back to where we first met, because I have something important I need to tell you. Something that I've wanted to tell you for some time.",
+	"Rita.10H.3": "Let me preface with a story.",
+	"Rita.10H.4": "A few weeks ago, I was sitting on a rocky outcrop in the middle of the sea, as I often do. It was dusk, and the sky still held the last faint glimmerings of the sunset.#$b#It was so peaceful, but strangely melancholy as well.#$b#I suddenly wished that at that moment, I had someone I cared about to talk with. Or even just to share the beautiful silence.#$b#But there was no one, and that was a sad feeling.",
+	"Rita.10H.5": "I enjoy solitude. I love the peacefulness of silence, and the tranquility of swimming through the silent sea.#$b#But for some time now, all I've found myself thinking about is how much I want to be with you.$4#$b#I never thought I would feel this way about someone else, let alone a human.#$b#But I was wrong.$4",
+	"Rita.10H.6": "@, I was hoping that you felt the same way about me.$4",
+	"Rita.10H.7": "Of course I feel the same way about you.",
+	"Rita.10H.8": "I'm sorry, I don't.",
+	"Rita.10H.9": "Oh, I am so glad.$4",
+	"Rita.10H.10": "Remember how I told you I've been writing some of my own poems? Well...I've been working on this little piece for you.$4#$b#And I'd like for you to hear it.$7",
+	"Rita.10H.11": "'Ode for @'#$b#Deep in the dewey valley of stars#$b#Over the vast green hills...'$1",
+	"Rita.10H.12": "Thank you for listening to me. Thank you for helping me find my voice. It means the world to me. And so do you.",
+
+ //End Message
+	
+	
+}

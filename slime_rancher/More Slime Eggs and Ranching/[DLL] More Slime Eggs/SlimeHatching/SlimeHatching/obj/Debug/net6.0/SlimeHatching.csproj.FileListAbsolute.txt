@@ -1,0 +1,9 @@
+C:\Users\Joe\Documents\git_projects\slime_rancher\More Slime Eggs and Ranching\[DLL] More Slime Eggs\SlimeHatching\SlimeHatching\bin\Debug\net6.0\SlimeHatching.deps.json
+C:\Users\Joe\Documents\git_projects\slime_rancher\More Slime Eggs and Ranching\[DLL] More Slime Eggs\SlimeHatching\SlimeHatching\bin\Debug\net6.0\SlimeHatching.dll
+C:\Users\Joe\Documents\git_projects\slime_rancher\More Slime Eggs and Ranching\[DLL] More Slime Eggs\SlimeHatching\SlimeHatching\obj\Debug\net6.0\SlimeHatching.csproj.AssemblyReference.cache
+C:\Users\Joe\Documents\git_projects\slime_rancher\More Slime Eggs and Ranching\[DLL] More Slime Eggs\SlimeHatching\SlimeHatching\obj\Debug\net6.0\SlimeHatching.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Joe\Documents\git_projects\slime_rancher\More Slime Eggs and Ranching\[DLL] More Slime Eggs\SlimeHatching\SlimeHatching\obj\Debug\net6.0\SlimeHatching.AssemblyInfoInputs.cache
+C:\Users\Joe\Documents\git_projects\slime_rancher\More Slime Eggs and Ranching\[DLL] More Slime Eggs\SlimeHatching\SlimeHatching\obj\Debug\net6.0\SlimeHatching.AssemblyInfo.cs
+C:\Users\Joe\Documents\git_projects\slime_rancher\More Slime Eggs and Ranching\[DLL] More Slime Eggs\SlimeHatching\SlimeHatching\obj\Debug\net6.0\SlimeHatching.csproj.CoreCompileInputs.cache
+C:\Users\Joe\Documents\git_projects\slime_rancher\More Slime Eggs and Ranching\[DLL] More Slime Eggs\SlimeHatching\SlimeHatching\obj\Debug\net6.0\SlimeHatching.sourcelink.json
+C:\Users\Joe\Documents\git_projects\slime_rancher\More Slime Eggs and Ranching\[DLL] More Slime Eggs\SlimeHatching\SlimeHatching\obj\Debug\net6.0\SlimeHatching.dll

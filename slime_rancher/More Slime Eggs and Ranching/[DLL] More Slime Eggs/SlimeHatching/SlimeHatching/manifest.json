@@ -1,0 +1,9 @@
+﻿{
+  "Name": "More Slime Eggs DLL",
+  "Author": "joejames38",
+  "Version": "0.9.1",
+  "Description": "More Slime Eggs",
+  "UniqueID": "joejames38.moreslimeeggsdll",
+  "EntryDll": "SlimeHatching.dll",
+  "UpdateKeys": [ "Nexus:32049" ]
+}

@@ -1,0 +1,483 @@
+{
+    "Changes": [
+
+		//Egg Festival
+		{
+			"LogName": "Egg Festival Positions, Odd Year",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters"
+					],
+					"Value": "{{Rita}} 26 62 2",
+					"Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"MainEvent_additionalCharacters"
+					],
+					"Value": "{{Rita}} 26 62 2",
+					"Delimiter": "/"
+				},
+			],
+		},
+		
+		{
+			"LogName": "Egg Festival Positions, Even Year",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters_y2"
+					],
+					"Value": "{{Rita}} 26 62 2",
+					"Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"MainEvent_additionalCharacters_y2"
+					],
+					"Value": "{{Rita}} 28 62 2",
+					"Delimiter": "/"
+				},
+			],
+		},
+
+		//Flower Dance 
+		{
+			"LogName": "Flower Dance Positions, Odd Year",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters"
+					],
+					"Value": "{{Rita}} 11 20 2",
+					"Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"MainEvent_additionalCharacters"
+					],
+					"Value": "{{Rita}} 11 20 2",
+					"Delimiter": "/"
+				}
+			],
+		},
+		
+		{
+			"LogName": "Flower Dance Positions, Even Year",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters_y2"
+					],
+					"Value": "{{Rita}} 14 20 2",
+					"Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"MainEvent_additionalCharacters_y2"
+					],
+					"Value": "{{Rita}} 14 20 2",
+					"Delimiter": "/"
+				}
+			],
+		},
+		
+		{
+			"LogName": "Flower Dance Positions, Even Year",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters_y2"
+					],
+					"Value": "{{Rita}} 13 20 2",
+					"Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"MainEvent_additionalCharacters_y2"
+					],
+					"Value": "{{Rita}} 14 20 2",
+					"Delimiter": "/"
+				}
+			],
+			"When": {
+				"HasMod": "FlashShifter.StardewValleyExpandedCP",
+			},
+		},
+		
+		//Luau
+		{
+			"LogName": "Luau Positions",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters"
+					],
+					"Value": "{{Rita}} 39 24 2",
+					"Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"MainEvent_additionalCharacters"
+					],
+					"Value": "{{Rita}} 39 24 2",
+					"Delimiter": "/"
+				},
+				
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters_y2"
+					],
+					"Value": "{{Rita}} 39 24 2",
+					"Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"MainEvent_additionalCharacters_y2"
+					],
+					"Value": "{{Rita}} 39 24 2",
+					"Delimiter": "/"
+				},
+			],
+		},
+
+		//Moonlight Jellies
+		{
+			"LogName": "Moonlight Jellies Position, Odd Year",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters"
+					],
+					"Value": "{{Rita}} 84 40 2",
+					"Delimiter": "/"
+				}
+			],
+		},
+		
+		{
+			"LogName": "Moonlight Jellies Position, Even Year",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters_y2"
+					],
+					"Value": "{{Rita}} 83 40 2",
+					"Delimiter": "/"
+				}
+			],
+		},
+
+		//Fair
+		{
+			"LogName": "Stardew Valley Fair Position",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters"
+					],
+					"Value": "{{Rita}} 66 100 2",
+					"Delimiter": "/"
+				},
+				
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters_y2"
+					],
+					"Value": "{{Rita}} 66 100 2",
+					"Delimiter": "/"
+				},
+			],
+		},
+
+		//Spirit's Eve
+		{
+			"LogName": "Spirit's Eve Position, Odd Year",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters"
+					],
+					"Value": "{{Rita}} 28 66 3",
+					"Delimiter": "/"
+				}
+			],
+		},
+		
+		{
+			"LogName": "Spirit's Eve Position, Even Year",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters_y2"
+					],
+					"Value": "{{Rita}} 28 66 0",
+					"Delimiter": "/"
+				}
+			],
+		},
+		
+		{
+			"LogName": "Spirit's Eve Position, Even Year, SVE",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters_y2"
+					],
+					"Value": "{{Rita}} 28 62 2",
+					"Delimiter": "/"
+				}
+			],
+			"When": {
+				"HasMod": "FlashShifter.StardewValleyExpandedCP",
+			},
+		},
+		
+		//Ice Festival
+		{
+			"LogName": "Ice Festival Position, Any Year, SVE",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters"
+					],
+					"Value": "{{Rita}} 66 14 1",
+					"Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters_y2"
+					],
+					"Value": "{{Rita}} 66 14 1",
+					"Delimiter": "/"
+				},
+			],
+			"When": {
+				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+			},
+		},
+		
+		{
+			"LogName": "Ice Festival Position, Odd Year, No SVE",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters"
+					],
+					"Value": "{{Rita}} 66 14 1",
+					"Delimiter": "/"
+				}
+			],
+			"When": {
+				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
+			},
+		},
+		
+		{
+			"LogName": "Ice Festival Position, Even Year, No SVE",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters_y2"
+					],
+					"Value": "{{Rita}} 73 18 1",
+					"Delimiter": "/"
+				}
+			],
+			"When": {
+				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
+			},
+		},
+		
+		//Winter Star
+		{
+			"LogName": "Winter Star Position, Odd Year",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters"
+					],
+					"Value": "{{Rita}} 25 65 3",
+					"Delimiter": "/"
+				}
+			],
+		},
+		
+		{
+			"LogName": "Winter Star Position, Even Year",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters_y2"
+					],
+					"Value": "{{Rita}} 25 67 0",
+					"Delimiter": "/"
+				}
+			],
+		},
+		
+		//Festival Dialogues
+		
+		{ 
+			"LogName": "Egg Festival Dialogue",
+			"Action": "EditData",
+			"Target": "data/festivals/spring13",
+			"Entries": {
+				"{{Rita}}": "{{i18n:Rita.EggFestival}}",
+				"{{Rita}}_Spouse": "{{i18n:Rita.EggFestival.Spouse}}",
+			}
+		},
+		
+		{
+			"LogName": "Flower Dance Dialogue",
+			"Action": "EditData",
+			"Target": "data/festivals/spring24",
+			"Entries": {
+				"{{Rita}}": "{{i18n:Rita.FlowerDance}}",
+			}
+		},
+		
+		{
+			"LogName": "Luau Dialogue",
+			"Action": "EditData",
+			"Target": "data/festivals/summer11",
+			"Entries": {
+				"{{Rita}}": "{{i18n:Rita.Luau}}",
+			}
+		},
+		
+		{
+			"LogName": "Moonlight Jellies Dialogue",
+			"Action": "EditData",
+			"Target": "data/festivals/summer28",
+			"Entries": {
+				"{{Rita}}": "{{i18n:Rita.Jellies}}",
+			}
+		},
+		
+		{
+			"LogName": "Stardew Valley Fair Dialogue",
+			"Action": "EditData",
+			"Target": "data/festivals/fall16",
+			"Entries": {
+				"{{Rita}}": "{{i18n:Rita.Fair}}",  
+			}
+		},
+		
+		{
+			"LogName": "Spirit's Eve Dialogue",
+			"Action": "EditData",
+			"Target": "data/festivals/fall27",
+			"Entries": {
+				"{{Rita}}": "{{i18n:Rita.Spirits}}",
+			}
+		},
+		
+		{
+			"LogName": "Ice Festival Dialogue",
+			"Action": "EditData",
+			"Target": "data/festivals/winter8",
+			"Entries": {
+				"{{Rita}}": "{{i18n:Rita.IceFestival}}",
+			}
+		},
+		
+		{
+			"LogName": "Winter Star Dialogue",
+			"Action": "EditData",
+			"Target": "data/festivals/winter25",
+			"Entries": {
+				"{{Rita}}": "{{i18n:Rita.WinterStar}}",
+			}
+		},
+	],
+}

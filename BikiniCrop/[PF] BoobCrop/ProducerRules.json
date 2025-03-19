@@ -1,0 +1,10 @@
+﻿[
+	{
+		"ProducerName": "Oil Maker", 
+		"InputIdentifier": "CreamFruit", // rabbit's foot index
+		"InputStack": 1,
+		"MinutesUntilReady": 360, // 6 hours, same as truffle oil
+		"OutputIdentifier": "186",
+		"KeepInputQuality": true
+	},
+]

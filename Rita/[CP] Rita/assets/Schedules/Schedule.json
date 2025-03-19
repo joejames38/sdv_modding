@@ -1,0 +1,122 @@
+{
+	"Changes":[
+	
+		{
+			"LogName": "Initial Schedule Data",
+			"Action": "EditData",
+			"Target": "Characters/schedules/{{Rita}}",			
+			"Entries": {
+				"spring": "610 BusStop 2 6 1",
+				"summer": "610 BusStop 2 6 1",
+				"fall": "610 BusStop 2 6 1",
+				"winter": "610 BusStop 2 6 1",
+			},
+		},
+		
+		{
+			"LogName": "Full Schedule Data",
+			"Action": "EditData",
+			"Target": "Characters/schedules/{{Rita}}",			
+			"Entries": {
+				
+				//Extreme backup schedule - Rita stays in her home
+				"spring": "610 BusStop 2 6 1",
+				
+				//Rita is away with her mermaid troupe on Fridays, Saturdays, and Sundays (her schedule changes after marriage)
+
+				"Fri": "610 Rita_UnderwaterCove 2 6 1/1930 Rita_UnderwaterCove 6 5 0 \"Strings\\schedules\\{{Rita}}:CoveInterior.003\"/2100 Rita_UnderwaterCove 8 5 0/2200 2 6 1 Rita_Sleep",
+				"Sat": "610 Rita_UnderwaterCove 2 6 1/1930 Rita_UnderwaterCove 6 5 0 \"Strings\\schedules\\{{Rita}}:CoveInterior.004\"/2100 Rita_UnderwaterCove 8 5 0/2200 2 6 1 Rita_Sleep",
+				"Sun": "610 Rita_UnderwaterCove 2 6 1/1930 Rita_UnderwaterCove 6 5 0 \"Strings\\schedules\\{{Rita}}:CoveInterior.002\"/2100 Rita_UnderwaterCove 8 5 0/2200 2 6 1 Rita_Sleep",
+
+				//Spring Schedule
+
+				"spring_Mon": "610 Rita_UnderwaterCove 2 6 1/700 Rita_UnderwaterCove_Exterior 46 7 2 \"Strings\\schedules\\{{Rita}}:CoveExterior.001\"/800 Rita_UnderwaterCove_Exterior 41 11/830 Beach 84 40 2 \"Strings\\schedules\\{{Rita}}:Dock.001\"/1000 Beach 11 39 2 \"Strings\\schedules\\{{Rita}}:Dock.002\"/1300 Beach 42 36 2/1500 Beach 74 25 2/1800 Rita_UnderwaterCove_Exterior 46 7 2 \"Strings\\schedules\\{{Rita}}:CoveExterior.002\"/2000 Rita_UnderwaterCove 8 6 2/2200 Rita_UnderwaterCove 2 6 1 Rita_Sleep",
+				"spring_Tue": "610 Rita_UnderwaterCove 2 6 1/700 Rita_UnderwaterCove_Exterior 40 11 2 \"Strings\\schedules\\{{Rita}}:CoveExterior.001\"/800 Rita_UnderwaterCove_Exterior 41 11/830 Beach 11 39 2 \"Strings\\schedules\\{{Rita}}:Dock.002\"/1200 Beach 92 18 1/1500 Beach 78 24 2/1900 Rita_UnderwaterCove_Exterior 40 11 2 \"Strings\\schedules\\{{Rita}}:CoveExterior.002\"/2000 Rita_UnderwaterCove 8 5 0/2200 Rita_UnderwaterCove 2 6 1 Rita_Sleep",
+				"spring_Wed": "610 Rita_UnderwaterCove 2 6 1/700 Rita_UnderwaterCove_Exterior 46 7 2 \"Strings\\schedules\\{{Rita}}:CoveExterior.001\"/800 Rita_UnderwaterCove_Exterior 41 11/830 Beach 88 40 2/1200 Beach 19 24 2/1500 Beach 90 22 1/1900 Rita_UnderwaterCove_Exterior 40 11 2 \"Strings\\schedules\\{{Rita}}:CoveExterior.002\"/2000 Rita_UnderwaterCove 8 6 2/2200 Rita_UnderwaterCove 2 6 1 Rita_Sleep",
+				"spring_Thu": "610 Rita_UnderwaterCove 2 6 1/700 Rita_UnderwaterCove_Exterior 40 11 2 \"Strings\\schedules\\{{Rita}}:CoveExterior.001\"/800 Beach 42 36 2/1100 Beach 11 39 2 \"Strings\\schedules\\{{Rita}}:Dock.002\"/1400 Beach 84 40 2 \"Strings\\schedules\\{{Rita}}:Dock.001\"/1900 Rita_UnderwaterCove_Exterior 40 11 2 \"Strings\\schedules\\{{Rita}}:CoveExterior.002\"/2000 Rita_UnderwaterCove 8 5 0/2200 Rita_UnderwaterCove 2 6 1 Rita_Sleep",
+
+				//Summer Schedule
+
+				"summer_Mon": "610 Rita_UnderwaterCove 2 6 1/700 Rita_UnderwaterCove_Exterior 40 11 2 \"Strings\\schedules\\{{Rita}}:CoveExterior.001\"/800 Rita_UnderwaterCove_Exterior 41 11/830 Beach 42 36 2/1100 Beach 11 39 2 \"Strings\\schedules\\{{Rita}}:Dock.002\"/1400 Beach 84 40 2 \"Strings\\schedules\\{{Rita}}:Dock.001\"/1900 Rita_UnderwaterCove_Exterior 40 11 2 \"Strings\\schedules\\{{Rita}}:CoveExterior.002\"/2000 Rita_UnderwaterCove 8 5 0/2200 Rita_UnderwaterCove 2 6 1 Rita_Sleep",
+				"summer_Tue": "610 Rita_UnderwaterCove 2 6 1/700 Rita_UnderwaterCove_Exterior 46 7 2 \"Strings\\schedules\\{{Rita}}:CoveExterior.001\"/800 Rita_UnderwaterCove_Exterior 41 11/830 Beach 11 39 2 \"Strings\\schedules\\{{Rita}}:Dock.002\"/1200 Beach 92 18 1/1500 Beach 78 24 2/1900 Rita_UnderwaterCove_Exterior 40 11 2 \"Strings\\schedules\\{{Rita}}:CoveExterior.002\"/2000 Rita_UnderwaterCove 8 5 0/2200 Rita_UnderwaterCove 2 6 1 Rita_Sleep",
+				"summer_Wed": "610 Rita_UnderwaterCove 2 6 1/700 Rita_UnderwaterCove_Exterior 40 11 2 \"Strings\\schedules\\{{Rita}}:CoveExterior.001\"/800 Beach 84 40 2 \"Strings\\schedules\\{{Rita}}:Dock.001\"/1000 Beach 11 39 2 \"Strings\\schedules\\{{Rita}}:Dock.002\"/1300 Beach 42 36 2/1500 Beach 74 25 2/1800 Rita_UnderwaterCove_Exterior 46 7 2 \"Strings\\schedules\\{{Rita}}:CoveExterior.002\"/2000 Rita_UnderwaterCove 8 6 2/2200 Rita_UnderwaterCove 2 6 1 Rita_Sleep",
+				"summer_Thu": "610 Rita_UnderwaterCove 2 6 1/700 Rita_UnderwaterCove_Exterior 46 7 2 \"Strings\\schedules\\{{Rita}}:CoveExterior.001\"/800 Rita_UnderwaterCove_Exterior 41 11/830 Beach 88 40 2/1200 Beach 19 24 2/1500 Beach 90 22 1/1800 Rita_UnderwaterCove_Exterior 46 7 2 \"Strings\\schedules\\{{Rita}}:CoveExterior.002\"/2000 Rita_UnderwaterCove 8 6 2/2200 Rita_UnderwaterCove 2 6 1 Rita_Sleep",
+
+				//Fall Schedule
+
+				"fall_Mon": "610 Rita_UnderwaterCove 2 6 1/700 Rita_UnderwaterCove_Exterior 40 11 2 \"Strings\\schedules\\{{Rita}}:CoveExterior.001\"/800 Rita_UnderwaterCove_Exterior 41 11/830 Beach 11 39 2 \"Strings\\schedules\\{{Rita}}:Dock.002\"/1200 Beach 92 18 1/1500 Beach 78 24 2/1900 Rita_UnderwaterCove_Exterior 40 11 2 \"Strings\\schedules\\{{Rita}}:CoveExterior.002\"/2000 Rita_UnderwaterCove 8 5 0/2200 Rita_UnderwaterCove 2 6 1 Rita_Sleep",
+				"fall_Tue": "610 Rita_UnderwaterCove 2 6 1/700 Rita_UnderwaterCove_Exterior 46 7 2 \"Strings\\schedules\\{{Rita}}:CoveExterior.001\"/800 Rita_UnderwaterCove_Exterior 41 11/830 Beach 84 40 2 \"Strings\\schedules\\{{Rita}}:Dock.001\"/1000 Beach 11 39 2 \"Strings\\schedules\\{{Rita}}:Dock.002\"/1300 Beach 42 36 2/1500 Beach 74 25 2/1800 Rita_UnderwaterCove_Exterior 46 7 2 \"Strings\\schedules\\{{Rita}}:CoveExterior.002\"/2000 Rita_UnderwaterCove 8 6 2/2200 Rita_UnderwaterCove 2 6 1 Rita_Sleep",
+				"fall_Wed": "610 Rita_UnderwaterCove 2 6 1/700 Rita_UnderwaterCove_Exterior 40 11 2 \"Strings\\schedules\\{{Rita}}:CoveExterior.001\"/800 Rita_UnderwaterCove_Exterior 41 11/830 Beach 88 40 2/1200 Beach 19 24 2/1500 Beach 90 22 1/1900 Rita_UnderwaterCove_Exterior 40 11 2 \"Strings\\schedules\\{{Rita}}:CoveExterior.002\"/2000 Rita_UnderwaterCove 8 5 0/2200 Rita_UnderwaterCove 2 6 1 Rita_Sleep",
+				"fall_Thu": "610 Rita_UnderwaterCove 2 6 1/700 Rita_UnderwaterCove_Exterior 46 7 2 \"Strings\\schedules\\{{Rita}}:CoveExterior.001\"/800 Rita_UnderwaterCove_Exterior 41 11/830 Beach 42 36 2/1100 Beach 11 39 2 \"Strings\\schedules\\{{Rita}}:Dock.002\"/1400 Beach 84 40 2 \"Strings\\schedules\\{{Rita}}:Dock.001\"/1800 Rita_UnderwaterCove_Exterior 46 7 2 \"Strings\\schedules\\{{Rita}}:CoveExterior.002\"/2000 Rita_UnderwaterCove 8 6 2/2200 Rita_UnderwaterCove 2 6 1 Rita_Sleep",
+
+				//Winter Schedule
+
+				"winter_Mon": "610 Rita_UnderwaterCove 2 6 1/700 Rita_UnderwaterCove_Exterior 40 11 2 \"Strings\\schedules\\{{Rita}}:CoveExterior.001\"/800 Rita_UnderwaterCove_Exterior 41 11/830 Beach 88 40 2/1200 Beach 19 24 2/1500 Beach 90 22 1/1800 Rita_UnderwaterCove_Exterior 46 7 2 \"Strings\\schedules\\{{Rita}}:CoveExterior.002\"/2000 Rita_UnderwaterCove 8 6 2/2200 Rita_UnderwaterCove 2 6 1 Rita_Sleep",
+				"winter_Tue": "610 Rita_UnderwaterCove 2 6 1/700 Rita_UnderwaterCove_Exterior 40 11 2 \"Strings\\schedules\\{{Rita}}:CoveExterior.001\"/800 Rita_UnderwaterCove_Exterior 41 11/830 Beach 42 36 2/1100 Beach 11 39 2 \"Strings\\schedules\\{{Rita}}:Dock.002\"/1400 Beach 84 40 2 \"Strings\\schedules\\{{Rita}}:Dock.001\"/1900 Rita_UnderwaterCove_Exterior 40 11 2 \"Strings\\schedules\\{{Rita}}:CoveExterior.002\"/2000 Rita_UnderwaterCove 8 5 0/2200 Rita_UnderwaterCove 2 6 1 Rita_Sleep",
+				"winter_Wed": "610 Rita_UnderwaterCove 2 6 1/700 Rita_UnderwaterCove_Exterior 46 7 2 \"Strings\\schedules\\{{Rita}}:CoveExterior.001\"/800 Rita_UnderwaterCove_Exterior 41 11/830 Beach 84 40 2 \"Strings\\schedules\\{{Rita}}:Dock.001\"/1000 Beach 11 39 2 \"Strings\\schedules\\{{Rita}}:Dock.002\"/1300 Beach 42 36 2/1800 Rita_UnderwaterCove_Exterior 46 7 2 \"Strings\\schedules\\{{Rita}}:CoveExterior.002\"/2000 Rita_UnderwaterCove 8 6 2/2200 Rita_UnderwaterCove 2 6 1 Rita_Sleep",
+				"winter_Thu": "610 Rita_UnderwaterCove 2 6 1/700 Rita_UnderwaterCove_Exterior 46 7 2 \"Strings\\schedules\\{{Rita}}:CoveExterior.001\"/800 Rita_UnderwaterCove_Exterior 41 11/830 Beach 11 39 2 \"Strings\\schedules\\{{Rita}}:Dock.002\"/1200 Beach 92 18 1/1500 Beach 78 24 2/1900 Rita_UnderwaterCove_Exterior 40 11 2 \"Strings\\schedules\\{{Rita}}:CoveExterior.002\"/2000 Rita_UnderwaterCove 8 5 0/2200 Rita_UnderwaterCove 2 6 1 Rita_Sleep",
+				"winter_15": "610 Rita_UnderwaterCove 2 6 1/1930 Rita_UnderwaterCove 6 5 0 \"Strings\\schedules\\{{Rita}}:CoveInterior.003\"/2100 Rita_UnderwaterCove 8 5 0/2200 2 6 1 Rita_Sleep",
+				"winter_16": "610 Rita_UnderwaterCove 2 6 1/1930 Rita_UnderwaterCove 6 5 0 \"Strings\\schedules\\{{Rita}}:CoveInterior.003\"/2100 Rita_UnderwaterCove 8 5 0/2200 2 6 1 Rita_Sleep",
+				"winter_17": "610 Rita_UnderwaterCove 2 6 1/1930 Rita_UnderwaterCove 6 5 0 \"Strings\\schedules\\{{Rita}}:CoveInterior.003\"/2100 Rita_UnderwaterCove 8 5 0/2200 2 6 1 Rita_Sleep",
+
+				//Marriage Schedule
+
+				"marriage_Mon": "800 ArchaeologyHouse 11 9 2 \"Strings\\schedules\\{{Rita}}:museum.001\"/1100 ArchaeologyHouse 17 5 0 Rita_Sorting \"Strings\\schedules\\{{Rita}}:museum.002\"/1130 ArchaeologyHouse 15 5 0 Rita_Sorting \"Strings\\schedules\\{{Rita}}:museum.002\"/1300 ArchaeologyHouse 13 5 0 Rita_Sorting \"Strings\\schedules\\{{Rita}}:museum.005\"/1400 ArchaeologyHouse 11 5 0 Rita_Sorting \"Strings\\schedules\\{{Rita}}:museum.005\"/1500 ArchaeologyHouse 21 5 0 Rita_Sorting \"Strings\\schedules\\{{Rita}}:museum.006\"/1600 ArchaeologyHouse 2 10 0 \"Strings\\schedules\\{{Rita}}:museum.007\"/1700 Town 71 101 2/1900 BusStop -1 23 3",
+				"marriage_Tue": "800 ArchaeologyHouse 40 5 0 \"Strings\\schedules\\{{Rita}}:museum.008\"/1030 ArchaeologyHouse 15 9 0 Rita_Sorting \"Strings\\schedules\\{{Rita}}:museum.004\"/1130 ArchaeologyHouse 13 9 0 Rita_Sorting \"Strings\\schedules\\{{Rita}}:museum.004\"/1200 ArchaeologyHouse 9 5 0 Rita_Sorting \"Strings\\schedules\\{{Rita}}:museum.009\"/1300 ArchaeologyHouse 10 5 0 Rita_Sorting \"Strings\\schedules\\{{Rita}}:museum.009\"/1500 ArchaeologyHouse 23 17 0 Rita_Sorting \"Strings\\schedules\\{{Rita}}:museum.003\"/1600 ArchaeologyHouse 2 10 0 \"Strings\\schedules\\{{Rita}}:museum.012\"/1700 Town 28 23 2/1900 BusStop -1 23 3",
+				"marriage_Wed": "800 ArchaeologyHouse 2 10 0 \"Strings\\schedules\\{{Rita}}:museum.010\"1000 ArchaeologyHouse 12 10 2 Rita_Reading \"Strings\\schedules\\{{Rita}}:museum.011\"/1300 ArchaeologyHouse 17 5 0 Rita_Sorting \"Strings\\schedules\\{{Rita}}:museum.002\"/1500 ArchaeologyHouse 13 5 0 Rita_Sorting \"Strings\\schedules\\{{Rita}}:museum.005\"/1530 ArchaeologyHouse 11 5 0 Rita_Sorting \"Strings\\schedules\\{{Rita}}:museum.005\"/1600 ArchaeologyHouse 2 10 0 \"Strings\\schedules\\{{Rita}}:museum.012\"/1700 Beach 53 24 2 \"Strings\\schedules\\{{Rita}}:Beach.001\"/1900 BusStop -1 23 3",
+				"marriage_Thu": "900 Beach 27 4 2 Rita_Reading \"Strings\\schedules\\{{Rita}}:Beach.003\"/1300 Beach 42 36 2 \"Strings\\schedules\\{{Rita}}:Dock.001\"/1600 Town 28 23 2 \"Strings\\schedules\\Misc.002\"/1800 BusStop -1 23 3",
+				"marriage_Fri": "900 Town 17 96 2/1100 Beach 84 40 2 Rita_Reading \"Strings\\schedules\\{{Rita}}:DockRead.002\"/1400 Beach 11 39 2 \"Strings\\schedules\\{{Rita}}:DockRead.001\"/1700 Saloon 5 20 3 Rita_Drinking \"Strings\\schedules\\{{Rita}}:Misc.005\"/2100 BusStop -1 23 3",
+				"marriage_Sat": "800 Mountain 47 21 1 \"Strings\\schedules\\{{Rita}}:Mountain.001\"/1100 Beach 87 6 2 Rita_Reading \"Strings\\schedules\\Beach.004\"/1400 Town 53 105 3 \"Strings\\schedules\\{{Rita}}:DockRead.001\"/1600 Town 71 101 2/1900 BusStop -1 23 3",
+				"marriage_Sun": "800 Beach 50 24 2 \"Strings\\schedules\\{{Rita}}:Beach.002\"/1100 Beach 66 6 2 Rita_Reading/1400 Beach 27 23 2 \"Strings\\schedules\\{{Rita}}:DockRead.001\"/1700 BusStop -1 23 3",
+			},
+			"When": {
+				"HasSeenEvent |contains=8205020": true, //Applied only after seeing her socialization event
+			},
+		},
+	
+		{
+
+			//Rita is seen reading her book and visiting Elliott after the player sees her 4 heart event. 
+
+			 "LogName": "Rita Reading Schedules",
+			 "Action": "EditData",
+			 "Target": "Characters/schedules/{{Rita}}",
+			 "Entries": {
+
+				//New Spring Schedule
+
+				"spring_Mon": "610 Rita_UnderwaterCove 2 6 1/700 Rita_UnderwaterCove_Exterior 46 7 2 \"Strings\\schedules\\{{Rita}}:CoveExterior.001\"/730 Rita_UnderwaterCove_Exterior 41 11 2/800 ElliottHouse 1 6 0 \"Strings\\schedules\\{{Rita}}:Elliott.001\"/1000 Beach 84 40 2 \"Strings\\schedules\\{{Rita}}:Dock.001\"/1200 Beach 11 39 2 Rita_Reading \"Strings\\schedules\\{{Rita}}:Reading.001\"/1400 Beach 84 40 2 \"Strings\\schedules\\{{Rita}}:Dock.001\"/1700 Rita_UnderwaterCove_Exterior 46 7 2 Rita_Reading \"Strings\\schedules\\{{Rita}}:Reading.006\"/1900 Rita_UnderwaterCove 8 5 0 \"Strings\\schedules\\{{Rita}}:CoveInterior.001\"/2200 Rita_UnderwaterCove 2 6 1 Rita_Sleep",
+				"spring_Tue": "610 Rita_UnderwaterCove 2 6 1/700 Rita_UnderwaterCove_Exterior 40 11 2 \"Strings\\schedules\\{{Rita}}:CoveExterior.001\"/800 Rita_UnderwaterCove_Exterior 41 11 2/900 Beach 11 39 2 \"Strings\\schedules\\{{Rita}}:Dock.002\"/1100 Beach 92 18 1/1300 Beach 78 24 2 Rita_Reading \"Strings\\schedules\\{{Rita}}:Reading.002\"/1700 Rita_UnderwaterCove_Exterior 39 6 2 Rita_Reading \"Strings\\schedules\\{{Rita}}:Reading.007\"/1900 Rita_UnderwaterCove 6 5 0 \"Strings\\schedules\\{{Rita}}:CoveInterior.002\"/2200 Rita_UnderwaterCove 2 6 1 Rita_Sleep",
+				"spring_Wed": "610 Rita_UnderwaterCove 2 6 1/700 Rita_UnderwaterCove_Exterior 46 7 2 \"Strings\\schedules\\{{Rita}}:CoveExterior.001\"/800 Rita_UnderwaterCove_Exterior 41 11 2/900 Beach 88 40 2/1200 Beach 19 24 2 Rita_Reading \"Strings\\schedules\\{{Rita}}:Reading.003\"/1500 Beach 90 22 1/1700 Rita_UnderwaterCove_Exterior 37 5 2/1900 Rita_UnderwaterCove 8 5 0 \"Strings\\schedules\\{{Rita}}:CoveInterior.001\"/2200 Rita_UnderwaterCove 2 6 1 Rita_Sleep",
+				"spring_Thu": "610 Rita_UnderwaterCove 2 6 1/700 Rita_UnderwaterCove_Exterior 40 11 2 \"Strings\\schedules\\{{Rita}}:CoveExterior.001\"/800 Rita_UnderwaterCove_Exterior 41 11 2/900 Beach 42 36 2/1100 Beach 11 39 2 \"Strings\\schedules\\{{Rita}}:Dock.002\"/1400 Beach 84 40 2 \"Strings\\schedules\\{{Rita}}:Dock.001\"/1600 Beach 38 4 0 Rita_Reading \"Strings\\schedules\\{{Rita}}:Reading.004\"/1700 Rita_UnderwaterCove_Exterior 39 6 2 Rita_Reading \"Strings\\schedules\\{{Rita}}:Reading.007\"/1900 Rita_UnderwaterCove 6 5 0 \"Strings\\schedules\\{{Rita}}:CoveInterior.002\"/2200 Rita_UnderwaterCove 2 6 1 Rita_Sleep",
+
+				//New Summer Schedule
+
+				"summer_Mon": "610 Rita_UnderwaterCove 2 6 1/700 Rita_UnderwaterCove_Exterior 40 11 2 \"Strings\\schedules\\{{Rita}}:CoveExterior.001\"/800 Rita_UnderwaterCove_Exterior 41 11 2/900 Beach 42 36 2/1100 Beach 11 39 2 \"Strings\\schedules\\{{Rita}}:Dock.002\"/1400 Beach 84 40 2 \"Strings\\schedules\\{{Rita}}:Dock.001\"/1600 Beach 38 4 0 Rita_Reading \"Strings\\schedules\\{{Rita}}:Reading.004\"/1700 Rita_UnderwaterCove_Exterior 39 6 2 Rita_Reading \"Strings\\schedules\\{{Rita}}:Reading.007\"/1900 Rita_UnderwaterCove 6 5 0 \"Strings\\schedules\\{{Rita}}:CoveInterior.002\"/2200 Rita_UnderwaterCove 2 6 1 Rita_Sleep",
+				"summer_Tue": "610 Rita_UnderwaterCove 2 6 1/700 Rita_UnderwaterCove_Exterior 46 7 2 \"Strings\\schedules\\{{Rita}}:CoveExterior.001\"/800 Rita_UnderwaterCove_Exterior 41 11 2/900 Beach 11 39 2 \"Strings\\schedules\\{{Rita}}:Dock.002\"/1100 Beach 92 18 1/1300 Beach 78 24 2 Rita_Reading \"Strings\\schedules\\{{Rita}}:Reading.005\"/1700 Rita_UnderwaterCove_Exterior 46 7 2 Rita_Reading \"Strings\\schedules\\{{Rita}}:Reading.006\"/1900 Rita_UnderwaterCove 8 5 0 \"Strings\\schedules\\{{Rita}}:CoveInterior.001\"/2200 Rita_UnderwaterCove 2 6 1 Rita_Sleep",
+				"summer_Wed": "610 Rita_UnderwaterCove 2 6 1/700 Rita_UnderwaterCove_Exterior 40 11 2 \"Strings\\schedules\\{{Rita}}:CoveExterior.001\"/730 Rita_UnderwaterCove_Exterior 41 11 2/800 ElliottHouse 1 6 0 \"Strings\\schedules\\Elliott.001\"/1000 Beach 84 40 2 \"Strings\\schedules\\{{Rita}}:Dock.001\"/1200 Beach 11 39 2 Rita_Reading \"Strings\\schedules\\{{Rita}}:Reading.001\"/1400 Beach 84 40 2 \"Strings\\schedules\\{{Rita}}:Dock.001\"/1700 Rita_UnderwaterCove_Exterior 39 6 2 Rita_Reading \"Strings\\schedules\\{{Rita}}:Reading.007\"/1900 Rita_UnderwaterCove 6 5 0 \"Strings\\schedules\\{{Rita}}:CoveInterior.002\"/2200 Rita_UnderwaterCove 2 6 1 Rita_Sleep",
+				"summer_Thu": "610 Rita_UnderwaterCove 2 6 1/700 Rita_UnderwaterCove_Exterior 46 7 2 \"Strings\\schedules\\{{Rita}}:CoveExterior.001\"/800 Rita_UnderwaterCove_Exterior 41 11 2/900 Beach 88 40 2/1200 Beach 19 24 2 Rita_Reading \"Strings\\schedules\\{{Rita}}:Reading.003\"/1500 Beach 90 22 1/1700 Rita_UnderwaterCove_Exterior 46 7 2 Rita_Reading \"Strings\\schedules\\{{Rita}}:Reading.006\"/1900 Rita_UnderwaterCove 8 5 0 \"Strings\\schedules\\{{Rita}}:CoveInterior.001\"/2200 Rita_UnderwaterCove 2 6 1 Rita_Sleep",
+
+				//New Fall Schedule
+
+				"fall_Mon": "610 Rita_UnderwaterCove 2 6 1/700 Rita_UnderwaterCove_Exterior 40 11 2 \"Strings\\schedules\\{{Rita}}:CoveExterior.001\"/800 Rita_UnderwaterCove_Exterior 41 11 2/900 Beach 11 39 2 \"Strings\\schedules\\{{Rita}}:Dock.002\"/1100 Beach 92 18 1/1300 Beach 78 24 2 Rita_Reading \"Strings\\schedules\\{{Rita}}:Reading.002\"/1700 Rita_UnderwaterCove_Exterior 39 6 2 Rita_Reading \"Strings\\schedules\\{{Rita}}:Reading.007\"/1900 Rita_UnderwaterCove 6 5 0 \"Strings\\schedules\\{{Rita}}:CoveInterior.002\"/2200 Rita_UnderwaterCove 2 6 1 Rita_Sleep",
+				"fall_Tue": "610 Rita_UnderwaterCove 2 6 1/700 Rita_UnderwaterCove_Exterior 46 7 2 \"Strings\\schedules\\{{Rita}}:CoveExterior.001\"/730 Rita_UnderwaterCove_Exterior 41 11 2/800 ElliottHouse 1 6 0 \"Strings\\schedules\\Elliott.001\"/1000 Beach 84 40 2 \"Strings\\schedules\\{{Rita}}:Dock.001\"/1200 Beach 11 39 2 Rita_Reading \"Strings\\schedules\\{{Rita}}:Reading.005\"/1400 Beach 84 40 2 \"Strings\\schedules\\{{Rita}}:Dock.001\"/1700 Rita_UnderwaterCove_Exterior 39 6 2 Rita_Reading \"Strings\\schedules\\{{Rita}}:Reading.007\"/1900 Rita_UnderwaterCove 6 5 0 \"Strings\\schedules\\{{Rita}}:CoveInterior.002\"/2200 Rita_UnderwaterCove 2 6 1 Rita_Sleep",
+				"fall_Wed": "610 Rita_UnderwaterCove 2 6 1/700 Rita_UnderwaterCove_Exterior 40 11 2 \"Strings\\schedules\\{{Rita}}:CoveExterior.001\"/800 Rita_UnderwaterCove_Exterior 41 11 2/900 Beach 88 40 2/1200 Beach 19 24 2 Rita_Reading \"Strings\\schedules\\{{Rita}}:Reading.003\"/1500 Beach 90 22 1/1700 Rita_UnderwaterCove_Exterior 46 7 2 Rita_Reading \"Strings\\schedules\\{{Rita}}:Reading.006\"/1900 Rita_UnderwaterCove 8 5 0 \"Strings\\schedules\\{{Rita}}:CoveInterior.001\"/2200 Rita_UnderwaterCove 2 6 1 Rita_Sleep",
+				"fall_Thu": "610 Rita_UnderwaterCove 2 6 1/700 Rita_UnderwaterCove_Exterior 46 7 2 \"Strings\\schedules\\{{Rita}}:CoveExterior.001\"/800 Rita_UnderwaterCove_Exterior 41 11 2/900 Beach 42 36 2/1100 Beach 11 39 2 \"Strings\\schedules\\{{Rita}}:Dock.002\"/1400 Beach 84 40 2 \"Strings\\schedules\\{{Rita}}:Dock.001\"/1600 Beach 38 4 0 Rita_Reading \"Strings\\schedules\\{{Rita}}:Reading.004\"/1700 Rita_UnderwaterCove_Exterior 46 7 2 Rita_Reading \"Strings\\schedules\\{{Rita}}:Reading.006\"/1900 Rita_UnderwaterCove 8 5 0 \"Strings\\schedules\\{{Rita}}:CoveInterior.001\"/2200 Rita_UnderwaterCove 2 6 1 Rita_Sleep",
+
+				//New Winter Schedule
+
+				"winter_Mon": "610 Rita_UnderwaterCove 2 6 1/700 Rita_UnderwaterCove_Exterior 40 11 2 \"Strings\\schedules\\{{Rita}}:CoveExterior.001\"/800 Rita_UnderwaterCove_Exterior 41 11 2/900 Beach 88 40 2/1200 Beach 19 24 2 Rita_Reading \"Strings\\schedules\\{{Rita}}:Reading.003\"/1500 Beach 90 22 1/1700 Rita_UnderwaterCove_Exterior 46 7 2 Rita_Reading \"Strings\\schedules\\{{Rita}}:Reading.006\"/1900 Rita_UnderwaterCove 8 5 0 \"Strings\\schedules\\{{Rita}}:CoveInterior.001\"/2200 Rita_UnderwaterCove 2 6 1 Rita_Sleep",
+				"winter_Tue": "610 Rita_UnderwaterCove 2 6 1/700 Rita_UnderwaterCove_Exterior 40 11 2 \"Strings\\schedules\\{{Rita}}:CoveExterior.001\"/800 Rita_UnderwaterCove_Exterior 41 11 2/900 Beach 42 36 2/1100 Beach 11 39 2 \"Strings\\schedules\\{{Rita}}:Dock.002\"/1400 Beach 84 40 2 \"Strings\\schedules\\{{Rita}}:Dock.001\"/1600 Beach 38 4 0 Rita_Reading \"Strings\\schedules\\{{Rita}}:Reading.004\"/1700 Rita_UnderwaterCove_Exterior 37 5 2/1900 Rita_UnderwaterCove 8 5 0 \"Strings\\schedules\\{{Rita}}:CoveInterior.002\"/2200 Rita_UnderwaterCove 2 6 1 Rita_Sleep",
+				"winter_Wed": "610 Rita_UnderwaterCove 2 6 1/700 Rita_UnderwaterCove_Exterior 46 7 2 \"Strings\\schedules\\{{Rita}}:CoveExterior.001\"/730 Rita_UnderwaterCove_Exterior 41 11 2/800 ElliottHouse 1 6 0 \"Strings\\schedules\\Elliott.001\"/1000 Beach 84 40 2 \"Strings\\schedules\\{{Rita}}:Dock.001\"/1200 Beach 11 39 2 Rita_Reading \"Strings\\schedules\\{{Rita}}:Reading.001\"/1400 Beach 84 40 2 \"Strings\\schedules\\{{Rita}}:Dock.001\"/1700 Rita_UnderwaterCove_Exterior 46 7 2 Rita_Reading \"Strings\\schedules\\{{Rita}}:Reading.006\"/1900 Rita_UnderwaterCove 8 5 0 \"Strings\\schedules\\{{Rita}}:CoveInterior.001\"/2200 Rita_UnderwaterCove 2 6 1 Rita_Sleep",
+				"winter_Thu": "610 Rita_UnderwaterCove 2 6 1/700 Rita_UnderwaterCove_Exterior 46 7 2 \"Strings\\schedules\\{{Rita}}:CoveExterior.001\"/800 Rita_UnderwaterCove_Exterior 41 11 2/900 Beach 11 39 2 \"Strings\\schedules\\{{Rita}}:Dock.002\"/1100 Beach 92 18 1/1300 Beach 78 24 2 Rita_Reading \"Strings\\schedules\\{{Rita}}:Reading.005\"/1700 Rita_UnderwaterCove_Exterior 39 6 2 Rita_Reading \"Strings\\schedules\\{{Rita}}:Reading.007\"/1900 Rita_UnderwaterCove 6 5 0 \"Strings\\schedules\\{{Rita}}:CoveInterior.002\"/2200 Rita_UnderwaterCove 2 6 1 Rita_Sleep",
+				"winter_15": "610 Rita_UnderwaterCove 2 6 1/1930 Rita_UnderwaterCove 6 5 0 \"Strings\\schedules\\{{Rita}}:CoveInterior.003\"/2100 Rita_UnderwaterCove 8 5 0/2200 2 6 1 Rita_Sleep",
+				"winter_16": "610 Rita_UnderwaterCove 2 6 1/1930 Rita_UnderwaterCove 6 5 0 \"Strings\\schedules\\{{Rita}}:CoveInterior.003\"/2100 Rita_UnderwaterCove 8 5 0/2200 2 6 1 Rita_Sleep",
+				"winter_17": "610 Rita_UnderwaterCove 2 6 1/1930 Rita_UnderwaterCove 6 5 0 \"Strings\\schedules\\{{Rita}}:CoveInterior.003\"/2100 Rita_UnderwaterCove 8 5 0/2200 2 6 1 Rita_Sleep",
+			},
+			"When": { 
+				"HasSeenEvent |contains=8205022": true,
+			},
+		},
+	],
+}

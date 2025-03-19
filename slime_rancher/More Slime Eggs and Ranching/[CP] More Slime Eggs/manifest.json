@@ -1,0 +1,12 @@
+﻿{
+  "Name": "More Slime Eggs and Ranching",
+  "Author": "joejames38",
+  "Version": "0.9.1",
+  "Description": "More Slime Eggs and Ranching",
+  "UniqueID": "joejames38.moreslimeeggs",
+  "MinimumApiVersion": "1.0",
+  "UpdateKeys": [ "Nexus:32049" ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

@@ -1,0 +1,51 @@
+﻿[
+	{
+		"ProducerName": "Slime Egg-Press", 
+		"ProducerQualifiedItemId": "(BC)158",
+		"InputIdentifier": "766", // Slime
+		"InputStack": 100,
+		"MinutesUntilReady": 1200, // 1200 min is the default slime press time. 
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 0.40, 
+				"OutputIdentifier": "680" // Green Slime Egg
+			},
+			{
+				"OutputProbability": 0.12, 
+				"OutputIdentifier": "413" // Blue Slime Egg
+			},
+			{
+				"OutputProbability": 0.10, 
+				"OutputIdentifier": "437" // Red Slime Egg
+			},
+			{
+				"OutputProbability": 0.05, 
+				"OutputIdentifier": "439"  // Purple Slime Egg
+			},
+			{
+				"OutputProbability": 0.01, 
+				"OutputIdentifier": "857"  // Tiger Slime Egg
+			},
+			{
+				"OutputProbability": 0.15, 
+				"OutputIdentifier": "BlackSlimeEgg"
+			},
+			{
+				"OutputProbability": 0.08, 
+				"OutputIdentifier": "CopperSlimeEgg"
+			},
+			{
+				"OutputProbability": 0.05, 
+				"OutputIdentifier": "IronSlimeEgg"
+			},
+			{
+				"OutputProbability": 0.03, 
+				"OutputIdentifier": "GoldSlimeEgg"
+			},
+			{
+				"OutputProbability": 0.01, 
+				"OutputIdentifier": "WhiteSlimeEgg"
+			}
+		]
+	}
+]

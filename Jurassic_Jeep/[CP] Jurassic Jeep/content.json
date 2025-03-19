@@ -1,0 +1,10 @@
+{
+  "Format": "2.0.0",
+  "Changes": [
+	{
+	   "Action": "EditImage",
+	   "Target": "Mods/Pathoschild.TractorMod/Tractor",
+	   "FromFile": "assets/jurassic_jeep.png"
+	}
+	]
+}

@@ -1,0 +1,135 @@
+{
+	"Format": "2.0",
+	
+
+	"DynamicTokens": [
+
+		//SVE Festival Compatibility Token
+		
+		{
+			"Name": "YearToken",
+			"Value": "Odd",
+		},
+		
+		{
+			"Name": "YearToken",
+			"Value": "Even",
+			"When": {
+				"Query: {{Year}} % 2 = 0": true,
+			},
+		},
+		
+		{
+			"Name": "YearToken",
+			"Value": "SVEYear1",
+			"When": {
+				"Query: {{Year}} % 4 = 1": true,
+				"HasMod": "FlashShifter.StardewValleyExpandedCP",
+			},
+		},
+		
+		{
+			"Name": "YearToken",
+			"Value": "SVEYear3",
+			"When": {
+				"Query: {{Year}} % 4 = 3": true,
+				"HasMod": "FlashShifter.StardewValleyExpandedCP",
+			},
+		},
+		
+	],
+
+	"Changes": [	
+
+		//Load of Blank File for editing schedules/dialogue
+		{
+			"LogName": "Load Schedules, Schedule Strings, and all Dialogues",
+			"Action": "Load",
+			"Target": "Characters/Dialogue/{{Rita}}, Characters/Dialogue/MarriageDialogue{{Rita}}, Characters/schedules/{{Rita}}, Strings/schedules/{{Rita}}",
+			"FromFile": "assets/blank.json"
+		},
+
+		//Map Data
+		{
+			"LogName": "Rita Map Data",
+			"Action": "Include",
+			"FromFile": "assets/Maps/Default/LocationData.json", //does not need altering, location data will be loaded regardless from this file
+		},
+
+		//Rita NPC Data (Disposition, Spouse Room, etc.)
+		{
+			"LogName": "Rita NPC Data",
+			"Action": "Include",
+			"FromFile": "assets/NPCData/Rita.json",
+		},
+
+		{
+			"LogName": "Extra Character Data",
+			"Action": "Include",
+			"FromFile": "assets/NPCData/ExtraCharacters.json",
+		},
+		
+		//Rita Children Data (formerly a separate mod)
+		
+		{
+			"LogName": "Children Sprites",
+			"Action": "Include",
+			"FromFile": "assets/NPCData/Children.json",
+			"When": {
+				"ChildrenSprites": "Rita",
+			},
+		},
+
+		//Mail Data (formerly MFM)
+		{
+			"LogName": "Rita Mail Data",
+			"Action": "Include",
+			"FromFile": "assets/NPCData/Mail.json",
+		},
+
+		//Schedule Data
+		{
+			"LogName": "Rita Schedule Data",
+			"Action": "Include",
+			"FromFile": "assets/Schedules/Schedule.json",
+		},
+
+		{
+			"LogName": "Rita Schedule Dialogue",
+			"Action": "Include",
+			"FromFile": "assets/Schedules/ScheduleDialogue.json"
+		},
+
+
+		//Festival Data Include
+		{
+			"LogName": "Festival Data",
+			"Action": "Include",
+			"FromFile": "assets/Festivals/Festivals.json",
+			"When": {
+				"HasSeenEvent |contains=8205020": true,  // What is the event?
+			}
+		},
+
+		//Dialogue Includes
+		{
+			"LogName": "Rita Regular Dialogue",
+			"Action": "Include",
+			"FromFile": "assets/Dialogue/DialogueRita.json"
+		},
+
+
+		{
+			"LogName": "Rita Marriage Dialogue",
+			"Action": "Include",
+			"FromFile": "assets/Dialogue/MarriageDialogueRita.json"
+		},
+
+		//Events
+		{
+			"LogName": "Events",
+			"Action": "Include",
+			"FromFile": "assets/NPCData/Events.json"
+		},
+	],
+}

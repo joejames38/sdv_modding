@@ -1,0 +1,11 @@
+{
+    "Name": "Jurassic Jeep - Tractor Recolor",
+    "Author": "joejames38",
+    "Version": "1.0.0",
+    "Description": "A little mod that changes the tractor to look like a Jeep inspired from Jurassic Park",
+    "UniqueID": "joejames38.jurassicjeep",
+    "UpdateKeys": ["Nexus:32463"],
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher",
+	},
+}

@@ -1,0 +1,145 @@
+{
+  "Format": "2.0.0",
+  "Changes": [
+    {
+	  // Black Egg Items
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries":{
+        "BlackSlimeEgg":{
+          "Name": "BlackSlimeEgg",
+          "DisplayName": "Black Slime Egg",
+          "Description": "Black Slime Egg",
+          "Type": "Basic",
+          "Category": 0,
+          "Price" : 2000,
+          "IsDrink": false,
+          "Edibility": -300,
+          "Texture": "Mods/{{ModId}}/BlackSlimeEgg",
+          "SpriteIndex": 0,
+          "ContextTags": [
+            "color_black",
+			"item_black_slime_egg",
+			"item_type_basic",
+			"quality_none",
+			"slime_egg_item",
+			"slime_item"
+          ]
+        }
+      }
+    },
+    {
+	  // Copper Egg Items
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries":{
+        "CopperSlimeEgg":{
+          "Name": "CopperSlimeEgg",
+          "DisplayName": "Copper Slime Egg",
+          "Description": "Copper Slime Egg",
+          "Type": "Basic",
+          "Category": 0,
+          "Price" : 2000,
+          "IsDrink": false,
+          "Edibility": -300,
+          "Texture": "Mods/{{ModId}}/CopperSlimeEgg",
+          "SpriteIndex": 0,
+          "ContextTags": [
+            "color_orange",
+			"item_orange_slime_egg",
+			"item_type_basic",
+			"quality_none",
+			"slime_egg_item",
+			"slime_item"
+          ]
+        }
+      }
+    },
+    {
+	  // Iron Egg Items
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries":{
+        "IronSlimeEgg":{
+          "Name": "IronSlimeEgg",
+          "DisplayName": "Iron Slime Egg",
+          "Description": "Iron Slime Egg",
+          "Type": "Basic",
+          "Category": 0,
+          "Price" : 3000,
+          "IsDrink": false,
+          "Edibility": -300,
+          "Texture": "Mods/{{ModId}}/IronSlimeEgg",
+          "SpriteIndex": 0,
+          "ContextTags": [
+            "color_gray",
+			"item_gray_slime_egg",
+			"item_type_basic",
+			"quality_none",
+			"slime_egg_item",
+			"slime_item"
+          ]
+        }
+      }
+    },
+    {
+	  // Gold Egg Items
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries":{
+        "GoldSlimeEgg":{
+          "Name": "GoldSlimeEgg",
+          "DisplayName": "Gold Slime Egg",
+          "Description": "Gold Slime Egg",
+          "Type": "Basic",
+          "Category": 0,
+          "Price" : 8000,
+          "IsDrink": false,
+          "Edibility": -300,
+          "Texture": "Mods/{{ModId}}/GoldSlimeEgg",
+          "SpriteIndex": 0,
+          "ContextTags": [
+            "color_yellow",
+			"item_yellow_slime_egg",
+			"item_type_basic",
+			"quality_none",
+			"slime_egg_item",
+			"slime_item"
+          ]
+        }
+      }
+    },
+    {
+	  // White Egg Items
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries":{
+        "WhiteSlimeEgg":{
+          "Name": "WhiteSlimeEgg",
+          "DisplayName": "White Slime Egg",
+          "Description": "White Slime Egg",
+          "Type": "Basic",
+          "Category": 0,
+          "Price" : 10000,
+          "IsDrink": false,
+          "Edibility": -300,
+          "Texture": "Mods/{{ModId}}/WhiteSlimeEgg",
+          "SpriteIndex": 0,
+          "ContextTags": [
+            "color_white",
+			"item_white_slime_egg",
+			"item_type_basic",
+			"quality_none",
+			"slime_egg_item",
+			"slime_item"
+          ]
+        }
+      }
+    },
+    {
+		"Action": "Load",
+		"Target": "Mods/{{ModId}}/BlackSlimeEgg, Mods/{{ModId}}/CopperSlimeEgg, Mods/{{ModId}}/IronSlimeEgg, Mods/{{ModId}}/GoldSlimeEgg, Mods/{{ModId}}/WhiteSlimeEgg",
+		"FromFile": "assets/{{TargetWithoutPath}}.png"
+    }
+  ]
+}

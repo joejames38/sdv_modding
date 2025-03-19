@@ -1,0 +1,12 @@
+﻿{
+  "Name": "More Slime Eggs PFM",
+  "Author": "joejames38",
+  "Version": "0.9.1",
+  "Description": "More Slime Eggs",
+  "UniqueID": "joejames38.moreslimeeggspfm",
+  "MinimumApiVersion": "1.0",
+  "UpdateKeys": [ "Nexus:32049" ],
+  "ContentPackFor": {
+	"UniqueID": "DIGUS.ProducerFrameworkMod"
+  }
+}

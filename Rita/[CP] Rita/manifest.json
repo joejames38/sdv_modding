@@ -1,0 +1,11 @@
+{
+	"Name": "Rita the Gossiper",
+	"Author": "joejames38	",
+	"Description": "A town gossip with a little magic of her own.",
+	"Version": "0.0.1",
+	"UniqueID": "joejames38.Rita",
+	"UpdateKeys": [ "Nexus:7777777" ],
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher",
+	},
+}
