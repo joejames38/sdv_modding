@@ -1,10 +1,10 @@
 ﻿[
 	{
 		"ProducerName": "Oil Maker", 
-		"InputIdentifier": "CreamFruit", // rabbit's foot index
+		"InputIdentifier": "CreamFruit", // Custom Fruit
 		"InputStack": 1,
 		"MinutesUntilReady": 360, // 6 hours, same as truffle oil
-		"OutputIdentifier": "186",
+		"OutputIdentifier": "186", // Large Milk ID
 		"KeepInputQuality": true
 	},
 ]
