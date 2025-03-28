@@ -1,9 +1,9 @@
 ﻿{
-  "Name": "Boobcrop",
+  "Name": "BoobcropPFM",
   "Author": "DracoFreedom",
   "Version": "2.0.1",
   "Description": "Producer Framework Addon for BoobCrops",
-  "UniqueID": "DracoFreedom.BoobCrop.Producer",
+  "UniqueID": "DracoFreedom.BoobCrop.PFM",
   "MinimumApiVersion": "1.0",
   "UpdateKeys": [ "Nexus:30292" ],
   "ContentPackFor": {
