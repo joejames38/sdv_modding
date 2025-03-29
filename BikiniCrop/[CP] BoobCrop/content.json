@@ -112,9 +112,17 @@
 		}
 	},
     {
+		"LogName": "Load Base Images",
 		"Action": "Load",
 		"Target": "Mods/{{ModId}}/BoobSeed, Mods/{{ModId}}/CreamFruit, Mods/{{ModId}}/Boob, Mods/{{ModId}}/GigaBoob",
 		"FromFile": "assets/{{TargetWithoutPath}}.png"
-    }
+    },
+	{
+		"LogName": "Load - Seasonal Images",
+		"Action": "EditImage",
+		"Target": "Mods/{{ModId}}/GigaBoob",
+		"FromFile": "assets/GigaBoob_{{season}}.png",
+		"Update": "OnLocationChange"
+	}
   ]
 }
