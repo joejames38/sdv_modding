@@ -1,0 +1,96 @@
+{
+"Changes": [
+
+	{		
+	"Action": "EditData",
+	"Target": "Data/Machines",
+	"Entries": {
+		"(BC)19": { // Oil Maker
+		"OutputRules":
+				[
+				{ 
+				"Id": "MilkMaking",
+				"Triggers": [
+					{
+						"Trigger":  "ItemPlacedInMachine", 
+						"RequiredTags": [  "cream_fruit",     ],
+						"RequiredCount": 1
+					}
+					],
+				"OutputItem": [
+					{
+						"ItemId": "186", // Large Milk
+						"CopyQuality": true,
+					}
+					],
+				"MinutesUntilReady": 360 // 360 for oil Maker
+				}
+				],
+				}
+			}
+	},
+	{		
+	"Action": "EditData",
+	"Target": "Data/Machines",
+	"Entries": {
+		"(BC)Dehydrator": { // Dehydrator
+		"OutputRules":
+				[
+				{ 
+				"Id": "CondensedMilkMaking",
+				"Triggers": [
+					{
+						"Trigger":  "ItemPlacedInMachine", 
+						"RequiredTags": [  "cream_fruit",     ],
+						"RequiredCount": 5
+					}
+					],
+				"OutputItem": [
+					{
+						"ItemId": "SweetCream", // CustomItem
+						"CopyQuality": true,
+					}
+					],
+				"MinutesUntilReady": 720
+				},
+				{ 
+				"Id": "CondensedMilkMaking1",
+				"Triggers": [
+					{
+						"Trigger":  "ItemPlacedInMachine", 
+						"RequiredTags": [  "id_o_184",     ], // Small milk
+						"RequiredCount": 1
+					}
+					],
+				"OutputItem": [
+					{
+						"ItemId": "SweetCream", // CustomItem
+						"CopyQuality": true,
+					}
+					],
+				"MinutesUntilReady": 360
+				},
+				{ 
+				"Id": "CondensedMilkMaking2",
+				"Triggers": [
+					{
+						"Trigger":  "ItemPlacedInMachine", 
+						"RequiredTags": [  "id_o_186",     ], // Large Milk
+						"RequiredCount": 1
+					}
+					],
+				"OutputItem": [
+					{
+						"ItemId": "SweetCream", // CustomItem
+						"CopyQuality": true,
+					}
+					],
+				"MinutesUntilReady": 60
+				}
+				],
+				}
+			}
+	},
+
+]
+}

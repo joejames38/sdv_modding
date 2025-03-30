@@ -12,6 +12,10 @@
       "Action": "Include",
       "FromFile": "Data/tappers.json"
     },
+	{
+      "Action": "Include",  
+      "FromFile": "Data/producers.json",
+	},
     //Seed item
     {
       "Action": "EditData",
@@ -56,7 +60,8 @@
 			"fruit_item",
 			"keg_wine",
 			"preserves_jelly",
-			"milk_item"
+			"milk_item",
+			"cream_fruit"
           ]
         }
       }
