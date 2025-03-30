@@ -89,6 +89,7 @@
         }
       }
 	},
+	// Giant Crop
 	{
 	"Action":"EditData",
 	"Target":"Data/GiantCrops",
@@ -117,10 +118,171 @@
 			}
 		}
 	},
+	// Condensed Sweet Cream
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries":{
+        "SweetCream":{
+          "Name": "SweetCream",
+          "DisplayName": "SweetCream",
+          "Description": "SweetCream",
+          "Type": "Basic",
+          "Category": -26,
+          "Price" : 777,
+          "IsDrink": true,
+          "Edibility": 40,
+          "Texture": "Mods/{{ModId}}/SweetCream",
+          "SpriteIndex": 0,
+          "ContextTags": [
+            "color_white"
+          ]
+        }
+      }
+    },
+	// Cream Pie
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries":{
+        "CreamPie":{
+          "Name": "CreamPie",
+          "DisplayName": "CreamPie",
+          "Description": "CreamPie",
+          "Type": "Basic",
+          "Category": -7,
+          "Price" : 777,
+          "IsDrink": false,
+          "Edibility": 60,
+          "Texture": "Mods/{{ModId}}/CreamPie",
+          "SpriteIndex": 0,
+          "ContextTags": [
+            "color_white",
+			"category_cooking",
+			"item_type_cooking"
+          ]
+        }
+      }
+    },
+	// Create Recipe: item_id quatity / Energy healthy / Item_made/Skill level(null if you want to put a recipe in a shop)/
+	{
+	"Action": "EditData",
+	"Target": "Data/CookingRecipes",
+	"Entries": {
+		"CreamPie": "245 1 246 1 SweetCream 1/1 8/CreamPie/Farming 0"
+		}
+	},
+	// Set Gift Tastes
+	{
+		"Action": "EditData",
+		"Target": "Data/NPCGiftTastes",
+		"TextOperations": [
+		//Universals
+			{
+				"Operation": "Append",
+				"Target": ["Entries", "Universal_Love"],
+				"Value": " ", 
+				"Delimiter": " "
+			},
+			{
+				"Operation": "Append",
+				"Target": ["Entries", "Universal_Like"],
+				"Value": "CreamFruit CreamPie", 
+				"Delimiter": " "
+			},
+			{
+				"Operation": "Append",
+				"Target": ["Entries", "Universal_Neutral"],
+				"Value": " ", 
+				"Delimiter": " "
+			},
+			{
+				"Operation": "Append",
+				"Target": ["Entries", "Universal_Dislike"],
+				"Value": " ", 
+				"Delimiter": " "
+			},
+			{
+				"Operation": "Append",
+				"Target": ["Entries", "Universal_Hate"],
+				"Value": " ", 
+				"Delimiter": " "
+			},
+		//Spouses/Krobus
+			{
+				"Operation": "Append",
+				"Target": ["Fields", "Harvey", 1],
+				"Value": "CreamPie", 
+				"Delimiter": " "
+			},
+			{
+				"Operation": "Append",
+				"Target": ["Fields", "Sam", 1],
+				"Value": "CreamPie", 
+				"Delimiter": " "
+			},
+			{
+				"Operation": "Append",
+				"Target": ["Fields", "Alex", 1],
+				"Value": "CreamPie", 
+				"Delimiter": " "
+			},
+			{
+				"Operation": "Append",
+				"Target": ["Fields", "Sebastian", 1],
+				"Value": "CreamPie", 
+				"Delimiter": " "
+			},
+			{
+				"Operation": "Append",
+				"Target": ["Fields", "Shane", 1],
+				"Value": "CreamPie", 
+				"Delimiter": " "
+			},
+			{
+				"Operation": "Append",
+				"Target": ["Fields", "Abigail", 1],
+				"Value": "CreamPie", 
+				"Delimiter": " "
+			},
+			{
+				"Operation": "Append",
+				"Target": ["Fields", "Emily", 1],
+				"Value": "CreamPie", 
+				"Delimiter": " "
+			},
+			{
+				"Operation": "Append",
+				"Target": ["Fields", "Haley", 1],
+				"Value": "CreamPie", 
+				"Delimiter": " "
+			},
+			{
+				"Operation": "Append",
+				"Target": ["Fields", "Maru", 1],
+				"Value": "CreamPie", 
+				"Delimiter": " "
+			},
+			{
+				"Operation": "Append",
+				"Target": ["Fields", "Penny", 1],
+				"Value": "CreamPie", 
+				"Delimiter": " "
+			},
+			{
+				"Operation": "Append",
+				"Target": ["Fields", "Krobus", 1],
+				"Value": "CreamPie", 
+				"Delimiter": " "
+			}
+		]
+	},
+
+	// Set Seasonal and SafeForWork Checks
     {
 		"LogName": "Load Base Images",
 		"Action": "Load",
-		"Target": "Mods/{{ModId}}/BoobSeed, Mods/{{ModId}}/CreamFruit, Mods/{{ModId}}/Boob, Mods/{{ModId}}/GigaBoob",
+		"Target": "Mods/{{ModId}}/BoobSeed, Mods/{{ModId}}/CreamFruit, Mods/{{ModId}}/Boob, Mods/{{ModId}}/GigaBoob, Mods/{{ModId}}/CreamPie, Mods/{{ModId}}/SweetCream", 
 		"FromFile": "assets/{{TargetWithoutPath}}.png"
     },
 	{
