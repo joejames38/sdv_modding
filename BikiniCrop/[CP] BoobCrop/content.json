@@ -41,7 +41,7 @@
         "CreamFruit":{
           "Name": "Cream Fruit",
           "DisplayName": "Cream Fruit",
-          "Description": "Cream Fruit",
+          "Description": "A delicious and nutrious fruit with a milky texture.",
           "Type": "Basic",
           "Category": -6,
           "Price" : 69,
@@ -129,9 +129,9 @@
       "Target": "Data/Objects",
       "Entries":{
         "SweetCream":{
-          "Name": "SweetCream",
-          "DisplayName": "SweetCream",
-          "Description": "SweetCream",
+          "Name": "Sweetened Condensed Milk",
+          "DisplayName": "Sweetened Condensed Milk",
+          "Description": "Condensed milk from the dehydrator.",
           "Type": "Basic",
           "Category": -26,
           "Price" : 777,
@@ -152,8 +152,8 @@
       "Entries":{
         "CreamPie":{
           "Name": "CreamPie",
-          "DisplayName": "CreamPie",
-          "Description": "CreamPie",
+          "DisplayName": "Sweet Cream Pie",
+          "Description": "A delicious dessert best shared with a loved one.",
           "Type": "Basic",
           "Category": -7,
           "Price" : 777,
