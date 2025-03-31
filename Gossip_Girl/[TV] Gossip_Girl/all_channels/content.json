@@ -124,7 +124,7 @@
     	"Channelkey": "gossip_lemur",
     	"ChannelName": "Lemuverse Visions",
 		"ChannelDescription": "[LocalizedText Strings\\StringsFromCSFiles:GGTV.lemur.desc]",
-		"ShowDays":"Sat", // Sat
+		"ShowDays":"False", // Sat
     	"ChannelType":{
 			"currentChannel": 2818202, // modid+02
 			"ScreenFile":"assets/rita_lemur.png",
