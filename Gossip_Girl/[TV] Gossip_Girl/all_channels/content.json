@@ -14,107 +14,106 @@
 			},
 			"ad":{
 				"RandomQuestion":{
-					"10101":{"ADPrice" : 0,"ItemID" : ["(BC)71"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.1]" },//
-					"10102":{"ADPrice" : 0,"ItemID" : ["420"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.2]" },//
-					"10103":{"ADPrice" : 0,"ItemID" : ["346"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.3]" },//
-					"10104":{"ADPrice" : 0,"ItemID" : ["16"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.4]" },//
-					"10105":{"ADPrice" : 0,"ItemID" : ["176"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.5]" },//
-					"10106":{"ADPrice" : 0,"ItemID" : ["280"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.6]" },//
-					"10107":{"ADPrice" : 0,"ItemID" : ["398"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.7]" },//
-					"10108":{"ADPrice" : 0,"ItemID" : ["201"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.8]" },//
-					"10109":{"ADPrice" : 0,"ItemID" : ["421"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.9]" },//
-					"10110":{"ADPrice" : 0,"ItemID" : ["109"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.10]" },//
-					"10111":{"ADPrice" : 0,"ItemID" : ["66"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.11]" },//
-					"10112":{"ADPrice" : 0,"ItemID" : ["815"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.12]" },//
-					"10113":{"ADPrice" : 0,"ItemID" : ["422"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.13]" },//
-					"10114":{"ADPrice" : 0,"ItemID" : ["749"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.14]" },//
-					"10115":{"ADPrice" : 0,"ItemID" : ["152"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.15]" },//
-					"10116":{"ADPrice" : 0,"ItemID" : ["400"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.16]" },//
-					"10117":{"ADPrice" : 0,"ItemID" : ["207"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.17]" },//
-					"10118":{"ADPrice" : 0,"ItemID" : ["637"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.18]" },//
-					"10119":{"ADPrice" : 0,"ItemID" : ["70"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.19]" },//
-					"10120":{"ADPrice" : 0,"ItemID" : ["106"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.20]" },//
-					"10121":{"ADPrice" : 0,"ItemID" : ["20"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.21]" },//
-					"10122":{"ADPrice" : 0,"ItemID" : ["907"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.22]" },//
-					"10123":{"ADPrice" : 0,"ItemID" : ["561"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.23]" },//
-					"10124":{"ADPrice" : 0,"ItemID" : ["342"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.24]" },//
-					"10125":{"ADPrice" : 0,"ItemID" : ["595"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.25]" },//
-					"10126":{"ADPrice" : 0,"ItemID" : ["211"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.26]" },//
-					"10127":{"ADPrice" : 0,"ItemID" : ["203"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.27]" },//
-					"10128":{"ADPrice" : 0,"ItemID" : ["104"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.28]" },//
-					"10129":{"ADPrice" : 0,"ItemID" : ["200"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.29]" },//
-					"10130":{"ADPrice" : 0,"ItemID" : ["124"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.30]" },//
-					"10131":{"ADPrice" : 0,"ItemID" : ["78"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.31]" },//
-					"10132":{"ADPrice" : 0,"ItemID" : ["240"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.32]" },//
-					"10133":{"ADPrice" : 0,"ItemID" : ["787"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.33]" },//
-					"10134":{"ADPrice" : 0,"ItemID" : ["303"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.34]" },//
-					"10135":{"ADPrice" : 0,"ItemID" : ["230"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.35]" },//
-					"10136":{"ADPrice" : 0,"ItemID" : ["202"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.36]" },//
-					"10137":{"ADPrice" : 0,"ItemID" : ["636"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.37]" },//
-					"10138":{"ADPrice" : 0,"ItemID" : ["206"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.38]" },//
-					"10139":{"ADPrice" : 0,"ItemID" : ["575"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.39]" },//
-					"10140":{"ADPrice" : 0,"ItemID" : ["550"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.40]" },//
-					"10141":{"ADPrice" : 0,"ItemID" : ["399"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.41]" },//
-					"10142":{"ADPrice" : 0,"ItemID" : ["143"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.42]" },//
-					"10143":{"ADPrice" : 0,"ItemID" : ["196"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.43]" },//
-					"10144":{"ADPrice" : 0,"ItemID" : ["402"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.44]" },//
-					"10145":{"ADPrice" : 0,"ItemID" : ["591"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.45]" },//
-					"10146":{"ADPrice" : 0,"ItemID" : ["220"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.46]" },//
-					"10147":{"ADPrice" : 0,"ItemID" : ["208"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.47]" },//
-					"10148":{"ADPrice" : 0,"ItemID" : ["610"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.48]" },//
-					"10149":{"ADPrice" : 0,"ItemID" : ["243"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.49]" },//
-					"10150":{"ADPrice" : 0,"ItemID" : ["604"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.50]" },//
-					"10151":{"ADPrice" : 0,"ItemID" : ["272"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.51]" },//
-					"10152":{"ADPrice" : 0,"ItemID" : ["879"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.52]" },//
-					"10153":{"ADPrice" : 0,"ItemID" : ["348"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.53]" },//
-					"10154":{"ADPrice" : 0,"ItemID" : ["247"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.54]" },//
-					"10155":{"ADPrice" : 0,"ItemID" : ["90"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.55]" },//
-					"10156":{"ADPrice" : 0,"ItemID" : ["221"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.56]" },//
-					"10157":{"ADPrice" : 0,"ItemID" : ["349"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.57]" },//
-					"10158":{"ADPrice" : 0,"ItemID" : ["459"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.58]" },//
-					"10159":{"ADPrice" : 0,"ItemID" : ["244"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.59]" },//
-					"10160":{"ADPrice" : 0,"ItemID" : ["593"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.60]" },//
-					"10161":{"ADPrice" : 0,"ItemID" : ["426"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.61]" },//
-					"10162":{"ADPrice" : 0,"ItemID" : ["562"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.62]" },//
-					"10163":{"ADPrice" : 0,"ItemID" : ["84"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.63]" },//
-					"10164":{"ADPrice" : 0,"ItemID" : ["215"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.64]" },//
-					"10165":{"ADPrice" : 0,"ItemID" : ["18"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.65]" },//
-					"10166":{"ADPrice" : 0,"ItemID" : ["154"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.66]" },//
-					"10167":{"ADPrice" : 0,"ItemID" : ["(BC)144"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.67]" },//
-					"10168":{"ADPrice" : 0,"ItemID" : ["126"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.68]" },//
-					"10169":{"ADPrice" : 0,"ItemID" : ["582"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.69]" },//
-					"10170":{"ADPrice" : 0,"ItemID" : ["103"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.70]" },//
-					"10171":{"ADPrice" : 0,"ItemID" : ["305"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.71]" },//
-					"10172":{"ADPrice" : 0,"ItemID" : ["581"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.72]" },//
-					"10173":{"ADPrice" : 0,"ItemID" : ["242"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.73]" },//
-					"10174":{"ADPrice" : 0,"ItemID" : ["121"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.74]" },//
-					"10175":{"ADPrice" : 0,"ItemID" : ["122"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.75]" },//
-					"10176":{"ADPrice" : 0,"ItemID" : ["[(H)68]"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.76]" },//
-					"10177":{"ADPrice" : 0,"ItemID" : ["582"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.77]" },//
-					"10178":{"ADPrice" : 0,"ItemID" : ["71"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.78]" },//
-					"10179":{"ADPrice" : 0,"ItemID" : ["103"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.79]" },//
-					"10180":{"ADPrice" : 0,"ItemID" : ["[(F)BirdHouse]"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.80]" },//
-					"10181":{"ADPrice" : 0,"ItemID" : ["223"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.81]" },//
-					"10182":{"ADPrice" : 0,"ItemID" : ["155"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.82]" },//
-					"10183":{"ADPrice" : 0,"ItemID" : ["442"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.83]" },//
-					"10184":{"ADPrice" : 0,"ItemID" : ["203"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.84]" },//
-					"10185":{"ADPrice" : 0,"ItemID" : ["347"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.85]" },//
-					"10186":{"ADPrice" : 0,"ItemID" : ["431"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.86]" },//
-					"10187":{"ADPrice" : 0,"ItemID" : ["680"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.87]" },//
-					"10188":{"ADPrice" : 0,"ItemID" : ["425"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.88]" },//
-					"10189":{"ADPrice" : 0,"ItemID" : ["305"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.89]" },//
-					"10190":{"ADPrice" : 0,"ItemID" : ["856"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.90]" },//
-					"10191":{"ADPrice" : 0,"ItemID" : ["125"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.91]" },//
-					"10192":{"ADPrice" : 0,"ItemID" : ["621"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.92]" },//
-					"10193":{"ADPrice" : 0,"ItemID" : ["266"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.93]" },//
-					"10194":{"ADPrice" : 0,"ItemID" : ["444"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.94]" },//
-					"10195":{"ADPrice" : 0,"ItemID" : ["724"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.95]" },//
-					"10196":{"ADPrice" : 0,"ItemID" : ["479"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.96]" },//
-					"10197":{"ADPrice" : 0,"ItemID" : ["476"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.97]" },//
-					"10198":{"ADPrice" : 0,"ItemID" : ["613"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.98]" },//
-					"10199":{"ADPrice" : 0,"ItemID" : ["422"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.99]" },//
-					"10200":{"ADPrice" : 0,"ItemID" : ["170"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.100]" }//
-
+					"10101":{"ADPrice" : 0,"ItemID" : ["(BC)71"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.1]" },
+					"10102":{"ADPrice" : 0,"ItemID" : ["420"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.2]" },
+					"10103":{"ADPrice" : 0,"ItemID" : ["346"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.3]" },
+					"10104":{"ADPrice" : 0,"ItemID" : ["16"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.4]" },
+					"10105":{"ADPrice" : 0,"ItemID" : ["176"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.5]" },
+					"10106":{"ADPrice" : 0,"ItemID" : ["280"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.6]" },
+					"10107":{"ADPrice" : 0,"ItemID" : ["398"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.7]" },
+					"10108":{"ADPrice" : 0,"ItemID" : ["201"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.8]" },
+					"10109":{"ADPrice" : 0,"ItemID" : ["421"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.9]" },
+					"10110":{"ADPrice" : 0,"ItemID" : ["109"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.10]" },
+					"10111":{"ADPrice" : 0,"ItemID" : ["66"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.11]" },
+					"10112":{"ADPrice" : 0,"ItemID" : ["815"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.12]" },
+					"10113":{"ADPrice" : 0,"ItemID" : ["422"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.13]" },
+					"10114":{"ADPrice" : 0,"ItemID" : ["749"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.14]" },
+					"10115":{"ADPrice" : 0,"ItemID" : ["152"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.15]" },
+					"10116":{"ADPrice" : 0,"ItemID" : ["400"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.16]" },
+					"10117":{"ADPrice" : 0,"ItemID" : ["207"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.17]" },
+					"10118":{"ADPrice" : 0,"ItemID" : ["637"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.18]" },
+					"10119":{"ADPrice" : 0,"ItemID" : ["70"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.19]" },
+					"10120":{"ADPrice" : 0,"ItemID" : ["106"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.20]" },
+					"10121":{"ADPrice" : 0,"ItemID" : ["20"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.21]" },
+					"10122":{"ADPrice" : 0,"ItemID" : ["907"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.22]" },
+					"10123":{"ADPrice" : 0,"ItemID" : ["561"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.23]" },
+					"10124":{"ADPrice" : 0,"ItemID" : ["342"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.24]" },
+					"10125":{"ADPrice" : 0,"ItemID" : ["595"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.25]" },
+					"10126":{"ADPrice" : 0,"ItemID" : ["211"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.26]" },
+					"10127":{"ADPrice" : 0,"ItemID" : ["203"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.27]" },
+					"10128":{"ADPrice" : 0,"ItemID" : ["104"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.28]" },
+					"10129":{"ADPrice" : 0,"ItemID" : ["200"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.29]" },
+					"10130":{"ADPrice" : 0,"ItemID" : ["124"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.30]" },
+					"10131":{"ADPrice" : 0,"ItemID" : ["78"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.31]" },
+					"10132":{"ADPrice" : 0,"ItemID" : ["240"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.32]" },
+					"10133":{"ADPrice" : 0,"ItemID" : ["787"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.33]" },
+					"10134":{"ADPrice" : 0,"ItemID" : ["303"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.34]" },
+					"10135":{"ADPrice" : 0,"ItemID" : ["230"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.35]" },
+					"10136":{"ADPrice" : 0,"ItemID" : ["202"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.36]" },
+					"10137":{"ADPrice" : 0,"ItemID" : ["636"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.37]" },
+					"10138":{"ADPrice" : 0,"ItemID" : ["206"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.38]" },
+					"10139":{"ADPrice" : 0,"ItemID" : ["575"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.39]" },
+					"10140":{"ADPrice" : 0,"ItemID" : ["550"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.40]" },
+					"10141":{"ADPrice" : 0,"ItemID" : ["399"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.41]" },
+					"10142":{"ADPrice" : 0,"ItemID" : ["143"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.42]" },
+					"10143":{"ADPrice" : 0,"ItemID" : ["196"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.43]" },
+					"10144":{"ADPrice" : 0,"ItemID" : ["402"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.44]" },
+					"10145":{"ADPrice" : 0,"ItemID" : ["591"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.45]" },
+					"10146":{"ADPrice" : 0,"ItemID" : ["220"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.46]" },
+					"10147":{"ADPrice" : 0,"ItemID" : ["208"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.47]" },
+					"10148":{"ADPrice" : 0,"ItemID" : ["610"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.48]" },
+					"10149":{"ADPrice" : 0,"ItemID" : ["243"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.49]" },
+					"10150":{"ADPrice" : 0,"ItemID" : ["604"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.50]" },
+					"10151":{"ADPrice" : 0,"ItemID" : ["272"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.51]" },
+					"10152":{"ADPrice" : 0,"ItemID" : ["879"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.52]" },
+					"10153":{"ADPrice" : 0,"ItemID" : ["348"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.53]" },
+					"10154":{"ADPrice" : 0,"ItemID" : ["247"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.54]" },
+					"10155":{"ADPrice" : 0,"ItemID" : ["90"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.55]" },
+					"10156":{"ADPrice" : 0,"ItemID" : ["221"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.56]" },
+					"10157":{"ADPrice" : 0,"ItemID" : ["349"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.57]" },
+					"10158":{"ADPrice" : 0,"ItemID" : ["459"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.58]" },
+					"10159":{"ADPrice" : 0,"ItemID" : ["244"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.59]" },
+					"10160":{"ADPrice" : 0,"ItemID" : ["593"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.60]" },
+					"10161":{"ADPrice" : 0,"ItemID" : ["426"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.61]" },
+					"10162":{"ADPrice" : 0,"ItemID" : ["562"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.62]" },
+					"10163":{"ADPrice" : 0,"ItemID" : ["84"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.63]" },
+					"10164":{"ADPrice" : 0,"ItemID" : ["215"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.64]" },
+					"10165":{"ADPrice" : 0,"ItemID" : ["18"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.65]" },
+					"10166":{"ADPrice" : 0,"ItemID" : ["154"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.66]" },
+					"10167":{"ADPrice" : 0,"ItemID" : ["(BC)144"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.67]" },
+					"10168":{"ADPrice" : 0,"ItemID" : ["126"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.68]" },
+					"10169":{"ADPrice" : 0,"ItemID" : ["582"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.69]" },
+					"10170":{"ADPrice" : 0,"ItemID" : ["103"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.70]" },
+					"10171":{"ADPrice" : 0,"ItemID" : ["305"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.71]" },
+					"10172":{"ADPrice" : 0,"ItemID" : ["581"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.72]" },
+					"10173":{"ADPrice" : 0,"ItemID" : ["242"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.73]" },
+					"10174":{"ADPrice" : 0,"ItemID" : ["121"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.74]" },
+					"10175":{"ADPrice" : 0,"ItemID" : ["122"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.75]" },
+					"10176":{"ADPrice" : 0,"ItemID" : ["[(H)68]"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.76]" },
+					"10177":{"ADPrice" : 0,"ItemID" : ["582"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.77]" },
+					"10178":{"ADPrice" : 0,"ItemID" : ["71"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.78]" },
+					"10179":{"ADPrice" : 0,"ItemID" : ["103"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.79]" },
+					"10180":{"ADPrice" : 0,"ItemID" : ["[(F)BirdHouse]"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.80]" },
+					"10181":{"ADPrice" : 0,"ItemID" : ["223"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.81]" },
+					"10182":{"ADPrice" : 0,"ItemID" : ["155"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.82]" },
+					"10183":{"ADPrice" : 0,"ItemID" : ["442"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.83]" },
+					"10184":{"ADPrice" : 0,"ItemID" : ["203"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.84]" },
+					"10185":{"ADPrice" : 0,"ItemID" : ["347"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.85]" },
+					"10186":{"ADPrice" : 0,"ItemID" : ["431"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.86]" },
+					"10187":{"ADPrice" : 0,"ItemID" : ["680"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.87]" },
+					"10188":{"ADPrice" : 0,"ItemID" : ["425"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.88]" },
+					"10189":{"ADPrice" : 0,"ItemID" : ["305"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.89]" },
+					"10190":{"ADPrice" : 0,"ItemID" : ["856"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.90]" },
+					"10191":{"ADPrice" : 0,"ItemID" : ["125"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.91]" },
+					"10192":{"ADPrice" : 0,"ItemID" : ["621"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.92]" },
+					"10193":{"ADPrice" : 0,"ItemID" : ["266"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.93]" },
+					"10194":{"ADPrice" : 0,"ItemID" : ["444"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.94]" },
+					"10195":{"ADPrice" : 0,"ItemID" : ["724"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.95]" },
+					"10196":{"ADPrice" : 0,"ItemID" : ["479"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.96]" },
+					"10197":{"ADPrice" : 0,"ItemID" : ["476"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.97]" },
+					"10198":{"ADPrice" : 0,"ItemID" : ["613"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.98]" },
+					"10199":{"ADPrice" : 0,"ItemID" : ["422"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.99]" },
+					"10200":{"ADPrice" : 0,"ItemID" : ["170"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vanilla.100]" }
 				}, 
 				"Select1" : "Nice!", // "[LocalizedText Strings\\StringsFromCSFiles:GGTV.response.yes]"
 				"Select2" :  "Say Again!"  // Cannot Stringify for Translation
@@ -135,16 +134,76 @@
 			},
 			"ad":{
 				"RandomQuestion":{
-					"20101":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.lemur.1]"},//
-					"20102":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.lemur.2]"},//
-					"20103":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.lemur.3]" },//
-					"20104":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.lemur.4]" },//
-					"20105":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.lemur.5]" },//
-					"20106":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.lemur.6]" },//
-					"20107":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.lemur.7]" },//
-					"20108":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.lemur.8]" },//
-					"20109":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.lemur.9]" },//
-					"20110":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.lemur.10]" }//
+					"20101":{"ADPrice" : 0,"ItemID" : ["638"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.lemur.1]"},
+					"20102":{"ADPrice" : 0,"ItemID" : ["769"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.lemur.2]"},
+					"20103":{"ADPrice" : 0,"ItemID" : ["597"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.lemur.3]" },
+					"20104":{"ADPrice" : 0,"ItemID" : ["(O)EastScarp_Bird_Of_Paradise"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.lemur.4]" },
+					"20105":{"ADPrice" : 0,"ItemID" : ["300"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.lemur.5]" },
+					"20106":{"ADPrice" : 0,"ItemID" : ["649"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.lemur.6]" },
+					"20107":{"ADPrice" : 0,"ItemID" : ["563"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.lemur.7]" },
+					"20108":{"ADPrice" : 0,"ItemID" : ["108"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.lemur.8]" },
+					"20109":{"ADPrice" : 0,"ItemID" : ["60"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.lemur.9]" },
+					"20110":{"ADPrice" : 0,"ItemID" : ["731"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.lemur.10]" },
+					"20111":{"ADPrice" : 0,"ItemID" : ["123"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.lemur.11]"},
+					"20112":{"ADPrice" : 0,"ItemID" : ["70"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.lemur.12]"},
+					"20113":{"ADPrice" : 0,"ItemID" : ["203"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.lemur.13]" },
+					"20114":{"ADPrice" : 0,"ItemID" : ["340"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.lemur.14]" },
+					"20115":{"ADPrice" : 0,"ItemID" : ["732"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.lemur.15]" },
+					"20116":{"ADPrice" : 0,"ItemID" : ["349"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.lemur.16]" },
+					"20117":{"ADPrice" : 0,"ItemID" : ["124"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.lemur.17]" },
+					"20118":{"ADPrice" : 0,"ItemID" : ["565"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.lemur.18]" },
+					"20119":{"ADPrice" : 0,"ItemID" : ["418"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.lemur.19]" },
+					"20120":{"ADPrice" : 0,"ItemID" : ["(O)HimeTarts.ARV_Crab_Croissant"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.lemur.20]" },
+					"20121":{"ADPrice" : 0,"ItemID" : ["403"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.lemur.21]"},
+					"20122":{"ADPrice" : 0,"ItemID" : ["(O)HimeTarts.ARV_Bear_Pancakes"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.lemur.22]"},
+					"20123":{"ADPrice" : 0,"ItemID" : ["440"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.lemur.23]" },
+					"20124":{"ADPrice" : 0,"ItemID" : ["212"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.lemur.24]" },
+					"20125":{"ADPrice" : 0,"ItemID" : ["84"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.lemur.25]" },
+					"20126":{"ADPrice" : 0,"ItemID" : ["199"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.lemur.26]" },
+					"20127":{"ADPrice" : 0,"ItemID" : ["444"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.lemur.27]" },
+					"20128":{"ADPrice" : 0,"ItemID" : ["394"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.lemur.28]" },
+					"20129":{"ADPrice" : 0,"ItemID" : ["426"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.lemur.29]" },
+					"20130":{"ADPrice" : 0,"ItemID" : ["241"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.lemur.30]" },
+					"20131":{"ADPrice" : 0,"ItemID" : ["888"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.lemur.31]"},
+					"20132":{"ADPrice" : 0,"ItemID" : ["254"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.lemur.32]"},
+					"20133":{"ADPrice" : 0,"ItemID" : ["222"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.lemur.33]" },
+					"20134":{"ADPrice" : 0,"ItemID" : ["773"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.lemur.34]" },
+					"20135":{"ADPrice" : 0,"ItemID" : ["348"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.lemur.35]" },
+					"20136":{"ADPrice" : 0,"ItemID" : ["64"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.lemur.36]" },
+					"20137":{"ADPrice" : 0,"ItemID" : ["308"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.lemur.37]" },
+					"20138":{"ADPrice" : 0,"ItemID" : ["220"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.lemur.38]" },
+					"20139":{"ADPrice" : 0,"ItemID" : ["604"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.lemur.39]" },
+					"20140":{"ADPrice" : 0,"ItemID" : ["227"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.lemur.40]" },
+					"20141":{"ADPrice" : 0,"ItemID" : ["395"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.lemur.41]"},
+					"20142":{"ADPrice" : 0,"ItemID" : ["107"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.lemur.42]"},
+					"20143":{"ADPrice" : 0,"ItemID" : ["557"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.lemur.43]" },
+					"20144":{"ADPrice" : 0,"ItemID" : ["303"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.lemur.44]" },
+					"20145":{"ADPrice" : 0,"ItemID" : ["253"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.lemur.45]" },
+					"20146":{"ADPrice" : 0,"ItemID" : ["400"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.lemur.46]" },
+					"20147":{"ADPrice" : 0,"ItemID" : ["540"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.lemur.47]" },
+					"20148":{"ADPrice" : 0,"ItemID" : ["64"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.lemur.48]" },
+					"20149":{"ADPrice" : 0,"ItemID" : ["66"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.lemur.49]" },
+					"20150":{"ADPrice" : 0,"ItemID" : ["591"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.lemur.50]" },				
+					"20151":{"ADPrice" : 0,"ItemID" : ["281"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.lemur.51]"},
+					"20152":{"ADPrice" : 0,"ItemID" : ["283"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.lemur.52]"},
+					"20153":{"ADPrice" : 0,"ItemID" : ["223"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.lemur.53]" },
+					"20154":{"ADPrice" : 0,"ItemID" : ["340"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.lemur.54]" },
+					"20155":{"ADPrice" : 0,"ItemID" : ["636"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.lemur.55]" },
+					"20156":{"ADPrice" : 0,"ItemID" : ["287"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.lemur.56]" },
+					"20157":{"ADPrice" : 0,"ItemID" : ["705"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.lemur.57]" },
+					"20158":{"ADPrice" : 0,"ItemID" : ["220"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.lemur.58]" },
+					"20159":{"ADPrice" : 0,"ItemID" : ["88"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.lemur.59]" },
+					"20160":{"ADPrice" : 0,"ItemID" : ["580"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.lemur.60]" },
+					"20161":{"ADPrice" : 0,"ItemID" : ["212"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.lemur.61]"},
+					"20162":{"ADPrice" : 0,"ItemID" : ["464"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.lemur.62]"},
+					"20163":{"ADPrice" : 0,"ItemID" : ["769"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.lemur.63]" },
+					"20164":{"ADPrice" : 0,"ItemID" : ["768"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.lemur.64]" },
+					"20165":{"ADPrice" : 0,"ItemID" : ["22"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.lemur.65]" },
+					"20166":{"ADPrice" : 0,"ItemID" : ["446"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.lemur.66]" },
+					"20167":{"ADPrice" : 0,"ItemID" : ["795"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.lemur.67]" },
+					"20168":{"ADPrice" : 0,"ItemID" : ["172"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.lemur.68]" },
+					"20169":{"ADPrice" : 0,"ItemID" : ["386"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.lemur.69]" },
+					"20170":{"ADPrice" : 0,"ItemID" : ["125"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.lemur.70]" }
 				},
 				"Select1" : "Nice!",
 				"Select2" : "Say Again!"
@@ -155,7 +214,7 @@
     	"Channelkey": "gossip_ridge",
     	"ChannelName": "Ridgeside Secrets",
 		"ChannelDescription": "[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.desc]",
-		"ShowDays":"Sun", // Sun
+		"ShowDays":"False", // Sun
 		"ChannelType":{
 			"currentChannel": 2818203, // modid+03
 			"ScreenFile":"assets/rita_ridge.png",
@@ -165,74 +224,74 @@
 			},
 			"ad":{
 				"RandomQuestion":{
-					"30101":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.1]"},//
-					"30102":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.2]"},//
-					"30103":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.3]" },//
-					"30104":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.4]" },//
-					"30105":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.5]" },//
-					"30106":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.6]" },//
-					"30107":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.7]" },//
-					"30108":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.8]" },//
-					"30109":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.9]" },//
-					"30110":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.10]" },//
-					"30111":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.11]"},//
-					"30112":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.12]"},//
-					"30113":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.13]" },//
-					"30114":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.14]" },//
-					"30115":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.15]" },//
-					"30116":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.16]" },//
-					"30117":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.17]" },//
-					"30118":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.18]" },//
-					"30119":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.19]" },//
-					"30120":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.20]" },//
-					"30121":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.21]"},//
-					"30122":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.22]"},//
-					"30123":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.23]" },//
-					"30124":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.24]" },//
-					"30125":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.25]" },//
-					"30126":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.26]" },//
-					"30127":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.27]" },//
-					"30128":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.28]" },//
-					"30129":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.29]" },//
-					"30130":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.30]" },//
-					"30131":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.31]"},//
-					"30132":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.32]"},//
-					"30133":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.33]" },//
-					"30134":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.34]" },//
-					"30135":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.35]" },//
-					"30136":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.36]" },//
-					"30137":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.37]" },//
-					"30138":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.38]" },//
-					"30139":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.39]" },//
-					"30140":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.40]" },//
-					"30141":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.41]"},//
-					"30142":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.42]"},//
-					"30143":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.43]" },//
-					"30144":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.44]" },//
-					"30145":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.45]" },//
-					"30146":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.46]" },//
-					"30147":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.47]" },//
-					"30148":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.48]" },//
-					"30149":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.49]" },//
-					"30150":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.50]" },//
-					"30151":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.51]"},//
-					"30152":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.52]"},//
-					"30153":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.53]" },//
-					"30154":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.54]" },//
-					"30155":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.55]" },//
-					"30156":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.56]" },//
-					"30157":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.57]" },//
-					"30158":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.58]" },//
-					"30159":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.59]" },//
-					"30160":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.60]" },//
-					"30161":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.61]"},//
-					"30162":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.62]"},//
-					"30163":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.63]" },//
-					"30164":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.64]" },//
-					"30165":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.65]" },//
-					"30166":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.66]" },//
-					"30167":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.67]" },//
-					"30168":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.68]" },//
+					"30101":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.1]"},
+					"30102":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.2]"},
+					"30103":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.3]" },
+					"30104":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.4]" },
+					"30105":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.5]" },
+					"30106":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.6]" },
+					"30107":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.7]" },
+					"30108":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.8]" },
+					"30109":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.9]" },
+					"30110":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.10]" },
+					"30111":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.11]"},
+					"30112":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.12]"},
+					"30113":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.13]" },
+					"30114":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.14]" },
+					"30115":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.15]" },
+					"30116":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.16]" },
+					"30117":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.17]" },
+					"30118":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.18]" },
+					"30119":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.19]" },
+					"30120":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.20]" },
+					"30121":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.21]"},
+					"30122":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.22]"},
+					"30123":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.23]" },
+					"30124":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.24]" },
+					"30125":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.25]" },
+					"30126":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.26]" },
+					"30127":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.27]" },
+					"30128":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.28]" },
+					"30129":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.29]" },
+					"30130":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.30]" },
+					"30131":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.31]"},
+					"30132":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.32]"},
+					"30133":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.33]" },
+					"30134":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.34]" },
+					"30135":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.35]" },
+					"30136":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.36]" },
+					"30137":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.37]" },
+					"30138":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.38]" },
+					"30139":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.39]" },
+					"30140":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.40]" },
+					"30141":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.41]"},
+					"30142":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.42]"},
+					"30143":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.43]" },
+					"30144":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.44]" },
+					"30145":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.45]" },
+					"30146":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.46]" },
+					"30147":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.47]" },
+					"30148":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.48]" },
+					"30149":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.49]" },
+					"30150":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.50]" },
+					"30151":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.51]"},
+					"30152":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.52]"},
+					"30153":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.53]" },
+					"30154":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.54]" },
+					"30155":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.55]" },
+					"30156":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.56]" },
+					"30157":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.57]" },
+					"30158":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.58]" },
+					"30159":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.59]" },
+					"30160":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.60]" },
+					"30161":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.61]"},
+					"30162":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.62]"},
+					"30163":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.63]" },
+					"30164":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.64]" },
+					"30165":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.65]" },
+					"30166":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.66]" },
+					"30167":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.67]" },
+					"30168":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.68]" },
 					"30169":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.kiwi.69]" }//
 					},
 				"Select1" : "Nice!",
@@ -244,7 +303,7 @@
     	"Channelkey": "gossip_thirst",  // In Work - Extra Gossip Channel for Stardew Valley Expanded
     	"ChannelName": "Thirsty Thursdays",
 		"ChannelDescription": "[LocalizedText Strings\\StringsFromCSFiles:GGTV.expanded.desc]",
-		"ShowDays":"Thu", // Thu
+		"ShowDays":"False", // Thu
 		"ChannelType":{
 			"currentChannel": 2818204, // modid+04
 			"ScreenFile":"assets/rita_beer.png",
@@ -254,15 +313,15 @@
 			},
 			"ad":{
 				"RandomQuestion":{
-					"40101":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.expanded.1]"},//
-					"40102":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.expanded.2]"},//
-					"40103":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.expanded.3]" },//
-					"40104":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.expanded.4]" },//
-					"40105":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.expanded.5]" },//
-					"40106":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.expanded.6]" },//
-					"40107":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.expanded.7]" },//
-					"40108":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.expanded.8]" },//
-					"40109":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.expanded.9]" },//
+					"40101":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.expanded.1]"},
+					"40102":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.expanded.2]"},
+					"40103":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.expanded.3]" },
+					"40104":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.expanded.4]" },
+					"40105":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.expanded.5]" },
+					"40106":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.expanded.6]" },
+					"40107":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.expanded.7]" },
+					"40108":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.expanded.8]" },
+					"40109":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.expanded.9]" },
 					"40110":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.expanded.10]" }//
 					},
 				"Select1" : "Nice!",
@@ -274,7 +333,7 @@
     	"Channelkey": "gossip_city", // In Work - Extra Gossip Channel for Zuzu City Exansion
     	"ChannelName": "Wine Down Wednesdays",
 		"ChannelDescription": "[LocalizedText Strings\\StringsFromCSFiles:GGTV.zuzu.desc]",
-		"ShowDays":"Wed", // Wed
+		"ShowDays":"False", // Wed
 		"ChannelType":{
 			"currentChannel": 2818205, // modid+05
 			"ScreenFile":"assets/rita_wine.png",
@@ -284,15 +343,15 @@
 			},
 			"ad":{
 				"RandomQuestion":{
-					"50101":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.zuzu.1]"},//
-					"50102":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.zuzu.2]"},//
-					"50103":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.zuzu.3]" },//
-					"50104":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.zuzu.4]" },//
-					"50105":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.zuzu.5]" },//
-					"50106":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.zuzu.6]" },//
-					"50107":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.zuzu.7]" },//
-					"50108":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.zuzu.8]" },//
-					"50109":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.zuzu.9]" },//
+					"50101":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.zuzu.1]"},
+					"50102":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.zuzu.2]"},
+					"50103":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.zuzu.3]" },
+					"50104":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.zuzu.4]" },
+					"50105":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.zuzu.5]" },
+					"50106":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.zuzu.6]" },
+					"50107":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.zuzu.7]" },
+					"50108":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.zuzu.8]" },
+					"50109":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.zuzu.9]" },
 					"50110":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.zuzu.10]" }//
 					},
 				"Select1" : "Nice!",
@@ -304,25 +363,25 @@
     	"Channelkey": "gossip_cemetary", // In Work - Extra Gossip Channel for Passerby Cemetary Exansion
     	"ChannelName": "Take it easy Tuesday",
 		"ChannelDescription": "[LocalizedText Strings\\StringsFromCSFiles:GGTV.clown.desc]",
-		"ShowDays":"Tue", // Tue
+		"ShowDays":"False", // Tue
 		"ChannelType":{
 			"currentChannel": 2818206, // modid+06
-			"ScreenFile":"assets/rita_cemetary.png",  // Need unique Image
+			"ScreenFile":"assets/rita_vanilla.png",  // Need unique Image
 			"animation":{
 				"AnimationInterval": 250,
 				"AnimationLength":3
 			},
 			"ad":{
 				"RandomQuestion":{
-					"60101":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.clown.1]"},//
-					"60102":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.clown.2]"},//
-					"60103":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.clown.3]" },//
-					"60104":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.clown.4]" },//
-					"60105":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.clown.5]" },//
-					"60106":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.clown.6]" },//
-					"60107":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.clown.7]" },//
-					"60108":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.clown.8]" },//
-					"60109":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.clown.9]" },//
+					"60101":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.clown.1]"},
+					"60102":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.clown.2]"},
+					"60103":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.clown.3]" },
+					"60104":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.clown.4]" },
+					"60105":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.clown.5]" },
+					"60106":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.clown.6]" },
+					"60107":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.clown.7]" },
+					"60108":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.clown.8]" },
+					"60109":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.clown.9]" },
 					"60110":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.clown.10]" }//
 					},
 				"Select1" : "Nice!",
@@ -337,22 +396,22 @@
 		"ShowDays":"Mon", // Mon
 		"ChannelType":{
 			"currentChannel": 2818207, // modid+07
-			"ScreenFile":"assets/rita_vapius.png",  // Need unique Image
+			"ScreenFile":"assets/rita_vanilla.png",  // Need unique Image
 			"animation":{
 				"AnimationInterval": 250,
 				"AnimationLength":3
 			},
 			"ad":{
 				"RandomQuestion":{
-					"70101":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vapius.1]"},//
-					"70102":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vapius.2]"},//
-					"70103":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vapius.3]" },//
-					"70104":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vapius.4]" },//
-					"70105":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vapius.5]" },//
-					"70106":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vapius.6]" },//
-					"70107":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vapius.7]" },//
-					"70108":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vapius.8]" },//
-					"70109":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vapius.9]" },//
+					"70101":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vapius.1]"},
+					"70102":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vapius.2]"},
+					"70103":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vapius.3]" },
+					"70104":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vapius.4]" },
+					"70105":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vapius.5]" },
+					"70106":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vapius.6]" },
+					"70107":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vapius.7]" },
+					"70108":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vapius.8]" },
+					"70109":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vapius.9]" },
 					"70110":{"ADPrice" : 0,"ItemID" : ["x"],"QuestionText":"[LocalizedText Strings\\StringsFromCSFiles:GGTV.vapius.10]" }//
 					},
 				"Select1" : "Nice!",
