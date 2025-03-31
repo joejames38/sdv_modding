@@ -391,9 +391,9 @@
     },
 	{
     	"Channelkey": "gossip_mount_vapius", // In Work - Extra Gossip Channel for Passerby Visit Mount Vapius
-    	"ChannelName": "Take it easy Tuesday",
+    	"ChannelName": "Move around the Mountains Monday",
 		"ChannelDescription": "[LocalizedText Strings\\StringsFromCSFiles:GGTV.vapius.desc]",
-		"ShowDays":"Mon", // Mon
+		"ShowDays":"False", // Mon
 		"ChannelType":{
 			"currentChannel": 2818207, // modid+07
 			"ScreenFile":"assets/rita_vanilla.png",  // Need unique Image
