@@ -1,0 +1,8 @@
+	"Meat.Beef.Name":"Beef", 639
+	"Meat.Pork.Name":"Pork", 640
+	"Meat.Chicken.Name":"Chicken", 641
+	"Meat.Duck.Name":"Duck", 642
+	"Meat.Rabbit.Name":"Rabbit", 643
+	"Meat.Mutton.Name":"Mutton", 644
+	"Meat.Ostrich.Name": "Ostrich", 620
+	

@@ -1,0 +1,16 @@
+﻿{
+  "Name": "MeatCrop",
+  "Author": "joejames38",
+  "Version": "1.0.0",
+  "Description": "A little crop mod that produces a meat inspired produce.",
+  "UniqueID": "joejames38.MeatCrop",
+  "MinimumApiVersion": "1.0",
+  "UpdateKeys": [ "Nexus:xxxxx" ],
+  "Dependencies": [
+	{ "UniqueID": "selph.CustomTapperFramework", "IsRequired": true},
+	{ "UniqueID": "DIGUS.ANIMALHUSBANDRYMOD", "IsRequired": true}
+	],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

@@ -1,0 +1,66 @@
+//      {
+//        "PreviousItemId": null,
+//        "DaysUntilReady": 1,
+//        "DaysUntilReadyModifiers": null,
+//        "DaysUntilReadyModifierMode": "Stack",
+//        "Season": null,
+//        "Chance": 1.0,
+//        "Condition": null,
+//        "Id": "Default",
+//        "ItemId": "(O)92",
+//        "RandomItemId": null,
+//        "MaxItems": null,
+//        "MinStack": 5,
+//        "MaxStack": 10,
+//        "Quality": -1,
+//        "ObjectInternalName": null,
+//        "ObjectDisplayName": null,
+//        "ToolUpgradeLevel": -1,
+//        "IsRecipe": false,
+//        "StackModifiers": null,
+//        "StackModifierMode": "Stack",
+//        "QualityModifiers": null,
+//        "QualityModifierMode": "Stack",
+//        "ModData": null,
+//        "PerItemCondition": null
+//        "SourceId": null
+//        "RecalculateOnCollect": null
+//      }
+{
+  "Changes": [
+    {
+      "LogName": "Modify base tapper rules",
+      "Action": "EditData",
+      "Target": "selph.CustomTapperFramework/Data",
+      "TargetField": ["(BC)105", "GiantCropOutputRules"],
+      "Priority": "Late",
+      "Entries": {
+        "GigaBoob": {
+          "DaysUntilReady": 1,
+          "Condition": "ITEM_ID Input CreamFruit",
+          "Id": "GigaBoob",
+          "ItemId": "186",
+          "MinStack": 1,
+          "MaxStack": 1,
+        },
+      },
+    },
+    {
+      "LogName": "Modify base heavy tapper rules",
+      "Action": "EditData",
+      "Target": "selph.CustomTapperFramework/Data",
+      "TargetField": ["(BC)264", "GiantCropOutputRules"],
+      "Priority": "Late",
+      "Entries": {
+        "GigaBoob": {
+          "DaysUntilReady": 1,
+          "Condition": "ITEM_ID Input CreamFruit",
+          "Id": "GigaBoob",
+          "ItemId": "186",
+          "MinStack": 2,
+          "MaxStack": 2,
+        },
+      },
+    },
+  ]
+}

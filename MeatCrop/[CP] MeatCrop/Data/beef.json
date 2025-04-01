@@ -1,0 +1,86 @@
+{
+	"Changes": [
+  // Seeds
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries":{
+        "BeefSeeds":{
+          "Name": "BeefSeeds",
+          "DisplayName": "BeefSeeds",
+          "Description": "Beef Seeds grow and produce beef... like from a cow. Takes 8 days to grow and continues to produce after that.",
+          "Type": "Seeds",
+          "Category": -74,
+          "Price" : 35,
+          "Texture": "Mods/{{ModId}}/BeefSeeds",
+          "SpriteIndex": 0
+        }
+      }
+    },
+    //Planted Crop
+    {
+		"Action": "EditData",
+		"Target": "Data/Crops",
+		"Entries": {
+			"BeefSeeds": {
+				"Seasons": [ "spring", "summer", "fall" ],
+				"DaysInPhase": [ 1, 1, 1, 1, 1],
+				"HarvestMethod": "Scythe",
+				"HarvestItemId": "639",
+				"Texture": "Mods/{{ModId}}/BeefPlant",
+				"SpriteIndex": 0,
+				"HarvestMethod": "Scythe"
+			}
+		}
+    },
+    {
+      //Shop
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [ "SeedShop", "Items" ],
+      "Entries": {
+        "CoalSeeds": {
+          "Id": "BeefSeeds",
+          "ItemId": "BeefSeeds",
+          "Price": 100   
+        }
+      }
+	},
+	// Giant Crop
+	{
+	"Action":"EditData",
+	"Target":"Data/GiantCrops",
+	"Entries":{
+		"GigaCow":{
+			"FromItemId":"639",
+			"Chance":"0.10",
+			"HarvestItems":[
+				{
+					"ItemId":"639",
+					"MinStack":22,
+					"MaxStack":44
+				}
+			],
+			"Texture":"Mods/{{ModId}}/GigaCow",
+			"TexturePosition":
+					{
+						"X": 0,
+						"Y": 0
+					},
+					"TileSize":
+					{
+						"X": 3,
+						"Y": 3
+					}	
+			}
+		}
+	},
+	// Load Base Images
+    {
+		"LogName": "Load Base Images",
+		"Action": "Load",
+		"Target": "Mods/{{ModId}}/BeefSeeds, Mods/{{ModId}}/BeefPlant, Mods/{{ModId}}/GigaCow", 
+		"FromFile": "assets/{{TargetWithoutPath}}.png"
+    }
+]
+}
