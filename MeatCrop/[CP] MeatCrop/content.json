@@ -5,6 +5,10 @@
     {
             "Action": "Include",
             "FromFile": "Data/beef.json",
+    },
+    {
+            "Action": "Include",
+            "FromFile": "Data/pork.json",
     }
   ]
 }
