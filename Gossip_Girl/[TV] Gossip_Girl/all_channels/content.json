@@ -122,7 +122,7 @@
     },
 	{
     	"Channelkey": "gossip_lemur",
-    	"ChannelName": "Lemuverse Visions",
+    	"ChannelName": "Lemurverse Visions", // Cannot Stringify
 		"ChannelDescription": "[LocalizedText Strings\\StringsFromCSFiles:GGTV.lemur.desc]",
 		"ShowDays":"False", // Sat
     	"ChannelType":{
@@ -360,13 +360,13 @@
 		}
     },
 	{
-    	"Channelkey": "gossip_cemetary", // In Work - Extra Gossip Channel for Passerby Cemetary Exansion
+    	"Channelkey": "gossip_cemetery", // In Work - Extra Gossip Channel for Passerby Cemetery Exansion
     	"ChannelName": "Take it easy Tuesday",
 		"ChannelDescription": "[LocalizedText Strings\\StringsFromCSFiles:GGTV.clown.desc]",
 		"ShowDays":"False", // Tue
 		"ChannelType":{
 			"currentChannel": 2818206, // modid+06
-			"ScreenFile":"assets/rita_vanilla.png",  // Need unique Image
+			"ScreenFile":"assets/rita_cemetery.png", 
 			"animation":{
 				"AnimationInterval": 250,
 				"AnimationLength":3
@@ -396,7 +396,7 @@
 		"ShowDays":"False", // Mon
 		"ChannelType":{
 			"currentChannel": 2818207, // modid+07
-			"ScreenFile":"assets/rita_vanilla.png",  // Need unique Image
+			"ScreenFile":"assets/rita_moon.png", 
 			"animation":{
 				"AnimationInterval": 250,
 				"AnimationLength":3
