@@ -1,0 +1,86 @@
+{
+	"Changes": [
+  // Seeds
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries":{
+        "ChickenSeeds":{
+          "Name": "ChickenSeeds",
+          "DisplayName": "ChickenSeeds",
+          "Description": "Chicken Seeds grow and produce Chicken... like from a Chicken. Takes 8 days to grow and continues to produce after that.",
+          "Type": "Seeds",
+          "Category": -74,
+          "Price" : 35,
+          "Texture": "Mods/{{ModId}}/ChickenSeeds",
+          "SpriteIndex": 0
+        }
+      }
+    },
+    //Planted Crop
+    {
+		"Action": "EditData",
+		"Target": "Data/Crops",
+		"Entries": {
+			"ChickenSeeds": {
+				"Seasons": [ "spring", "summer", "fall" ],
+				"DaysInPhase": [ 1, 1, 1, 1, 1],
+				"HarvestMethod": "Scythe",
+				"HarvestItemId": "641",
+				"Texture": "Mods/{{ModId}}/ChickenPlant",
+				"SpriteIndex": 0,
+				"HarvestMethod": "Scythe"
+			}
+		}
+    },
+    {
+      //Shop
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [ "SeedShop", "Items" ],
+      "Entries": {
+        "CoalSeeds": {
+          "Id": "ChickenSeeds",
+          "ItemId": "ChickenSeeds",
+          "Price": 100   
+        }
+      }
+	},
+	// Giant Crop
+	{
+	"Action":"EditData",
+	"Target":"Data/GiantCrops",
+	"Entries":{
+		"GigaChicken":{
+			"FromItemId":"641",
+			"Chance":"0.10",
+			"HarvestItems":[
+				{
+					"ItemId":"641",
+					"MinStack":22,
+					"MaxStack":44
+				}
+			],
+			"Texture":"Mods/{{ModId}}/GigaChicken",
+			"TexturePosition":
+					{
+						"X": 0,
+						"Y": 0
+					},
+					"TileSize":
+					{
+						"X": 3,
+						"Y": 3
+					}	
+			}
+		}
+	},
+	// Load Base Images
+    {
+		"LogName": "Load Base Images",
+		"Action": "Load",
+		"Target": "Mods/{{ModId}}/ChickenSeeds, Mods/{{ModId}}/ChickenPlant, Mods/{{ModId}}/GigaChicken", 
+		"FromFile": "assets/{{TargetWithoutPath}}.png"
+    }
+]
+}

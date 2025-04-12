@@ -1,0 +1,86 @@
+{
+	"Changes": [
+  // Seeds
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries":{
+        "SheepSeeds":{
+          "Name": "SheepSeeds",
+          "DisplayName": "SheepSeeds",
+          "Description": "Sheep Seeds grow and produce Sheep... like from a Sheep. Takes 8 days to grow and continues to produce after that.",
+          "Type": "Seeds",
+          "Category": -74,
+          "Price" : 35,
+          "Texture": "Mods/{{ModId}}/SheepSeeds",
+          "SpriteIndex": 0
+        }
+      }
+    },
+    //Planted Crop
+    {
+		"Action": "EditData",
+		"Target": "Data/Crops",
+		"Entries": {
+			"SheepSeeds": {
+				"Seasons": [ "spring", "summer", "fall" ],
+				"DaysInPhase": [ 1, 1, 1, 1, 1],
+				"HarvestMethod": "Scythe",
+				"HarvestItemId": "644",
+				"Texture": "Mods/{{ModId}}/SheepPlant",
+				"SpriteIndex": 0,
+				"HarvestMethod": "Scythe"
+			}
+		}
+    },
+    {
+      //Shop
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [ "SeedShop", "Items" ],
+      "Entries": {
+        "CoalSeeds": {
+          "Id": "SheepSeeds",
+          "ItemId": "SheepSeeds",
+          "Price": 100   
+        }
+      }
+	},
+	// Giant Crop
+	{
+	"Action":"EditData",
+	"Target":"Data/GiantCrops",
+	"Entries":{
+		"GigaSheep":{
+			"FromItemId":"644",
+			"Chance":"0.10",
+			"HarvestItems":[
+				{
+					"ItemId":"644",
+					"MinStack":22,
+					"MaxStack":44
+				}
+			],
+			"Texture":"Mods/{{ModId}}/GigaSheep",
+			"TexturePosition":
+					{
+						"X": 0,
+						"Y": 0
+					},
+					"TileSize":
+					{
+						"X": 3,
+						"Y": 3
+					}	
+			}
+		}
+	},
+	// Load Base Images
+    {
+		"LogName": "Load Base Images",
+		"Action": "Load",
+		"Target": "Mods/{{ModId}}/SheepSeeds, Mods/{{ModId}}/SheepPlant, Mods/{{ModId}}/GigaSheep", 
+		"FromFile": "assets/{{TargetWithoutPath}}.png"
+    }
+]
+}

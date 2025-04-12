@@ -1,0 +1,86 @@
+{
+	"Changes": [
+  // Seeds
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries":{
+        "RabbitSeeds":{
+          "Name": "RabbitSeeds",
+          "DisplayName": "RabbitSeeds",
+          "Description": "Rabbit Seeds grow and produce Rabbit... like from a Rabbit. Takes 8 days to grow and continues to produce after that.",
+          "Type": "Seeds",
+          "Category": -74,
+          "Price" : 35,
+          "Texture": "Mods/{{ModId}}/RabbitSeeds",
+          "SpriteIndex": 0
+        }
+      }
+    },
+    //Planted Crop
+    {
+		"Action": "EditData",
+		"Target": "Data/Crops",
+		"Entries": {
+			"RabbitSeeds": {
+				"Seasons": [ "spring", "summer", "fall" ],
+				"DaysInPhase": [ 1, 1, 1, 1, 1],
+				"HarvestMethod": "Scythe",
+				"HarvestItemId": "643",
+				"Texture": "Mods/{{ModId}}/RabbitPlant",
+				"SpriteIndex": 0,
+				"HarvestMethod": "Scythe"
+			}
+		}
+    },
+    {
+      //Shop
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [ "SeedShop", "Items" ],
+      "Entries": {
+        "CoalSeeds": {
+          "Id": "RabbitSeeds",
+          "ItemId": "RabbitSeeds",
+          "Price": 100   
+        }
+      }
+	},
+	// Giant Crop
+	{
+	"Action":"EditData",
+	"Target":"Data/GiantCrops",
+	"Entries":{
+		"GigaRabbit":{
+			"FromItemId":"643",
+			"Chance":"0.10",
+			"HarvestItems":[
+				{
+					"ItemId":"643",
+					"MinStack":22,
+					"MaxStack":44
+				}
+			],
+			"Texture":"Mods/{{ModId}}/GigaRabbit",
+			"TexturePosition":
+					{
+						"X": 0,
+						"Y": 0
+					},
+					"TileSize":
+					{
+						"X": 3,
+						"Y": 3
+					}	
+			}
+		}
+	},
+	// Load Base Images
+    {
+		"LogName": "Load Base Images",
+		"Action": "Load",
+		"Target": "Mods/{{ModId}}/RabbitSeeds, Mods/{{ModId}}/RabbitPlant, Mods/{{ModId}}/GigaRabbit", 
+		"FromFile": "assets/{{TargetWithoutPath}}.png"
+    }
+]
+}

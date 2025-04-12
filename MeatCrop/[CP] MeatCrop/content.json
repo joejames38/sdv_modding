@@ -9,6 +9,26 @@
     {
             "Action": "Include",
             "FromFile": "Data/pork.json",
+    },
+    {
+            "Action": "Include",
+            "FromFile": "Data/chicken.json",
+    },
+    {
+            "Action": "Include",
+            "FromFile": "Data/duck.json",
+    },
+    {
+            "Action": "Include",
+            "FromFile": "Data/rabbit.json",
+    },
+    {
+            "Action": "Include",
+            "FromFile": "Data/sheep.json",
+    },
+    {
+            "Action": "Include",
+            "FromFile": "Data/ostrich.json",
     }
   ]
 }

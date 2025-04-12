@@ -37,8 +37,8 @@
       "Entries": {
         "GigaBoob": {
           "DaysUntilReady": 1,
-          "Condition": "ITEM_ID Input CreamFruit",
-          "Id": "GigaBoob",
+          "Condition": "ITEM_ID Input 639",
+          "Id": "GigaCow",
           "ItemId": "186",
           "MinStack": 1,
           "MaxStack": 1,
@@ -49,13 +49,13 @@
       "LogName": "Modify base heavy tapper rules",
       "Action": "EditData",
       "Target": "selph.CustomTapperFramework/Data",
-      "TargetField": ["(BC)264", "GiantCropOutputRules"],
+      "TargetField": ["(BC)105", "GiantCropOutputRules"],
       "Priority": "Late",
       "Entries": {
         "GigaBoob": {
           "DaysUntilReady": 1,
-          "Condition": "ITEM_ID Input CreamFruit",
-          "Id": "GigaBoob",
+          "Condition": "ITEM_ID Input 640",
+          "Id": "GigaPig",
           "ItemId": "186",
           "MinStack": 2,
           "MaxStack": 2,
